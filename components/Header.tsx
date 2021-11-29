@@ -39,7 +39,15 @@ function Header({}: Props): ReactElement {
           title="tentang bp knpi malaysia"
           menus={menu["tentang-bp-knpi-malaysia"]}
         />
-        <a href="#" className="px-4 py-4 uppercase hover:bg-blue-600">
+        <a
+          href="/perwakilan-ri-di-malaysia"
+          className={`px-4 py-4 uppercase hover:bg-blue-600
+          ${
+            router.route == "/perwakilan-ri-di-malaysia"
+              ? "bg-blue-600"
+              : "bg-blue-500"
+          }`}
+        >
           perwakilan ri di malaysia
         </a>
         <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />

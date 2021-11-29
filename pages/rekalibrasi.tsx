@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { SignalWifiStatusbarNullRounded } from "@mui/icons-material";
 import React from "react";
 
@@ -33,7 +34,7 @@ const Rekalibrasi = (props: Props) => {
       query: data,
     });
     await handleRequest(q);
-    setSubmitBtn("SUCCESS!!");
+    setSubmitBtn("SUKSES!!");
     e.target.reset();
     setData({});
     setTimeout(() => {
@@ -42,7 +43,8 @@ const Rekalibrasi = (props: Props) => {
   };
 
   return (
-    <div className="w-full p-6 my-4">
+    <div className="flex flex-col items-center w-full p-6 my-4">
+      <img src="/rekalibrasi.jpeg" alt="info" width="250" height="250" />
       <h2 className="mt-8 mb-12 text-2xl font-bold text-center text-gray-800">
         Formulir Pendaftaran Rekalibrasi Pulang
       </h2>
