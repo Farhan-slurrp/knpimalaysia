@@ -4,6 +4,7 @@ interface Props {}
 
 const Rekalibrasi = (props: Props) => {
   const [data, setData] = React.useState({});
+  const [submitBtn, setSubmitBtn] = React.useState("SUBMIT");
 
   const handleChange = (e: any) => {
     setData({ [e.target.name]: e.target.value, ...data });
@@ -22,7 +23,7 @@ const Rekalibrasi = (props: Props) => {
   };
 
   const handleSubmit = async (e: any) => {
-    const id = "12WFwgQkmjGRcWS52-prj5Lo7dthvFGiR6mJheXlTMuk"; //YOUR FORM ID
+    const id = "1F_MXFNs2Wpb8bvCOKRakuDj4A3_2DPJRD_Dy6WEM2QI"; //YOUR FORM ID
     e.preventDefault();
     const formUrl = "https://docs.google.com/forms/d/" + id + "/formResponse";
     const queryString = require("query-string");
@@ -31,6 +32,10 @@ const Rekalibrasi = (props: Props) => {
       query: data,
     });
     await handleRequest(q);
+    setSubmitBtn("SUCCESS!!");
+    setTimeout(() => {
+      setSubmitBtn("SUBMIT");
+    }, 5000);
   };
 
   return (
@@ -375,9 +380,11 @@ const Rekalibrasi = (props: Props) => {
         </div>
         <button
           type="submit"
-          className="py-2 mt-4 font-semibold text-white uppercase bg-green-500 rounded-md"
+          className={`py-2 mt-4 font-semibold text-white uppercase rounded-md ${
+            submitBtn == "SUBMIT" ? "bg-green-500" : "bg-blue-500"
+          }`}
         >
-          Submit
+          {submitBtn}
         </button>
       </form>
     </div>
