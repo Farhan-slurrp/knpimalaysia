@@ -1,5 +1,5 @@
 import React from "react";
-import { FacebookProvider, EmbeddedPost } from "react-facebook";
+// import { FacebookProvider, EmbeddedPost } from "react-facebook";
 import Script from "next/script";
 
 interface Props {}
