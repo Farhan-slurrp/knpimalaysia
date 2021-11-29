@@ -1,3 +1,4 @@
+import { SignalWifiStatusbarNullRounded } from "@mui/icons-material";
 import React from "react";
 
 interface Props {}
@@ -7,7 +8,7 @@ const Rekalibrasi = (props: Props) => {
   const [submitBtn, setSubmitBtn] = React.useState("SUBMIT");
 
   const handleChange = (e: any) => {
-    setData({ [e.target.name]: e.target.value, ...data });
+    setData({ ...data, [e.target.name]: e.target.value });
   };
 
   const handleRequest = async (url: string) => {
@@ -34,6 +35,7 @@ const Rekalibrasi = (props: Props) => {
     await handleRequest(q);
     setSubmitBtn("SUCCESS!!");
     e.target.reset();
+    setData({});
     setTimeout(() => {
       setSubmitBtn("SUBMIT");
     }, 5000);
