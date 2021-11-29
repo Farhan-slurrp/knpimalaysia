@@ -20,7 +20,7 @@ function Header({}: Props): ReactElement {
             router.route == "/" ? "bg-blue-600" : "bg-blue-500"
           }`}
         >
-          <HomeIcon fontSize="large" />
+          <HomeIcon fontSize="medium" />
         </a>
         <a className="px-4 py-4 uppercase hover:bg-blue-600">Sejarah KNPI</a>
         <DropDownMenu title="berita" menus={menu["berita"]} />
