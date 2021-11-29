@@ -5,7 +5,7 @@ interface Props {}
 
 const Footer = (props: Props) => {
   return (
-    <div className="flex flex-col items-center p-4 text-sm text-gray-800 border-t border-gray-300">
+    <div className="flex flex-col items-center p-4 text-xs text-gray-800 border-t border-gray-300">
       <p>
         Alamat Sekretariat: Lot 108, Jalan Ampang, Desa Pahlawan, Kuala Lumpur,
         Malaysia
@@ -18,7 +18,7 @@ const Footer = (props: Props) => {
             width="28"
             height="17"
           />{" "}
-          knpimalaysia@gmail.com
+          knpi.malaysia@gmail.com
         </p>
         <p className="flex items-center">
           <img

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 // import { FacebookProvider, EmbeddedPost } from "react-facebook";
 import Script from "next/script";
@@ -13,11 +14,16 @@ const Sidebar = (props: Props) => {
         charSet="utf-8"
       ></Script>
       <p className="py-2 font-semibold">Social Media</p>
-      <a
-        className="twitter-timeline"
-        data-width="220"
-        href="https://twitter.com/UluluUlala?ref_src=twsrc%5Etfw"
-      ></a>
+      <a href="" className="flex">
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png"
+          alt="fb"
+          width="30"
+        />
+        Facebook
+      </a>
+      <a href="">Instagram</a>
+      <a href="">Twitter</a>
     </div>
   );
 };

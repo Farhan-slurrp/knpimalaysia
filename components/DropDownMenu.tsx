@@ -2,7 +2,7 @@ import React from "react";
 
 interface Props {
   title: string;
-  menus: string[];
+  menus: { title: string[]; link: string[] };
 }
 
 const DropDownMenu = ({ title, menus }: Props) => {
@@ -13,7 +13,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
       <div>
         <button
           type="button"
-          className="inline-flex justify-center w-full font-semibold uppercase"
+          className="inline-flex justify-center w-full px-8 py-4 font-semibold uppercase hover:bg-blue-600"
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -36,7 +36,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
         </button>
       </div>
       <div
-        className={`absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
+        className={`absolute right-0 w-full bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
           isOpen ? "visible" : "invisible"
         }`}
         role="menu"
@@ -44,17 +44,17 @@ const DropDownMenu = ({ title, menus }: Props) => {
         aria-labelledby="menu-button"
         tabIndex={-1}
       >
-        <div className="py-1" role="none">
-          {menus.map((menu, idx) => (
+        <div role="none">
+          {menus["title"].map((menu, idx) => (
             <a
-              href="#"
-              className="block px-4 py-2 text-sm text-gray-700"
+              href={menus["link"][idx]}
+              className="block px-4 py-2 text-sm text-white uppercase hover:bg-blue-600"
               role="menuitem"
               tabIndex={-1}
               id={`menu-item-${idx}`}
               key={idx}
             >
-              {menu[0].toUpperCase() + menu.slice(1)}
+              {menu}
             </a>
           ))}
         </div>

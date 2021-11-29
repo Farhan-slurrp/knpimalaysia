@@ -1,4 +1,14 @@
 {
-  "tentang-bp-knip-malaysia": ["badan pengurus", "test2", "test3"],
-  "galeri": ["photo", "video"]
+  "tentang-bp-knip-malaysia": {
+    "title": ["pengurus bp knpi malaysia", "sejarah bp knpi malaysia"],
+    "link": ["media-online", "opini"]
+  },
+  "galeri": {
+    "title": ["Photo", "Video"],
+    "link": ["media-online", "opini"]
+  },
+  "berita": {
+    "title": ["Media Online", "Opini"],
+    "link": ["media-online", "opini"]
+  }
 }
