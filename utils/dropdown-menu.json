@@ -1,7 +1,7 @@
 {
   "tentang-bp-knpi-malaysia": {
     "title": ["pengurus bp knpi malaysia", "sejarah bp knpi malaysia"],
-    "link": ["media-online", "opini"]
+    "link": ["/pengurus-bp-knpi-malaysia", "opini"]
   },
   "galeri": {
     "title": ["Photo", "Video"],

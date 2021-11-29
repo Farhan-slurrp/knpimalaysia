@@ -6,6 +6,7 @@ import menu from "../utils/dropdown-menu.json";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import HomeIcon from "@mui/icons-material/Home";
+import Link from "next/link";
 
 interface Props {}
 
@@ -24,7 +25,14 @@ function Header({}: Props): ReactElement {
         >
           <HomeIcon fontSize="medium" />
         </a>
-        <a className="px-4 py-4 uppercase hover:bg-blue-600">Sejarah KNPI</a>
+        <a
+          href="/sejarah-knpi"
+          className={`uppercase px-4 py-4 hover:bg-blue-600 ${
+            router.route == "/sejarah-knpi" ? "bg-blue-600" : "bg-blue-500"
+          }`}
+        >
+          Sejarah KNPI
+        </a>
         <DropDownMenu title="berita" menus={menu["berita"]} />
         <DropDownMenu title="galeri" menus={menu["galeri"]} />
         <DropDownMenu
