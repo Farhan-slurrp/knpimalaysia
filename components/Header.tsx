@@ -19,7 +19,7 @@ function Header({}: Props): ReactElement {
       <div className="flex items-center px-8 font-semibold text-white bg-blue-500">
         <a
           href="/"
-          className={`uppercase px-8 py-4 hover:bg-blue-600 ${
+          className={`uppercase px-8 py-4 flex items-center hover:bg-blue-600 ${
             router.route == "/" ? "bg-blue-600" : "bg-blue-500"
           }`}
         >
@@ -39,7 +39,7 @@ function Header({}: Props): ReactElement {
           title="tentang bp knpi malaysia"
           menus={menu["tentang-bp-knpi-malaysia"]}
         />
-        <a className="px-4 py-4 uppercase hover:bg-blue-600">
+        <a href="#" className="px-4 py-4 uppercase hover:bg-blue-600">
           perwakilan ri di malaysia
         </a>
         <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />
