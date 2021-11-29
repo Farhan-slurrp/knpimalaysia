@@ -1,20 +1,26 @@
 import React from "react";
+import { FacebookProvider, EmbeddedPost } from "react-facebook";
+import Script from "next/script";
 
 interface Props {}
 
 const Sidebar = (props: Props) => {
   return (
-    <div className="border-l border-gray-400">
-      <div className="p-4">
-        <p>Visit Our Facebook</p>
-        <iframe
-          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=350&show_text=true&height=328&appId"
-          width="350"
-          height="328"
-          scrolling="no"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        ></iframe>
-      </div>
+    <div className="flex flex-col items-center gap-2 p-2 border-l border-gray-400">
+      <Script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charSet="utf-8"
+      ></Script>
+      <p className="py-2 font-semibold">Social Media</p>
+      <FacebookProvider appId="573328443764684">
+        <EmbeddedPost href="http://www.facebook.com" width="500" />
+      </FacebookProvider>
+      <a
+        className="twitter-timeline"
+        data-width="220"
+        href="https://twitter.com/UluluUlala?ref_src=twsrc%5Etfw"
+      ></a>
     </div>
   );
 };

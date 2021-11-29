@@ -2,9 +2,10 @@ import React from "react";
 
 interface Props {
   title: string;
+  menus: string[];
 }
 
-const DropDownMenu = ({ title }: Props) => {
+const DropDownMenu = ({ title, menus }: Props) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -12,7 +13,7 @@ const DropDownMenu = ({ title }: Props) => {
       <div>
         <button
           type="button"
-          className="inline-flex justify-center w-full uppercase"
+          className="inline-flex justify-center w-full font-semibold uppercase"
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -44,33 +45,18 @@ const DropDownMenu = ({ title }: Props) => {
         tabIndex={-1}
       >
         <div className="py-1" role="none">
-          <a
-            href="#"
-            className="block px-4 py-2 text-sm text-gray-700"
-            role="menuitem"
-            tabIndex={-1}
-            id="menu-item-0"
-          >
-            Account settings
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-sm text-gray-700"
-            role="menuitem"
-            tabIndex={-1}
-            id="menu-item-1"
-          >
-            Support
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-sm text-gray-700"
-            role="menuitem"
-            tabIndex={-1}
-            id="menu-item-2"
-          >
-            License
-          </a>
+          {menus.map((menu, idx) => (
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700"
+              role="menuitem"
+              tabIndex={-1}
+              id={`menu-item-${idx}`}
+              key={idx}
+            >
+              {menu[0].toUpperCase() + menu.slice(1)}
+            </a>
+          ))}
         </div>
       </div>
     </div>
