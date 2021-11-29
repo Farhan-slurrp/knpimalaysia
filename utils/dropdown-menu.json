@@ -1,5 +1,5 @@
 {
-  "tentang-bp-knip-malaysia": {
+  "tentang-bp-knpi-malaysia": {
     "title": ["pengurus bp knpi malaysia", "sejarah bp knpi malaysia"],
     "link": ["media-online", "opini"]
   },
@@ -9,6 +9,10 @@
   },
   "berita": {
     "title": ["Media Online", "Opini"],
+    "link": ["/media-online", "/opini"]
+  },
+  "aomi-malaysia": {
+    "title": ["Tentang aomi malaysia", "program rekalibrasi pulang"],
     "link": ["media-online", "opini"]
   }
 }

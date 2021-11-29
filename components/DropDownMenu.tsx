@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 interface Props {
   title: string;
@@ -7,13 +8,16 @@ interface Props {
 
 const DropDownMenu = ({ title, menus }: Props) => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const router = useRouter();
 
   return (
     <div className="relative inline-block text-left">
       <div>
         <button
           type="button"
-          className="inline-flex justify-center w-full px-8 py-4 font-semibold uppercase hover:bg-blue-600"
+          className={`inline-flex justify-center w-full px-8 py-4 font-semibold uppercase hover:bg-blue-600 ${
+            menus["link"].includes(router.route) ? "bg-blue-600" : "bg-blue-500"
+          }`}
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -48,7 +52,11 @@ const DropDownMenu = ({ title, menus }: Props) => {
           {menus["title"].map((menu, idx) => (
             <a
               href={menus["link"][idx]}
-              className="block px-4 py-2 text-sm text-white uppercase hover:bg-blue-600"
+              className={`block px-4 py-2 text-sm text-white uppercase hover:bg-blue-600 ${
+                menus["link"][idx] === router.route
+                  ? "bg-blue-600"
+                  : "bg-blue-500"
+              }`}
               role="menuitem"
               tabIndex={-1}
               id={`menu-item-${idx}`}

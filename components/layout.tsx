@@ -9,7 +9,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="flex flex-col w-full bg-gray-100 font-poppins min-h-4">
+    <div className="flex flex-col w-full overflow-x-scroll bg-gray-100 font-poppins min-h-4">
       <Header />
       <div className="flex w-full">
         <div className="w-3/4">{children}</div>
