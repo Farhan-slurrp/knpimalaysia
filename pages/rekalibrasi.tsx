@@ -33,6 +33,7 @@ const Rekalibrasi = (props: Props) => {
     });
     await handleRequest(q);
     setSubmitBtn("SUCCESS!!");
+    e.target.reset();
     setTimeout(() => {
       setSubmitBtn("SUBMIT");
     }, 5000);
@@ -380,6 +381,7 @@ const Rekalibrasi = (props: Props) => {
         </div>
         <button
           type="submit"
+          disabled={submitBtn == "SUBMIT" ? false : true}
           className={`py-2 mt-4 font-semibold text-white uppercase rounded-md ${
             submitBtn == "SUBMIT" ? "bg-green-500" : "bg-blue-500"
           }`}
