@@ -13,9 +13,6 @@ const Sidebar = (props: Props) => {
         charSet="utf-8"
       ></Script>
       <p className="py-2 font-semibold">Social Media</p>
-      <FacebookProvider appId="573328443764684">
-        <EmbeddedPost href="http://www.facebook.com" width="500" />
-      </FacebookProvider>
       <a
         className="twitter-timeline"
         data-width="220"
