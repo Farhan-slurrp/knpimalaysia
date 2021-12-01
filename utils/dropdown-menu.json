@@ -25,7 +25,7 @@
       "berita aomi malaysia",
       "pendampingan rekalibrasi pulang"
     ],
-    "link": ["media-online", "/rekalibrasi"]
+    "link": ["media-online", "/berita-aomi", "/rekalibrasi"]
   },
   "pmi-malaysia": {
     "title": [
@@ -33,6 +33,6 @@
       "berita pmi malaysia",
       "aduan dan aspirasi pmi malaysia"
     ],
-    "link": ["media-online", "/rekalibrasi"]
+    "link": ["media-online", "rekalibrasi"]
   }
 }

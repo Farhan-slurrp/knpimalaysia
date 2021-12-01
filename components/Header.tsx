@@ -19,7 +19,7 @@ function Header({}: Props): ReactElement {
       <div className="flex flex-wrap items-center justify-center w-full text-sm font-semibold text-white bg-blue-500">
         <a
           href="/"
-          className={`uppercase px-8 h-full items-center hover:bg-blue-600 ${
+          className={`uppercase px-8 py-6 items-center hover:bg-blue-600 ${
             router.route == "/" ? "bg-blue-600" : "bg-blue-500"
           }`}
         >
