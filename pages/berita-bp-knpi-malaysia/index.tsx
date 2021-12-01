@@ -18,7 +18,9 @@ const BeritaBPKNPI = (props: Props) => {
             className="flex flex-col p-4 border border-gray-300 rounded-md"
             href={`berita-bp-knpi-malaysia/${news["id"]}`}
           >
-            <p className="text-xl">{news["title"]}</p>
+            <p className="text-xl hover:text-blue-500 hover:underline">
+              {news["title"]}
+            </p>
             <p className="text-xs text-gray-800">Sumber: {news["source"]}</p>
           </a>
         ))}
