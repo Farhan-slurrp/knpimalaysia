@@ -1,18 +1,38 @@
 {
-  "tentang-bp-knpi-malaysia": {
-    "title": ["pengurus bp knpi malaysia", "sejarah bp knpi malaysia"],
-    "link": ["/pengurus-bp-knpi-malaysia", "opini"]
+  "dpp-knpi": {
+    "title": ["sejarah knpi", "pengurus dpp", "ketua umum"],
+    "link": ["/sejarah-knpi", "opini"]
+  },
+  "bp-knpi-malaysia": {
+    "title": [
+      "sejarah bp knpi malaysia",
+      "tentang bp knpi malaysia",
+      "pengurus bp knpi malaysia"
+    ],
+    "link": ["/sejarah-knpi", "opini"]
   },
   "galeri": {
-    "title": ["Photo", "Video"],
-    "link": ["media-online", "opini"]
+    "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
+    "link": ["berita", "opini"]
   },
   "berita": {
-    "title": ["Media Online", "Opini"],
-    "link": ["/media-online", "/opini"]
+    "title": ["berita bp knpi malaysia", "berita dpp knpi", "Opini"],
+    "link": ["/berita-bp-knpi-malaysia", "berita-dp-knpi", "/opini"]
   },
   "aomi-malaysia": {
-    "title": ["Tentang aomi malaysia", "pendampingan rekalibrasi pulang"],
+    "title": [
+      "Tentang aomi malaysia",
+      "berita aomi malaysia",
+      "pendampingan rekalibrasi pulang"
+    ],
+    "link": ["media-online", "/rekalibrasi"]
+  },
+  "pmi-malaysia": {
+    "title": [
+      "undang-undang dan peraturan tentang pmi",
+      "berita pmi malaysia",
+      "aduan dan aspirasi pmi malaysia"
+    ],
     "link": ["media-online", "/rekalibrasi"]
   }
 }

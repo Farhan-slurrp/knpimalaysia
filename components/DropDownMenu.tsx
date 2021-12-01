@@ -15,7 +15,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
       <div>
         <button
           type="button"
-          className={`inline-flex justify-center w-full px-8 py-4 font-semibold uppercase hover:bg-blue-600 ${
+          className={`inline-flex justify-center w-full px-4 py-6 font-semibold uppercase hover:bg-blue-600 ${
             menus["link"].includes(router.route) ? "bg-blue-600" : "bg-blue-500"
           }`}
           id="menu-button"
@@ -40,7 +40,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
         </button>
       </div>
       <div
-        className={`absolute right-0 w-full bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
+        className={`z-50 absolute right-0 w-full bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
           isOpen ? "visible" : "invisible"
         }`}
         role="menu"

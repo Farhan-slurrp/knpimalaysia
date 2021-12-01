@@ -14,34 +14,27 @@ function Header({}: Props): ReactElement {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col w-screen">
+    <div className="flex flex-col w-full">
       <Image src="/banner.jpg" alt="banner" height="424" width="400"></Image>
-      <div className="flex items-center px-8 font-semibold text-white bg-blue-500">
+      <div className="flex flex-wrap items-center justify-center w-full text-sm font-semibold text-white bg-blue-500">
         <a
           href="/"
-          className={`uppercase px-8 py-4 flex items-center hover:bg-blue-600 ${
+          className={`uppercase px-8 h-full items-center hover:bg-blue-600 ${
             router.route == "/" ? "bg-blue-600" : "bg-blue-500"
           }`}
         >
-          <HomeIcon fontSize="medium" />
+          <HomeIcon fontSize="small" />
         </a>
-        <a
-          href="/sejarah-knpi"
-          className={`uppercase px-4 py-4 hover:bg-blue-600 ${
-            router.route == "/sejarah-knpi" ? "bg-blue-600" : "bg-blue-500"
-          }`}
-        >
-          Sejarah KNPI
-        </a>
-        <DropDownMenu title="berita" menus={menu["berita"]} />
-        <DropDownMenu title="galeri" menus={menu["galeri"]} />
+        <DropDownMenu title="dpp knpi" menus={menu["dpp-knpi"]} />
         <DropDownMenu
-          title="tentang bp knpi malaysia"
-          menus={menu["tentang-bp-knpi-malaysia"]}
+          title="bp knpi malaysia"
+          menus={menu["bp-knpi-malaysia"]}
         />
+        <DropDownMenu title="berita knpi" menus={menu["berita"]} />
+        <DropDownMenu title="galeri kegiatan knpi" menus={menu["galeri"]} />
         <a
           href="/perwakilan-ri-di-malaysia"
-          className={`px-4 py-4 uppercase hover:bg-blue-600
+          className={`px-4 py-6 uppercase hover:bg-blue-600
           ${
             router.route == "/perwakilan-ri-di-malaysia"
               ? "bg-blue-600"
@@ -51,6 +44,7 @@ function Header({}: Props): ReactElement {
           perwakilan ri di malaysia
         </a>
         <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />
+        <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />
       </div>
     </div>
   );
