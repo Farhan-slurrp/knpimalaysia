@@ -19,7 +19,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
         <button
           type="button"
           className={`inline-flex justify-center w-full px-6 py-6 font-semibold uppercase hover:bg-blue-600 ${
-            menus["link"].includes(router.route) ? "bg-blue-600" : "bg-blue-500"
+            menus["link"].includes(router.route) ? "bg-blue-700" : "bg-blue-500"
           }`}
           id="menu-button"
           aria-expanded="true"
@@ -44,7 +44,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
               href={menus["link"][idx]}
               className={`block px-4 py-2 text-sm text-white uppercase hover:bg-blue-600 ${
                 menus["link"][idx] === router.route
-                  ? "bg-blue-600"
+                  ? "bg-blue-700"
                   : "bg-blue-500"
               }`}
               role="menuitem"

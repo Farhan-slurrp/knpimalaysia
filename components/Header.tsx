@@ -20,7 +20,7 @@ function Header({}: Props): ReactElement {
         <a
           href="/"
           className={`uppercase px-8 py-6 items-center hover:bg-blue-600 ${
-            router.route == "/" ? "bg-blue-600" : "bg-blue-500"
+            router.route == "/" ? "bg-blue-700" : "bg-blue-500"
           }`}
         >
           <HomeIcon fontSize="small" />
@@ -37,7 +37,7 @@ function Header({}: Props): ReactElement {
           className={`px-4 py-6 uppercase hover:bg-blue-600
           ${
             router.route == "/perwakilan-ri-di-malaysia"
-              ? "bg-blue-600"
+              ? "bg-blue-700"
               : "bg-blue-500"
           }`}
         >
