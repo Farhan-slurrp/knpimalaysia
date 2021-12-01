@@ -31,7 +31,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
       </div>
       <div
         className={`z-50 absolute right-0 w-full bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
-          isOpen ? "opacity-100" : "opacity-0"
+          isOpen ? "visible" : "invisible"
         }`}
         role="menu"
         aria-orientation="vertical"

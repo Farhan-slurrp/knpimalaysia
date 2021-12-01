@@ -10,7 +10,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="flex flex-col w-full overflow-x-scroll bg-gray-100 font-poppins min-h-4">
+    <div className="flex flex-col w-full overflow-x-scroll bg-gray-50 font-poppins min-h-4">
       <Head>
         <title>BP KNPI Malaysia</title>
         <meta

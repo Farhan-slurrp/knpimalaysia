@@ -9,15 +9,25 @@
       "tentang bp knpi malaysia",
       "pengurus bp knpi malaysia"
     ],
-    "link": ["/sejarah-knpi", "opini"]
+    "link": ["/sejarah-bp-knpi", "opini"]
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
     "link": ["berita", "opini"]
   },
   "berita": {
-    "title": ["berita bp knpi malaysia", "berita dpp knpi", "Opini"],
-    "link": ["/berita-bp-knpi-malaysia", "berita-dp-knpi", "/opini"]
+    "title": [
+      "berita bp knpi malaysia",
+      "berita dpp knpi",
+      "berita umum",
+      "Opini"
+    ],
+    "link": [
+      "/berita-bp-knpi-malaysia",
+      "berita-dp-knpi",
+      "/berita-umum",
+      "/opini"
+    ]
   },
   "aomi-malaysia": {
     "title": [
