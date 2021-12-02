@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { INews } from "../../utils/news";
 import { useRouter } from "next/router";
@@ -17,13 +18,22 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
         {allNews.map((news) => (
           <div
             key={news["source"]}
-            className="flex flex-col p-4 border border-gray-300 rounded-md cursor-pointer"
+            className="flex gap-4 p-4 border border-gray-300 rounded-md cursor-pointer"
             onClick={() => router.push(`/${baseLink}/${news["id"]}`)}
           >
-            <p className="text-xl hover:text-blue-500 hover:underline">
-              {news["title"]}
-            </p>
-            <p className="text-xs text-gray-800">Sumber: {news["source"]}</p>
+            <img
+              src={"/no-image.jpg"}
+              alt="no-img"
+              width="80"
+              height="70"
+              className="border border-gray-400"
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-xl hover:text-blue-500 hover:underline">
+                {news["title"]}
+              </p>
+              <p className="text-xs text-gray-800">Sumber: {news["source"]}</p>
+            </div>
           </div>
         ))}
       </div>

@@ -375,4 +375,241 @@ export const DPPKNPINews: INews[] = [
     source:
       "https://sultra.pikiran-rakyat.com/nasional/pr-2212976489/amin-ngabalin-ungkap-alasan-dpp-knpi-usulkan-nama-mantan-kapolri-jadi-pahlawan-nasional",
   },
+  {
+    id: "13",
+    title: "PANDEMI COVID-19 SEBAGAI PEMBUKA JALAN MENUJU ERA SOCIETY 5.0",
+    source:
+      "https://www.tribunnews.com/tribunners/2021/11/08/pandemi-covid-19-sebagai-pembuka-jalan-menuju-era-society-50.",
+  },
+  {
+    id: "14",
+    title: "KNPI USULKAN JENDERAL HOEGENG JADI PAHLAWAN NASIONAL",
+    source:
+      "https://www.tribunnews.com/nasional/2021/11/07/knpi-usulkan-jenderal-hoegeng-jadi-pahlawan-nasional.",
+  },
+  {
+    id: "15",
+    title:
+      "DISERANG HOAX DI MEDIA ONLINE, KETUA UMUM KNPI: SAYA TUNTUT JIKA TIDAK ADA KLARIFIKASI",
+    source:
+      "https://m.harianterbit.com/nasional/read/152180/Diserang-Hoax-di-Media-Online-Ketua-Umum-KNPI-Saya-Tuntut-jika-Tidak-Ada-Klarifikasi",
+  },
+  {
+    id: "16",
+    title: "DPP KNPI BANTAH ISU MUNDUR BERJAMAAH PENGURUSNYA",
+    source:
+      "https://rri.co.id/nasional/peristiwa/1237607/dpp-knpi-bantah-isu-mundur-berjamaah-pengurusnya",
+  },
+  {
+    id: "17",
+    title: "HARIS PERTAMA TEPIS ISU PENGUNDURAN DIRI MASSAL PENGURUS KNPI",
+    source:
+      "https://www.viva.co.id/berita/nasional/1417263-haris-pertama-tepis-isu-pengunduran-diri-massal-pengurus-knpi",
+  },
+  {
+    id: "18",
+    title:
+      "PIMPINAN OKP NASIONAL SEPAKAT HANYA HADIRI KONGRES KNPI XVI KETUM HARIS PERTAMA",
+    source:
+      "https://nasional.sindonews.com/read/576716/15/pimpinan-okp-nasional-sepakat-hanya-hadiri-kongres-knpi-xvi-ketum-haris-pertama-1634904630",
+  },
+  {
+    id: "19",
+    title: "BAMSOET BERHARAP KNPI SEGERA BERSATU LAGI",
+    source:
+      "https://rm.id/baca-berita/parlemen/96087/beberkan-prestasi-pengurus-era-20022005-bamsoet-berharap-knpi-segera-bersatu-lagi",
+  },
+  {
+    id: "20",
+    title: "PIMPINAN OKP NASIONAL DISEBUT HADIRI KONGRES KNPI XVI HARIS",
+    source:
+      "https://www.republika.co.id/berita/r1dk6c484/pimpinan-okp-nasional-disebut-hadiri-kongres-knpi-xvi-haris",
+  },
+  {
+    id: "21",
+    title:
+      "BAMSOET BICARA SOAL TOREHAN-PRESTASI KOMITE NASIONAL PEMUDA INDONESIA",
+    source:
+      "https://news.detik.com/berita/d-5775548/bamsoet-bicara-soal-torehan-prestasi-komite-nasional-pemuda-indonesia",
+  },
+  {
+    id: "22",
+    title:
+      "KNPI TAK SEKEDAR PERSATUAN PEMUDA, TAPI SEBAGAI WADAH MENGEMBANGKAN IDE UNTUK KEMAJUAN BANGSA",
+    source:
+      "https://www.jurnas.com/artikel/104016/KNPI-Tak-Sekedar-Persatuan-Pemuda-Tapi-Sebagai-Wadah-Mengembangkan-Ide-untuk-Kemajuan-Bangsa/",
+  },
+  {
+    id: "23",
+    title: "WEBINAR DPP KNPI DIRETAS HACKER",
+    source:
+      "https://nasional.sindonews.com/read/568950/15/webinar-dpp-knpi-diretas-hacker-1634220640",
+  },
+  {
+    id: "24",
+    title: "DPP KNPI APRESIASI LANGKAH KAPOLDA BANTEN MINTA MAAF KE MAHASISWA",
+    source:
+      "https://metro.sindonews.com/read/567906/170/dpp-knpi-apresiasi-langkah-kapolda-banten-minta-maaf-ke-mahasiswa-1634137833",
+  },
+  {
+    id: "25",
+    title: "KNPI KRITIK KINERJA MENPORA ZAINUDDIN AMALI",
+    source:
+      "https://www.tribunnews.com/nasional/2021/10/01/knpi-kritik-kinerja-menpora-zainuddin-amali",
+  },
+  {
+    id: "26",
+    title: "KNPI DESAK KPK SELIDIKI DUGAAN SUAP PAJAK PT. SGC, SELAIN PT GMP ",
+    source:
+      "https://bogorchannel.id/news/sorotan/knpi-desak-kpk-selidiki-dugaan-suap-pajak-pt-sgc-selain-pt-gmp/",
+  },
+  {
+    id: "27",
+    title:
+      "SELAIN PT GMP, KNPI JUGA MINTA KPK SELIDIKI DUGAAN SUAP DI PERUSAHAAN LAINNYA",
+    source:
+      "https://m.harianterbit.com/nasional/read/147649/Selain-PT-GMP-KNPI-Juga-Minta-KPK-Selidiki-Dugaan-Suap-di-Perusahaan-Lainnya",
+  },
+  {
+    id: "28",
+    title: "KPK DIMINTA KEJAR KASUS PAJAK PERUSAHAAN LAIN",
+    source:
+      "https://www.inilah.com/viral/2092/kpk-diminta-kejar-kasus-pajak-perusahaan-lain",
+  },
+  {
+    id: "29",
+    title:
+      "KOBARKAN SEMANGAT BERBAGI, KNPI BAGIKAN BANTUAN KE GENERASI MUDA DEMOKRAT",
+    source:
+      "https://metro.sindonews.com/read/548230/171/kobarkan-semangat-berbagi-knpi-bagikan-bantuan-ke-generasi-muda-demokrat-1632319742",
+  },
+  {
+    id: "30",
+    title: "KNPI TERUS GULIRKAN BANTUAN BERAS UNTUK WARGA TERDAMPAK PANDEMI",
+    source:
+      "https://www.inilah.com/knpi-terus-gulirkan-bantuan-beras-untuk-warga-terdampak-pandemi",
+  },
+  {
+    id: "31",
+    title: "KNPI BERBAGI DENGAN SALURKAN BANTUAN KE DPP GEMA KEADILAN",
+    source:
+      "https://www.republika.co.id/berita/qzt5ai484/knpi-berbagi-dengan-salurkan-bantuan-ke-dpp-gema-keadilan",
+  },
+  {
+    id: "32",
+    title: "KNPI SALURKAN BANTUAN KEPADA GERAKAN PEMUDA PP GPK",
+    source:
+      "https://www.jpnn.com/news/knpi-salurkan-bantuan-kepada-gerakan-pemuda-pp-gpk",
+  },
+  {
+    id: "33",
+    title: "PANDEMI COVID-19, KNPI SALURKAN BANTUAN UNTUK PEMUDA PANCA MARGA",
+    source:
+      "https://metro.sindonews.com/read/547186/170/pandemi-covid-19-knpi-salurkan-bantuan-untuk-pemuda-panca-marga-1632233361",
+  },
+  {
+    id: "34",
+    title: "BERBAGI DI TENGAH PANDEMI, KNPI KIRIM BANTUAN BERAS KE AMDI",
+    source:
+      "https://nasional.sindonews.com/read/540688/15/berbagi-di-tengah-pandemi-knpi-kirim-bantuan-beras-ke-amdi-1631624953",
+  },
+  {
+    id: "35",
+    title: "KNPI SALURKAN BANTUAN KEPADA PEMUDA HANURA",
+    source:
+      "https://www.jpnn.com/news/knpi-salurkan-bantuan-kepada-pemuda-hanura",
+  },
+  {
+    id: "36",
+    title: "DPP KNPI BERIKAN BANTUAN 1/2 TON BERAS UNTUK MASYARAKAT PALI",
+    source:
+      "https://beritapagi.co.id/2021/09/14/dpp-knpi-berikan-bantuan-1-2-ton-beras-untuk-masyarakat-pali.html ",
+  },
+  {
+    id: "37",
+    title:
+      "LARANG SISWA KOMORBID PTM, KNPI KRITIK KERAS MENDIKBUD DAN WALKOT TANGERANG",
+    source:
+      "https://m.harianterbit.com/megapolitan/read/146277/Larang-Siswa-Komorbid-PTM-KNPI-Kritik-Keras-Mendikbud-dan-Walkot-Tangerang",
+  },
+  {
+    id: "38",
+    title:
+      "AS TINGGALKAN AFGHANISTAN FOKUS KE CHINA, APA DAMPAKNYA BAGI INDONESIA?",
+    source:
+      "https://www.tribunnews.com/nasional/2021/09/10/as-tinggalkan-afghanistan-fokus-ke-china-apa-dampaknya-bagi-indonesia",
+  },
+  {
+    id: "39",
+    title:
+      "AKSI SOSIAL DI MASA PANDEMI, KNPI SALURKAN BANTUAN KE FORUM SILATURAHMI PEMUDA REMAJA MASJID INDONESIA",
+    source:
+      "https://m.harianterbit.com/nasional/read/146092/Aksi-Sosial-di-Masa-Pandemi-KNPI-Salurkan-Bantuan-ke-Forum-Silaturahmi-Pemuda-Remaja-Masjid-Indonesia",
+  },
+  {
+    id: "40",
+    title: "BERBAGI RASA SAAT PANDEMI, KNPI SALURKAN BANTUAN KE KAMMI",
+    source:
+      "https://www.tribunnews.com/metropolitan/2021/09/09/berbagi-rasa-saat-pandemi-knpi-salurkan-bantuan-ke-kammi",
+  },
+  {
+    id: "41",
+    title:
+      "BERTEMU TOKOH POLITIK NASIONAL, KNPI BAHAS PERLUNYA AMENDEMEN UUD 1945",
+    source:
+      "https://nasional.sindonews.com/read/535568/12/bertemu-tokoh-politik-nasional-knpi-bahas-perlunya-amendemen-uud-1945-1631113779",
+  },
+  {
+    id: "42",
+    title: "AKSI BERBAGI BERLANJUT, KNPI SERAHKAN BANTUAN BERAS KE DPP GMI",
+    source:
+      "https://www.inilah.com/aksi-berbagi-berlanjut-knpi-serahkan-bantuan-beras-ke-dpp-gmi",
+  },
+  {
+    id: "43",
+    title:
+      "SINERGI DENGAN MAHASISWA, KNPI SALURKAN BANTUAN KEPADA PP HIMA PERSIS",
+    source:
+      "https://m.harianterbit.com/humaniora/read/145787/Sinergi-dengan-Mahasiswa-KNPI-Salurkan-Bantuan-kepada-PP-HIMA-PERSIS",
+  },
+  {
+    id: "44",
+    title:
+      "PEDULI WARGA TERDAMPAK PANDEMI, KNPI SALURKAN BANTUAN BERAS KE GEMA-AI",
+    source:
+      "https://m.tribunnews.com/metropolitan/2021/09/07/peduli-warga-terdampak-pandemi-knpi-salurkan-bantuan-beras-ke-gema-ai",
+  },
+  {
+    id: "45",
+    title:
+      "BERBAGI DI JAKBAR, KNPI TUNJUKKAN KEPEDULIAN SESAMA DI TENGAH PANDEMI",
+    source:
+      "https://www.inilah.com/berbagi-di-jakbar-knpi-tunjukkan-kepedulian-sesama-di-tengah-pandemi",
+  },
+  {
+    id: "46",
+    title:
+      "PEDULI SESAMA, KNPI BAGIKAN SEMBAKO UNTUK WARGA JAKSEL TERDAMPAK PANDEMI COVID-19",
+    source:
+      "https://metro.sindonews.com/read/531476/170/peduli-sesama-knpi-bagikan-sembako-untuk-warga-jaksel-terdampak-pandemi-covid-19-1630735780",
+  },
+  {
+    id: "47",
+    title: "KNPI KUTUK SERANGAN KKB KE POS KORAMIL KISOR PAPUA BARAT",
+    source:
+      "https://daerah.sindonews.com/read/531102/174/knpi-kutuk-serangan-kkb-ke-pos-koramil-kisor-papua-barat-1630678188",
+  },
+  {
+    id: "48",
+    title:
+      "4 PRAJURIT TNI GUGUR DI PAPUA, KNPI: BERANTAS SEMUA KKB TERORIS SAMPAI KE AKAR-AKARNYA",
+    source:
+      "https://www.tribunnews.com/nasional/2021/09/03/4-prajurit-tni-gugur-di-papua-knpi-berantas-semua-kkb-teroris-sampai-ke-akar-akarnya",
+  },
+  {
+    id: "49",
+    title: "DPP KNPI BANTU WARGA TERDAMPAK COVID-19 DI JAKARTA UTARA",
+    source:
+      "https://m.tribunnews.com/corona/2021/09/03/dpp-knpi-bantu-warga-terdampak-covid-19-di-jakarta-utara",
+  },
 ];
