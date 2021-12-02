@@ -7,6 +7,9 @@ module.exports = {
         poppins: ["Poppins"],
         montserrat: ["Montserrat"],
       },
+      backgroundImage: {
+        batik: "url('/bg.png')",
+      },
     },
     minHeight: {
       0: "0",

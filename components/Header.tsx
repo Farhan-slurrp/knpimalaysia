@@ -44,14 +44,14 @@ function Header({}: Props): ReactElement {
           perwakilan ri di malaysia
         </a>
         <a
-          href="/perwakilan-ri-di-malaysia"
+          href="/opini"
           className={`px-2 py-4 uppercase hover:bg-blue-600
           ${router.route == "/opini" ? "bg-blue-700" : "bg-blue-500"}`}
         >
           opini
         </a>
         <a
-          href="/perwakilan-ri-di-malaysia"
+          href="/jurnal"
           className={`px-4 py-6 uppercase hover:bg-blue-600
           ${router.route == "/jurnal" ? "bg-blue-700" : "bg-blue-500"}`}
         >

@@ -20,20 +20,8 @@
     "link": ["berita", "opini"]
   },
   "berita": {
-    "title": [
-      "berita bp knpi malaysia",
-      "berita dpp knpi",
-      "berita umum",
-      "Opini",
-      "jurnal"
-    ],
-    "link": [
-      "/berita-bp-knpi-malaysia",
-      "/berita-dpp-knpi",
-      "/berita-umum",
-      "/opini",
-      "/jurnal"
-    ]
+    "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
+    "link": ["/berita-bp-knpi-malaysia", "/berita-dpp-knpi", "/berita-umum"]
   },
   "aomi-malaysia": {
     "title": [
