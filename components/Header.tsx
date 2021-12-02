@@ -16,7 +16,7 @@ function Header({}: Props): ReactElement {
   return (
     <div className="flex flex-col w-full">
       <Image src="/banner.jpg" alt="banner" height="424" width="400"></Image>
-      <div className="flex flex-wrap items-center justify-center w-full text-xs font-semibold text-white bg-blue-500">
+      <div className="flex flex-wrap items-center justify-center w-full text-xs font-bold text-white bg-blue-500">
         <a
           href="/"
           className={`uppercase px-3 py-3 items-center hover:bg-blue-600 ${
