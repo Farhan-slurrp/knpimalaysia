@@ -18,19 +18,24 @@ const DropDownMenu = ({ title, menus }: Props) => {
       <div>
         <button
           type="button"
-          className={`inline-flex justify-center w-full px-6 py-6 font-semibold uppercase hover:bg-blue-600 ${
+          className={`inline-flex justify-center w-max px-6 py-6 font-semibold uppercase hover:bg-blue-600 ${
             menus["link"].includes(router.route) ? "bg-blue-700" : "bg-blue-500"
           }`}
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
           onMouseEnter={() => setIsOpen(true)}
+          onMouseLeave={() => {
+            setTimeout(() => {
+              setIsOpen(false);
+            }, 4000);
+          }}
         >
           {title}
         </button>
       </div>
       <div
-        className={`z-50 absolute right-0 w-full bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
+        className={`z-50 absolute right-0 w-max bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
           isOpen ? "visible" : "invisible"
         }`}
         role="menu"

@@ -73,8 +73,7 @@ const UUDanPeraturanPMI = (props: Props) => {
                 height="17"
               />
               <a
-                target="_blank"
-                href="https://drive.google.com/file/d/1TOvKEFkM9dMW5VJrkesQWscYPWqNI1KF/view"
+                href="/uu-perlindungan-pekerja-imigran"
                 className="group-hover:text-blue-500 group-hover:underline"
               >
                 UU NOMOR 18 TAHUN 2017 TENTANG PERLINDUNGAN PEKERJA MIGRAN

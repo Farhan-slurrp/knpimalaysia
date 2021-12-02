@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 
@@ -25,7 +24,6 @@ const Layout = ({ children }: Props) => {
         <div className="w-3/4">{children}</div>
         <Sidebar />
       </div>
-      <Footer />
     </div>
   );
 };

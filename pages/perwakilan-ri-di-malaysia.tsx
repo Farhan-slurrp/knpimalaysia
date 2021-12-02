@@ -1,15 +1,31 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import { useRouter } from "next/router";
 
 interface Props {}
 
 const PerwakilanRIMalaysia = (props: Props) => {
+  const router = useRouter();
+
   return (
     <div className="p-12">
       {/* kbri */}
-      <div className="py-6"></div>
+      <div
+        className="flex items-center w-3/4 gap-3 px-6 py-6 mb-6 border border-gray-400 cursor-pointer hover:text-blue-700"
+        onClick={() => router.push("/berita-umum/0")}
+      >
+        <img src="/dubes.jfif" alt="poster" width="200" height="205" />
+        <p className="text-justify">
+          Dubes Hermono, Diplomat Pembela Pekerja Migran Dia pernah dijuluki
+          sebagai diplomat spesialis urusan pekerja migran. Maklum, selain
+          pernah selama tiga tahun menjadi Sekretaris Utama BNP2TKI, dia
+          terlibat penuh dalam penyusunan RUU tentang Pelindungan Pekerja Migran
+          Indonesia. RUU itu disahkan menjadi Undang Undang No. 18 Tahun 2017
+          <br />
+          <span className="text-blue-500">(Sumber: detiknews)</span>
+        </p>
+      </div>
       <div>
         <h2 className="text-xl font-semibold">
           1. KEDUTAAN BESAR REPUBLIK INDONESIA (KBRI) KUALA LUMPUR, MALAYSIA
@@ -73,66 +89,83 @@ const PerwakilanRIMalaysia = (props: Props) => {
           <h3 className="font-semibold">
             Hotline WhatsApp Aduan KBRI Kuala Lumpur:
           </h3>
-          <p className="flex items-center gap-3">
-            Keimigrasian :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 736 2331
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Kekonsuleran :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 668 8032
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Ketenagakerjaan :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 624 0500
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Hukum :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 266 0792
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Lain-lain :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 500 7047
-            </span>
-          </p>
+          <table>
+            <tr>
+              <td>Keimigrasian</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />
+                  +60 17 736 2331
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kekonsuleran</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />
+                  +60 17 668 8032
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Ketenagakerjaan</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 17 624 0500
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Hukum</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 17 266 0792
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Lain-lain</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 17 500 7047
+                </span>
+              </td>
+            </tr>
+          </table>
         </div>
         {/* janji temu */}
         <div className="py-6">
@@ -166,10 +199,11 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </p>
           <a
             target="_blank"
-            className="ml-2 hover:underline hover:text-blue-700"
+            className="ml-2 hover:text-blue-700"
             href="https://fb.watch/1TeGcl5PHu/"
           >
-            https://fb.watch/1TeGcl5PHu/
+            https://fb.watch/1TeGcl5PHu/{" "}
+            <span className="text-blue-700">(Klik disini!)</span>
           </a>
         </div>
         {/* socmed */}
@@ -291,44 +325,55 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </p>
         </div>
         {/* contact */}
-        <div>
+        <div className="">
           <h3 className="font-semibold">Hotline WhatsApp Aduan KJRI Penang:</h3>
-          <p className="flex items-center gap-3">
-            Keimigrasian :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 11 124 60970
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Kekonsuleran :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 497 0046
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Lain-lain :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 544 5100
-            </span>
-          </p>
+          <table>
+            <tr>
+              <td>Keimigrasian</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 11 124 60970
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kekonsuleran</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 17 497 0046
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Lain-lain</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 17 544 5100
+                </span>
+              </td>
+            </tr>
+          </table>
         </div>
         {/* janji temu */}
         <div className="py-6">
@@ -336,10 +381,11 @@ const PerwakilanRIMalaysia = (props: Props) => {
             Daftar Temu Janji Pelayanan KJRI Penang:
             <a
               target="_blank"
-              className="ml-2 hover:underline hover:text-blue-700"
+              className="ml-2 font-normal hover:text-blue-700"
               href="https://layananonline.kjripenang.my"
             >
               https://layananonline.kjripenang.my
+              <span className="text-blue-700">(Klik disini!)</span>
             </a>
           </h3>
           <div>
@@ -349,16 +395,17 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </div>
         </div>
         {/* cara daftar */}
-        <div className="flex items-center gap-2">
+        <div className="flex flex-col gap-2">
           <p className="font-semibold">
             Cara Daftar Temu Janji Pelayanan KJRI Penang:
           </p>
           <a
             target="_blank"
-            className="ml-2 hover:underline hover:text-blue-700"
+            className="ml-2 hover:text-blue-700"
             href="https://www.youtube.com/watch?v=aD-ABP2u0aE"
           >
             https://www.youtube.com/watch?v=aD-ABP2u0aE
+            <span className="text-blue-700">(Klik disini!)</span>
           </a>
         </div>
         {/* socmed */}
@@ -493,30 +540,38 @@ const PerwakilanRIMalaysia = (props: Props) => {
           <h3 className="font-semibold">
             Hotline WhatsApp Aduan KJRI Johor Bahru:
           </h3>
-          <p className="flex items-center gap-3">
-            Keimigrasian :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 17 771 6866
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Kekonsuleran :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 16 770 0378
-            </span>
-          </p>
+          <table>
+            <tr>
+              <td>Keimigrasian</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 17 771 6866
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kekonsuleran</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 16 770 0378
+                </span>
+              </td>
+            </tr>
+          </table>
         </div>
         {/* janji temu */}
         <div className="py-6">
@@ -528,35 +583,38 @@ const PerwakilanRIMalaysia = (props: Props) => {
               Sistem Nomor Antrian SPLP:{" "}
               <a
                 target="_blank"
-                className="ml-2 hover:underline hover:text-blue-700"
+                className="ml-2 hover:text-blue-700"
                 href="https://splp.kjrijb.com"
               >
                 https://splp.kjrijb.com
+                <span className="text-blue-700">(Klik disini!)</span>
               </a>
             </li>
             <li>
               Sistem Nomor Antrian Paspor:{" "}
               <a
                 target="_blank"
-                className="ml-2 hover:underline hover:text-blue-700"
+                className="ml-2 hover:text-blue-700"
                 href="https://paspor.kjrijb.com"
               >
                 https://paspor.kjrijb.com
+                <span className="text-blue-700">(Klik disini!)</span>
               </a>
             </li>
           </div>
         </div>
         {/* cara daftar */}
-        <div className="flex items-center gap-2">
+        <div className="flex flex-col gap-2">
           <p className="font-semibold">
             Cara Daftar Temu Janji Pelayanan KJRI Johor Bahru:
           </p>
           <a
             target="_blank"
-            className="ml-2 hover:underline hover:text-blue-700"
+            className="ml-2 hover:text-blue-700"
             href="https://www.youtube.com/watch?v=aD-ABP2u0aE"
           >
             https://www.youtube.com/watch?v=aD-ABP2u0aE
+            <span className="text-blue-700">(Klik disini!)</span>
           </a>
         </div>
         {/* socmed */}
@@ -692,66 +750,83 @@ const PerwakilanRIMalaysia = (props: Props) => {
           <h3 className="font-semibold">
             Hotline WhatsApp Aduan KJRI Kuching:
           </h3>
-          <p className="flex items-center gap-3">
-            Pengaduan WNI :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 16 886 6734
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Kematian WNI :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 16 889 9734
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Covid -19 :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 14 393 3199
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Kekonsuleran :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 12 880 1288
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Keimigrasian :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 16 892 5037
-            </span>
-          </p>
+          <table>
+            <tr>
+              <td>Pengaduan WNI</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 16 886 6734
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kematian WNI</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 16 889 9734
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Covid-19</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 14 393 3199
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kekonsuleran</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 12 880 1288
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Keimigrasian</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 16 892 5037
+                </span>
+              </td>
+            </tr>
+          </table>
         </div>
         {/* janji temu */}
         <div className="py-6">
@@ -763,10 +838,11 @@ const PerwakilanRIMalaysia = (props: Props) => {
             <p>Tutorial:</p>
             <a
               target="_blank"
-              className="ml-2 hover:underline hover:text-blue-700"
+              className="ml-2 hover:text-blue-700"
               href="https://www.facebook.com/kjrikuching/videos/tutorial-apowakim-aplikasi-pendaftaran-online-whatsapp-keimigrasian-kjri-kuching/908880299630166/"
             >
               https://www.facebook.com/kjrikuching/videos/tutorial-apowakim-aplikasi-pendaftaran-online-whatsapp-keimigrasian-kjri-kuching/908880299630166/
+              <span className="text-blue-700">(Klik disini!)</span>
             </a>
           </div>
         </div>
@@ -903,42 +979,51 @@ const PerwakilanRIMalaysia = (props: Props) => {
           <h3 className="font-semibold">
             Hotline WhatsApp Aduan KJRI Kota Kinabalu:
           </h3>
-          <p className="flex items-center gap-3">
-            Keimigrasian :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 16 237 6525
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Pengaduan :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 14 606 0067
-            </span>
-          </p>
+          <table>
+            <tr>
+              <td>Keimigrasian</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 16 237 6525
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Pengaduan</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 14 606 0067
+                </span>
+              </td>
+            </tr>
+          </table>
         </div>
         {/* cara daftar */}
-        <div className="flex items-center gap-2 py-6">
+        <div className="flex flex-col gap-2 py-6">
           <p className="font-semibold">
             Daftar Temu Janji Pelayanan KJRI Kota Kinabalu:
           </p>
           <a
             target="_blank"
-            className="ml-2 hover:underline hover:text-blue-700"
+            className="ml-2 hover:text-blue-700"
             href="https://paspor.kjrikk.com/"
           >
             https://paspor.kjrikk.com/
+            <span className="text-blue-700">(Klik disini!)</span>
           </a>
         </div>
         {/* socmed */}
@@ -1065,30 +1150,38 @@ const PerwakilanRIMalaysia = (props: Props) => {
           <h3 className="font-semibold">
             Hotline WhatsApp Aduan KJRI Kota Kinabalu:
           </h3>
-          <p className="flex items-center gap-3">
-            Keimigrasian :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 11 162 30800
-            </span>
-          </p>
-          <p className="flex items-center gap-3">
-            Kekonsuleran :{" "}
-            <span className="flex items-center gap-1">
-              <img
-                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
-                width="20"
-                height="20"
-                alt="wa"
-              />{" "}
-              +60 19 822 8800
-            </span>
-          </p>
+          <table>
+            <tr>
+              <td>Keimigrasian</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 11 162 30800
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kekonsuleran</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  +60 19 822 8800
+                </span>
+              </td>
+            </tr>
+          </table>
         </div>
         {/* cara daftar */}
         <div className="flex flex-col gap-2 py-6">
@@ -1097,10 +1190,11 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </p>
           <a
             target="_blank"
-            className="ml-2 hover:underline hover:text-blue-700"
+            className="ml-2 hover:text-blue-700"
             href="https://www.temujanjiantrianpelayanankritawau.org/mohon-temu-janji"
           >
             https://www.temujanjiantrianpelayanankritawau.org/mohon-temu-janji
+            <span className="text-blue-700">(Klik disini!)</span>
           </a>
         </div>
         {/* socmed */}

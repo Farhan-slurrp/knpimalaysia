@@ -280,3 +280,99 @@ export const AOMINews: INews[] = [
       "https://www.antaranews.com/berita/1420593/sejumlah-ormas-datangi-kbri-kuala-lumpur-sampaikan-aspirasi-pmi",
   },
 ];
+
+export const BeritaUmum: INews[] = [
+  {
+    id: "0",
+    title: "Hermono, Diplomat Pembela Pekerja Migran",
+    source:
+      "https://news.detik.com/infografis/d-5601987/hermono-diplomat-pembela-pekerja-migran",
+  },
+];
+
+export const DPPKNPINews: INews[] = [
+  {
+    id: "0",
+    title:
+      "PERTAMA DALAM SEJARAH, KETUM DPP KNPI KUNJUNGI PRINGSEWU DAN PESAWARAN",
+    source:
+      "https://www.deklarasinews.com/pertama-dalam-sejarah-ketum-dpp-knpi-kunjungi-pringsewu-dan-pesawaran/",
+  },
+  {
+    id: "1",
+    title:
+      "KEPENGURUSAN DPD KNPI BABEL PERIODE 2021-2024 RESMI DILANTIK, KETUM DPP SOROTI LOGAM TANAH JARANG",
+    source:
+      "https://lintasbabel.inews.id/read/18463/kepengurusan-dpd-knpi-babel-periode-2021-2024-resmi-dilantik-ketum-dpp-soroti-logam-tanah-jarang",
+  },
+  {
+    id: "2",
+    title: "KEDUDUKAN MUI SANGAT KUAT TAK BISA SEMBARANG DIBUBARKAN!",
+    source:
+      "https://nasional.okezone.com/read/2021/11/21/337/2505155/kedudukan-mui-sangat-kuat-tak-bisa-sembarang-dibubarkan?page=1",
+  },
+  {
+    id: "3",
+    title: "BENTENG PEMERSATU UMAT, KNPI TOLAK DESAKAN PEMBUBARAN MUI",
+    source:
+      "https://nasional.sindonews.com/read/605281/12/benteng-pemersatu-umat-knpi-tolak-desakan-pembubaran-mui-1637410282",
+  },
+  {
+    id: "4",
+    title: "PEMUDA SUMBAR SATU SUARA DUKUNG KETUA UMUM KNPI HARIS PERTAMA",
+    source:
+      "https://daerah.sindonews.com/read/600319/174/pemuda-sumbar-satu-suara-dukung-ketua-umum-knpi-haris-pertama-1636985493",
+  },
+  {
+    id: "5",
+    title:
+      "WAGUB SUMBAR MINTA PEMUDA MINANG YANG SUKSES MERANTAU JANGAN LUPAKAN KAMPUNG HALAMAN",
+    source:
+      "https://news.okezone.com/read/2021/11/15/340/2502245/wagub-sumbar-minta-pemuda-minang-yang-sukses-merantau-jangan-lupakan-kampung-halaman.",
+  },
+  {
+    id: "6",
+    title:
+      "PELANTIKAN KNPI SUMBAR, IDRUS MINTA PEMUDA BERANI HADAPI PERSAINGAN",
+    source:
+      "https://www.viva.co.id/berita/nasional/1423098-pelantikan-knpi-sumbar-idrus-minta-pemuda-berani-hadapi-persaingan",
+  },
+  {
+    id: "7",
+    title: "WAGUB SUMBAR APRESIASI KETUA UMUM KNPI YANG BERASAL DARI MINANG",
+    source:
+      "https://daerah.sindonews.com/read/599675/174/wagub-sumbar-apresiasi-ketua-umum-knpi-yang-berasal-dari-minang-1636945894",
+  },
+  {
+    id: "8",
+    title: "WAGUB SUMBAR BANGGA PEMUDA MINANG BERKANCAH DI NASIONAL",
+    source:
+      "https://m.tribunnews.com/regional/2021/11/14/wagub-sumbar-bangga-pemuda-minang-berkancah-di-nasional",
+  },
+  {
+    id: "9",
+    title: "KNPI DKI JAKARTA USULKAN JENDERAL HOEGENG JADI PAHLAWAN NASIONAL",
+    source:
+      "https://www.jpnn.com/news/knpi-dki-jakarta-usulkan-jenderal-hoegeng-jadi-pahlawan-nasional",
+  },
+  {
+    id: "10",
+    title: "HOEGENG DIUSULKAN JADI PAHLAWAN NASIONAL",
+    source:
+      "https://www.okezone.com/tren/read/2021/11/08/620/2498492/hoegeng-diusulkan-jadi-pahlawan-nasional.",
+  },
+  {
+    id: "11",
+    title:
+      "SENADA DENGAN KETUM HARIS PERTAMA, KNPI MEDAN DUKUNG JENDRAL HOEGENG JADI PAHLAWAN NASIONAL.",
+    source:
+      "https://rri.co.id/medan/humaniora/sosial/1251793/senada-dengan-ketum-haris-pertama-knpi-medan-dukung-jendral-hoegeng-jadi-pahlawan-nasional",
+  },
+  {
+    id: "12",
+    title:
+      "AMIN NGABALIN UNGKAP ALASAN DPP KNPI USULKAN NAMA MANTAN KAPOLRI JADI PAHLAWAN NASIONAL",
+    source:
+      "https://sultra.pikiran-rakyat.com/nasional/pr-2212976489/amin-ngabalin-ungkap-alasan-dpp-knpi-usulkan-nama-mantan-kapolri-jadi-pahlawan-nasional",
+  },
+];
