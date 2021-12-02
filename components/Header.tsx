@@ -16,10 +16,10 @@ function Header({}: Props): ReactElement {
   return (
     <div className="flex flex-col w-full">
       <Image src="/banner.jpg" alt="banner" height="424" width="400"></Image>
-      <div className="flex flex-wrap items-center justify-center w-full text-sm font-semibold text-white bg-blue-500">
+      <div className="flex flex-wrap items-center justify-center w-full text-xs font-semibold text-white bg-blue-500">
         <a
           href="/"
-          className={`uppercase px-4 py-4 items-center hover:bg-blue-600 ${
+          className={`uppercase px-2 py-2 items-center hover:bg-blue-600 ${
             router.route == "/" ? "bg-blue-700" : "bg-blue-500"
           }`}
         >
@@ -34,7 +34,7 @@ function Header({}: Props): ReactElement {
         <DropDownMenu title="galeri kegiatan knpi" menus={menu["galeri"]} />
         <a
           href="/perwakilan-ri-di-malaysia"
-          className={`px-4 py-6 uppercase hover:bg-blue-600
+          className={`px-2 py-4 uppercase hover:bg-blue-600
           ${
             router.route == "/perwakilan-ri-di-malaysia"
               ? "bg-blue-700"
@@ -42,6 +42,20 @@ function Header({}: Props): ReactElement {
           }`}
         >
           perwakilan ri di malaysia
+        </a>
+        <a
+          href="/perwakilan-ri-di-malaysia"
+          className={`px-2 py-4 uppercase hover:bg-blue-600
+          ${router.route == "/opini" ? "bg-blue-700" : "bg-blue-500"}`}
+        >
+          opini
+        </a>
+        <a
+          href="/perwakilan-ri-di-malaysia"
+          className={`px-4 py-6 uppercase hover:bg-blue-600
+          ${router.route == "/jurnal" ? "bg-blue-700" : "bg-blue-500"}`}
+        >
+          jurnal
         </a>
         <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />
         <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />

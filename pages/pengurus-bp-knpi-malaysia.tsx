@@ -58,7 +58,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>
             :{" "}
             <a
-              href="https://www.instagram.com/tengku.adnan/"
+              href="https://www.instagram.com/positifmuliadi/"
               target="_blank"
               className="hover:text-blue-700"
             >
@@ -80,7 +80,16 @@ const PengurusBPKNPI = (props: Props) => {
       <table className="w-full m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Bendahara</td>
-          <td>: Erlinda Fitriawati</td>
+          <td>
+            :{" "}
+            <a
+              href="https://www.instagram.com/erlindafitriawati/"
+              target="_blank"
+              className="hover:text-blue-700"
+            >
+              Erlinda Fitriawati
+            </a>
+          </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Bendahara Bidang Penggalangan Dana</td>
