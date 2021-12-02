@@ -1,7 +1,8 @@
 export interface INews {
   id: string;
   title: string;
-  source: string;
+  source?: string;
+  content?: string;
 }
 
 export const BPKNPINews: INews[] = [
@@ -135,6 +136,116 @@ export const BPKNPINews: INews[] = [
     title: "TENGKU ADNAN TERPILIH SEBAGAI KETUA KNPI MALAYSIA",
     source:
       "https://www.antaranews.com/berita/1029554/tengku-adnan-terpilih-sebagai-ketua-knpi-malaysia",
+  },
+  {
+    id: "21",
+    title:
+      "BP KNPI MALAYSIA LAKSANAKAN KUNJUNGAN PERSAHABATAN KE NATIONAL YOUTH COUNCIL FILIPINA DAN KBRI DI MANILA",
+    content:
+      "**BP KNPI MALAYSIA LAKSANAKAN KUNJUNGAN PERSAHABATAN KE NATIONAL YOUTH COUNCIL FILIPINA DAN KBRI DI MANILA**\nKamis, 16 April 2015 09:44 WIB\nPada bulan Desember 2015 ini seluruh masyarakat ASEAN akan berhadapan dengan ASEAN Economic Community. Kebijakan yang telah diambil oleh seluruh negara ASEAN ini perlu didukung sebagai bentuk persetujuan untuk kemajuan ASEAN kedepannya. Berbagai peluang dan tantangan yang muncul, namun hal ini perlu dijawab dengan berbagai tindakan dan aksi nyata khususnya bagi generasi muda untuk berdaya saing dalam terbukanya persaingan yang global khususnya dinegara ASEAN.\nSejalan dengan masyarakat ekonomi ASEAN tersebut BP KNPI Malaysia terus membuka peluang dan melebarkan sayap melalui jalur diplomasinya. Salah satunya ialah dengan melaksanakan kunjungan persahabatan ke National Youth Commission of Philippine (NYC) dan KBRI di Manila.\nMenurut Ketua BP KNPI Malaysia Dr. Sagir Alva, MSc yang didampingi Sekretaris BP KNPI Malaysia Tengku Adnan mengatakan kegiatan ini mempunyai tujuan untuk memperluas jaringan pemuda Indonesia, disamping itu juga, kunjungan ini bertujuan untuk mengkaji dan melihat apa saja yang telah dipersiapkan oleh National Youth Commission of Philippine (NYC) dalam menghadapi masyarakat ekonomi ASEAN.\nSelain daripada itu, DR. Sagir Alva, M.Sc menuturkan bahwa BP KNPI Malaysia akan mencoba untuk menjajaki dan membicarakan kemungkinan dihidupkan kembali forum Maphilindo (Malaysia, Filipina dan Indonesia) yang pernah digagas oleh Mantan Presiden Filipina yaitu Diosdado Macapagal pada tahun 1963. Adapun tujuan dari Maphilindo dibentuk pada waktu itu adalah untuk meningkatkan hubungan persahabatan dan juga menyelesaikan konflik yang terjadi diantara Filipina-Malaysia dan Malaysia-Indonesia yang ditandai dengan penandatanganan Macapagal Plan.\nNamun karena situasi politik pada ketika itu, akhirnya Forum Maphilindo tidak aktif lagi sampai sekarang ini. Forum Maphilindo ini juga menjadi salah satu cara pemuda Indonesia, Filipina dan Malaysia dapat berperan lebih aktif dalam memperkuat AEC 2015.\nSelajutnya, dihubungi secara terpisah Ketua Panitia kunjungan yaitu Arif Murti Rozamuri, BBA, MSc yang didampingi Pauzi Ibrahim Nainggolan, S.Komp selaku sekretaris panitia mengatakan bahwa kegiatan ini mengambil tema ''The Development and Strengthening of the ASEAN Economic Community 2015 (AEC 2015) Through The Development of Youth'', jumlah delegasi yang akan ikut dalam kegiatan ini ialah sebanyak 17 orang delegasi. Kegiatan ini akan dilaksanakan mulai dari 17 sehingga 19 April 2015.\nKegiatan ini mendapat sambutan yang baik dan dukungan dari pemuda Indonesia di Malaysia dan pihak KBRI di Kuala lumpur. Beliau mengatakan bahwa di Manila nanti juga akan dilaksanakan pertemuan dengan KBRI Manila untuk mengetahui sejauh mana sosialisasi dan persiapan yang dilakukan oleh pihak KBRI tentang masyarakat ekonomi ASEAN ini kepada ekspatriat, pekerja dan mahasiswa Indonesia di Manila.\nMenurut Arif Murti Rozamuri, BBA, MSc yang saat ini juga sebagai Ketua Departemen Hubungan Antar Lembaga BP KNPI Malaysia mengatakan kegiatan seperti ini akan memberikan manfaat yang besar. Karena hubungan persahabatan antar pemuda sebagai salah satu diplomasi yang baik untuk mempererat hubungan di negara-negara ASEAN.",
+  },
+  {
+    id: "22",
+    title: "KNPI DI MALAYSIA TOLAK PENCALONAN BUDI GUNAWAN",
+    source:
+      "https://nasional.tempo.co/read/635342/knpi-di-malaysia-tolak-pencalonan-budi-gunawan ",
+  },
+  {
+    id: "23",
+    title: "PEMUDA INDONESIA DAN MALAYSIA TANDING FUTSAL",
+    source:
+      "https://bola.tempo.co/read/445229/pemuda-indonesia-dan-malaysia-tanding-futsal",
+  },
+  {
+    id: "24",
+    title: "LAGA AFF, MALAYSIA DIMINTA JAMIN KESELAMATAN PENONTON",
+    source:
+      "https://bola.tempo.co/read/444959/laga-aff-malaysia-diminta-jamin-keselamatan-penonton",
+  },
+  {
+    id: "25",
+    title: "VIDEO PENONTON MALAYSIA HINA INDONESIA",
+    source:
+      "https://bola.tempo.co/read/444958/video-penonton-malaysia-hina-indonesia",
+  },
+  {
+    id: "26",
+    title: "KBRI MINTA MALAYSIA LINDUNGI PENONTON",
+    source:
+      "https://bola.tempo.co/read/444871/kbri-minta-malaysia-lindungi-penonton/full&view=ok",
+  },
+  {
+    id: "27",
+    title: "KBRI PROTES WNI DIPUKULI SUPORTER MALAYSIA DI BUKIT JALIL",
+    source:
+      "https://m.merdeka.com/peristiwa/kbri-protes-wni-dipukuli-suporter-malaysia-di-bukit-jalil.html",
+  },
+  {
+    id: "28",
+    title: "DIPUKULI FANS MALAYSIA, BENDAHARA KNPI KE POLISI",
+    source:
+      "https://bola.tempo.co/read/444711/dipukuli-fans-malaysia-bendahara-knpi-ke-polisi",
+  },
+  {
+    id: "29",
+    title: "PENGEROYOK KETUA KNPI DI MALAYSIA PULUHAN ORANG",
+    source:
+      "https://bola.tempo.co/read/444666/pengeroyok-ketua-knpi-di-malaysia-puluhan-orang",
+  },
+  {
+    id: "30",
+    title: "DIKEROYOK SUPORTER MALAYSIA, KNPI LAPOR POLISI",
+    source:
+      "https://bola.tempo.co/read/444662/dikeroyok-suporter-malaysia-knpi-lapor-polisi",
+  },
+  {
+    id: "31",
+    title: "DIKEROYOK, KNPI SALAHKAN APARAT MALAYSIA",
+    source:
+      "https://bola.tempo.co/read/444661/dikeroyok-knpi-salahkan-aparat-malaysia",
+  },
+  {
+    id: "32",
+    title: "KETUA KNPI DIKEROYOK SUPORTER MALAYSIA",
+    source:
+      "https://bola.tempo.co/read/444659/ketua-knpi-dikeroyok-suporter-malaysia",
+  },
+  {
+    id: "33",
+    title: "KNPI GARAP PEMUDA INDONESIA DI LUAR NEGERI",
+    source:
+      "https://www.jpnn.com/news/knpi-garap-pemuda-indonesia-di-luar-negeri ",
+  },
+  {
+    id: "34",
+    title: "KNPI BUKA PERWAKILAN DI MALAYSIA",
+    source:
+      "https://news.okezone.com/read/2011/10/10/339/513343/knpi-buka-perwakilan-di-malaysia",
+  },
+  {
+    id: "35",
+    title: "PERTEMUAN PEMUDA DUNIA, KNPI WAKILI INDONESIA",
+    source:
+      "https://www.viva.co.id/berita/nasional/252999-pertemuan-pemuda-dunia-knpi-wakili-indonesia",
+  },
+  {
+    id: "36",
+    title: "KNPI HADIRI FORUM PEMUDA DUNIA",
+    source:
+      "https://www.tribunnews.com/nasional/2011/10/05/knpi-hadiri-forum-pemuda-dunia.",
+  },
+  {
+    id: "37",
+    title: "SEKJEN KNPI DIDAULAT JADI WAKIL PRESIDEN PEMUDA ASIA",
+    source:
+      "https://rmol.id/read/2011/08/02/35077/sekjen-knpi-didaulat-jadi-wakil-presiden-pemuda-asia",
+  },
+  {
+    id: "38",
+    title:
+      "TAK CEPAT DIBENAHI, HUBUNGAN RI-MALAYSIA AKAN TERUS SISAKAN KONFLIK",
+    source:
+      "https://news.detik.com/berita/d-1480331/tak-cepat-dibenahi-hubungan-ri-malaysia-akan-terus-sisakan-konflik.",
   },
 ];
 

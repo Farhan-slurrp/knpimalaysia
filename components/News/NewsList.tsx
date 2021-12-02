@@ -18,7 +18,7 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
         {allNews.map((news) => (
           <div
             key={news["source"]}
-            className="flex gap-4 p-4 border border-gray-300 rounded-md cursor-pointer"
+            className="flex items-center gap-4 p-4 border border-gray-300 rounded-md cursor-pointer"
             onClick={() => router.push(`/${baseLink}/${news["id"]}`)}
           >
             <img
