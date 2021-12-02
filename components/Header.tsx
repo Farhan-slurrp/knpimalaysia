@@ -34,7 +34,7 @@ function Header({}: Props): ReactElement {
         <DropDownMenu title="galeri kegiatan knpi" menus={menu["galeri"]} />
         <a
           href="/perwakilan-ri-di-malaysia"
-          className={`px-2 py-4 uppercase hover:bg-blue-600
+          className={`px-4 py-4 uppercase hover:bg-blue-600
           ${
             router.route == "/perwakilan-ri-di-malaysia"
               ? "bg-blue-700"
@@ -45,14 +45,14 @@ function Header({}: Props): ReactElement {
         </a>
         <a
           href="/opini"
-          className={`px-2 py-4 uppercase hover:bg-blue-600
+          className={`px-4 py-4 uppercase hover:bg-blue-600
           ${router.route == "/opini" ? "bg-blue-700" : "bg-blue-500"}`}
         >
           opini
         </a>
         <a
           href="/jurnal"
-          className={`px-2 py-4 uppercase hover:bg-blue-600
+          className={`px-4 py-4 uppercase hover:bg-blue-600
           ${router.route == "/jurnal" ? "bg-blue-700" : "bg-blue-500"}`}
         >
           jurnal
