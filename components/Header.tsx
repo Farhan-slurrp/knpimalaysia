@@ -19,11 +19,11 @@ function Header({}: Props): ReactElement {
       <div className="flex flex-wrap items-center justify-center w-full text-xs font-semibold text-white bg-blue-500">
         <a
           href="/"
-          className={`uppercase px-2 py-2 items-center hover:bg-blue-600 ${
+          className={`uppercase px-3 py-3 items-center hover:bg-blue-600 ${
             router.route == "/" ? "bg-blue-700" : "bg-blue-500"
           }`}
         >
-          <HomeIcon fontSize="large" />
+          <HomeIcon fontSize="medium" />
         </a>
         <DropDownMenu title="dpp knpi" menus={menu["dpp-knpi"]} />
         <DropDownMenu
@@ -52,7 +52,7 @@ function Header({}: Props): ReactElement {
         </a>
         <a
           href="/jurnal"
-          className={`px-4 py-6 uppercase hover:bg-blue-600
+          className={`px-2 py-4 uppercase hover:bg-blue-600
           ${router.route == "/jurnal" ? "bg-blue-700" : "bg-blue-500"}`}
         >
           jurnal
