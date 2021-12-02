@@ -73,8 +73,8 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
       </table>
       <table className="w-full m-12">
-        <tr className="w-full">
-          <td className="w-1/2 font-semibold">Penasehat</td>
+        <tr className="w-full font-semibold">
+          <td className="w-1/2">Penasehat</td>
           <td>: Sagir Alva</td>
         </tr>
         <tr className="w-full">
