@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
 interface Props {}
@@ -13,7 +14,16 @@ const PengurusBPKNPI = (props: Props) => {
       <table className="w-full m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Ketua</td>
-          <td>: Tengku Adnan</td>
+          <td>
+            :{" "}
+            <a
+              href="https://www.instagram.com/tengku.adnan/"
+              target="_blank"
+              className="hover:text-blue-700"
+            >
+              Tengku Adnan
+            </a>
+          </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Keorganisasian</td>
