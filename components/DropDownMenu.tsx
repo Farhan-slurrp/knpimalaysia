@@ -47,7 +47,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
           {menus["title"].map((menu, idx) => (
             <a
               href={menus["link"][idx]}
-              className={`block px-4 py-2 text-sm text-white uppercase hover:bg-blue-600 ${
+              className={`block px-4 py-2 text-xs text-white uppercase hover:bg-blue-600 ${
                 menus["link"][idx] === router.route
                   ? "bg-blue-700"
                   : "bg-blue-500"
