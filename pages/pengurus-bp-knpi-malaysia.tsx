@@ -6,8 +6,9 @@ const PengurusBPKNPI = (props: Props) => {
   return (
     <div className="p-12">
       <h1 className="text-2xl font-semibold text-center">
-        KOMPOSISI DAN PERSONALIA BADAN PERWAKILAN KOMITE NASIONAL PEMUDA
-        INDONESIA DI MALAYSIA PERIODE 2019 – 2022
+        KOMPOSISI DAN PERSONALIA <br />
+        BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA DI MALAYSIA <br />
+        PERIODE 2019 – 2022
       </h1>
       <table className="w-full m-12">
         <tr className="w-full font-semibold">
@@ -73,7 +74,7 @@ const PengurusBPKNPI = (props: Props) => {
       </table>
       <table className="w-full m-12">
         <tr className="w-full">
-          <td className="w-1/2">Penasehat</td>
+          <td className="w-1/2 font-semibold">Penasehat</td>
           <td>: Sagir Alva</td>
         </tr>
         <tr className="w-full">
