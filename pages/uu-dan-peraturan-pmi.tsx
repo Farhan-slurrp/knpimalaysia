@@ -61,8 +61,8 @@ const UUDanPeraturanPMI = (props: Props) => {
         </h2>
         <div>
           <p>Nomor: 18</p>
-          <p>Tanggal Disahkan: 22 Nopember 2017</p>
-          <p>Tanggal Diundangkan: 22 Nopember 2017</p>
+          <p>Tanggal Disahkan: 22 November 2017</p>
+          <p>Tanggal Diundangkan: 22 November 2017</p>
           <p className="flex items-center gap-3">
             File:{" "}
             <div className="flex items-center gap-2 px-3 py-1 border border-gray-300 group rounded-xl">
@@ -85,7 +85,7 @@ const UUDanPeraturanPMI = (props: Props) => {
         </div>
       </div>
       <div>
-        <h2 className="py-4 font-mono text-2xl font-semibold">ABSTRAK</h2>
+        <h2 className="py-4 text-2xl font-semibold">ABSTRAK</h2>
         <div className="flex flex-col gap-4">
           <h2 className="text-xl font-semibold">
             TENTANG UNDANG-UNDANG TENTANG PELINDUNGAN PEKERJA MIGRAN INDONESIA
@@ -150,7 +150,7 @@ const UUDanPeraturanPMI = (props: Props) => {
         </div>
       </div>
       <div>
-        <h2 className="py-4 font-mono text-2xl font-semibold">
+        <h2 className="py-4 text-2xl font-semibold">
           MEMAHAMI KERANGKA UNDANG-UNDANG 18 TAHUN 2017 TENTANG PELINDUNGAN
           PEKERJA MIGRAN INDONESIA
         </h2>
@@ -441,7 +441,7 @@ const UUDanPeraturanPMI = (props: Props) => {
         </div>
       </div>
       <div>
-        <h2 className="py-4 font-mono text-2xl font-semibold">
+        <h2 className="py-4 text-2xl font-semibold">
           PELINDUNGAN CPMI DAN PMI BERDASARKAN WAKTU
         </h2>
         <div className="flex flex-col gap-4">
@@ -547,6 +547,106 @@ const UUDanPeraturanPMI = (props: Props) => {
               pertimbangan keamanan, perlindungan hak asasi manusia (HAM),
               pemerataan kesempatan kerja dan/ atau kepentingan ketersediaan
               tenaga kerja sesuai dengan kebutuhan nasional.
+              <br />
+              <br />
+              Dalam ayat lainnya, dijelaskan bahwa pelindungan hukum terhadap
+              PMI diberikan sesuai dengan ketentuan peraturan
+              perundang-undangan, hukum negara tujuan penempatan, serta hukum
+              dan kebiasaan internasional. Lagi-lagi, sayangnya,
+              ketentuan-ketentuan ini juga tidak dirinci lebih lanjut.
+              Pelindungan sosial meliputi:
+              <li>
+                Peningkatan kualitas pendidikan dan pelatihan kerja melalui
+                standardisasi kompetensi pelatihan kerja;
+              </li>
+              <li>Peningkatan peran lembaga akreditasi dan sertifikasi;</li>
+              <li>Penyediaan tenaga pendidik dan pelatih yang kompeten;</li>
+              <li>
+                Reintegrasi sosial melalui layanan peningkatan keterampilan,
+                baik terhadap PMI maupun keluarganya;
+              </li>
+              <li>Kebijakan perlindungan kepada perempuan dan anak;</li>
+              <li>
+                Penyediaan pusat perlindungan PMI di negara tujuan penempatan.
+              </li>
+              <br />
+              <br />
+              Pelindungan ekonomi meliputi:
+              <li>
+                Pengelolaan remitansi dengan melibatkan lembaga perbankan atau
+                lembaga keuangan nonbank dalam negeri dan negara tujuan
+                penempatan;
+              </li>
+              <li>Edukasi keuangan;</li>
+              <li>Edukasi kewirausahaan.</li>
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h2 className="text-xl font-semibold">
+              LAYANAN TERPADU SATU ATAP (LTSA)
+            </h2>
+            <p>
+              Pelayanan penempatan dan perlindungan PMI dilakukan oleh
+              pemerintah pusat dan pemerintah daerah secara terkoordinasi dan
+              terintegrasi melalui suatu lembaga yang disebut LTSA. LTSA ini
+              bertujuan:
+              <li>
+                Mewujudkan efektivitas penyelenggaraan pelayanan penempatan dan
+                perlindungan PMI;
+              </li>
+              <li>
+                Memberikan efisiensi dan transparansi dalam pengurusan dokumen
+                penempatan dan perlindungan CPMI dan/atau PMI;
+              </li>
+              <li>Mempercepat peningkatan kualitas pelayanan PMI.</li>
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h2 className="text-xl font-semibold">PEMBINAAN DAN PENGAWASAN</h2>
+            <p>
+              Pembinaan dan pengawasan terhadap pelaksanaan penempatan dan
+              perlindungan PMI dilakukan oleh pemerintah pusat dan pemerintah
+              daerah. Dalam melakukan pengawasan, pemerintah pusat dan
+              pemerintah daerah dapat mengikutsertakan masyarakat. Sayangnya,
+              kata “dapat” dalam hal ini seringkali melemahkan posisi masyarakat
+              untuk ikut serta dalam melakukan pengawasan karena pemerintah
+              dapat menganggap hal ini sebagai sesuatu yang bersifat opsional
+              (tidak wajib).
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h2 className="text-xl font-semibold">PENYELESAIAN PERSELISIHAN</h2>
+            <p>
+              Penyelesaian perselisihan antara PMI dengan pelaksana penempatan
+              dilakukan secara bertingkat. Jika terjadi perselisihan antara PMI
+              dengan pelaksana penempatan mengenai pelaksanaan perjanjian
+              penempatan, penyelesaian dilakukan secara musyawarah. Seandainya
+              musyawarah tidak tercapai, salah satu atau kedua belah pihak dapat
+              meminta bantuan kepada instansi yang bertanggung jawab di bidang
+              ketenagakerjaan di pemerintah daerah kabupaten/kota (pemkab/kot),
+              pemerintah daerah provinsi (pemprov), atau pemerintah pusat.
+              Selanjutnya, jika penyelesaian perselisihan tetap tidak tercapai,
+              salah satu atau kedua belah pihak dapat mengajukan tuntutan
+              dan/atau gugatan melalui pengadilan.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h2 className="text-xl font-semibold">PENUTUP</h2>
+            <p>
+              Berdasarkan paparan di atas, dapat dipahami bahwa UU PPMI sudah
+              menjelaskan dengan cukup detil mengenai: siapa saja pihak-pihak
+              dalam pelindungan CPMI dan PMI, perjanjian-perjanjian, dokumen dan
+              persyaratan yang harus dipenuhi PMI, hak dan kewajiban PMI serta
+              keluarga PMI, bentuk-bentuk pelindungan PMI, layanan terpadu satu
+              atap (LTSA), pembinaan dan pengawasan, serta penyelesaian
+              perselisihan. Secara spesifik, tegas dinyatakan bahwa pelaut awak
+              kapal dan pelaut perikanan (awak kapal Indonesia) termasuk
+              kategori pekerja migran dan dilindungi oleh undang-undang ini.
+              Bentuk-bentuk pelindungannya pun telah dibagi berdasarkan waktu
+              (sebelum, selama, dan setelah bekerja) maupun berdasarkan bidang
+              (hukum, sosial, dan ekonomi) serta hak dan kewajiban CPMI dan PMI
+              telah dirinci. Hak-hak PMI yang dalam UU PPTKILN hanya 8 item,
+              kini telah ditambahkan menjadi 13 item dalam UU PPMI.
             </p>
           </div>
         </div>
