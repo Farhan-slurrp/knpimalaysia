@@ -11,11 +11,15 @@ const PerwakilanRIMalaysia = (props: Props) => {
   return (
     <div className="p-12">
       {/* kbri */}
-      <div
-        className="flex items-center w-3/4 gap-3 px-6 py-6 mb-6 border border-gray-400 cursor-pointer hover:text-blue-700"
-        onClick={() => router.push("/berita-umum/0")}
-      >
-        <img src="/dubes.jfif" alt="poster" width="200" height="205" />
+      <div className="flex items-center w-3/4 gap-3 px-6 py-6 mb-6 border border-gray-400">
+        <img
+          onClick={() => router.push("/berita-umum/0")}
+          src="/dubes.jfif"
+          alt="poster"
+          width="200"
+          height="205"
+          className="cursor-pointer"
+        />
         <p className="text-justify">
           Dubes Hermono, Diplomat Pembela Pekerja Migran Dia pernah dijuluki
           sebagai diplomat spesialis urusan pekerja migran. Maklum, selain
