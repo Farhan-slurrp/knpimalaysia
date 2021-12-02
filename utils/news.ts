@@ -137,3 +137,146 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/1029554/tengku-adnan-terpilih-sebagai-ketua-knpi-malaysia",
   },
 ];
+
+export const AOMINews: INews[] = [
+  {
+    id: "0",
+    title:
+      "DUBES HERMONO INGATKAN PEKERJA TANPA DOKUMEN SEGERA DAFTAR REKALIBRASI",
+    source:
+      "https://www.antaranews.com/berita/2529829/dubes-hermono-ingatkan-pekerja-tanpa-dokumen-segera-daftar-rekalibrasi",
+  },
+  {
+    id: "1",
+    title: "COVID-19 MALAYSIA MENINGKAT, KBRI KUALA LUMPUR PANTAU WNI",
+    source:
+      "https://www.antaranews.com/berita/2311130/covid-19-malaysia-meningkat-kbri-kuala-lumpur-pantau-wni",
+  },
+  {
+    id: "2",
+    title: "WNI DI MALAYSIA DOA BERSAMA BAGI YANG TERPAPAR COVID-19",
+    source:
+      "https://www.antaranews.com/berita/2294678/wni-di-malaysia-doa-bersama-bagi-yang-terpapar-covid-19",
+  },
+  {
+    id: "3",
+    title: "DUBES IMBAU PMI NON-PROSEDURAL TUNDA PEMULANGAN DARI MALAYSIA",
+    source:
+      "https://www.antaranews.com/berita/2276766/dubes-imbau-pmi-non-prosedural-tunda-pemulangan-dari-malaysia",
+  },
+  {
+    id: "4",
+    title: "KBRI KUALA LUMPUR SAMBUT PERPANJANGAN PROGRAM REKALIBRASI",
+    source:
+      "https://www.antaranews.com/berita/2251202/kbri-kuala-lumpur-sambut-perpanjangan-program-rekalibrasi",
+  },
+  {
+    id: "5",
+    title: "BANLOG PEMERINTAH RI KE PEKERJA DI MALAYSIA LEBIH 75 RIBU PAKET",
+    source:
+      "https://www.antaranews.com/berita/2234154/banlog-pemerintah-ri-ke-pekerja-di-malaysia-lebih-75-ribu-paket",
+  },
+  {
+    id: "6",
+    title: "PMI TERKURUNG DI SUNGAI PENCHALA TERIMA BANTUAN LOGISTIC",
+    source:
+      "https://www.antaranews.com/berita/2203198/pmi-terkurung-di-sungai-penchala-terima-bantuan-logistik",
+  },
+  {
+    id: "7",
+    title: "KBRI DAN ORMAS DI MALAYSIA KIRIM LOGISTIK KE PEKERJA TERDAMPAK",
+    source:
+      "https://www.antaranews.com/berita/2197210/kbri-dan-ormas-di-malaysia-kirim-logistik-ke-pekerja-terdampak",
+  },
+  {
+    id: "8",
+    title: "DUBES RI DI KUALA LUMPUR SILATURAHMI VIRTUAL DENGAN WNI",
+    source:
+      "https://www.antaranews.com/berita/2171406/dubes-ri-di-kuala-lumpur-silaturahmi-virtual-dengan-wni",
+  },
+  {
+    id: "9",
+    title: "AOMI DI MALAYSIA USUL INDONESIA BUKA KONSULAT KEHORMATAN DI GAZA",
+    source:
+      "https://www.antaranews.com/berita/2172910/aomi-di-malaysia-usul-indonesia-buka-konsulat-kehormatan-di-gaza",
+  },
+  {
+    id: "10",
+    title: "ORMAS INDONESIA DI MALAYSIA SANTUNI PANTI ASUHAN DI MADURA",
+    source:
+      "https://www.antaranews.com/berita/2151230/ormas-indonesia-di-malaysia-santuni-panti-asuhan-di-madura",
+  },
+  {
+    id: "11",
+    title: "PENERBANGAN TERAKHIR AOMI PULANGKAN 290 PEKERJA MIGRAN",
+    source:
+      "https://www.antaranews.com/berita/2141066/penerbangan-terakhir-aomi-pulangkan-290-pekerja-migran",
+  },
+  {
+    id: "12",
+    title: "WNI DI MALAYSIA BERENCANA DIRIKAN LAGI MASJID INDONESIA",
+    source:
+      "https://www.antaranews.com/berita/2147370/wni-di-malaysia-berencana-dirikan-lagi-masjid-indonesia",
+  },
+  {
+    id: "13",
+    title: "DUBES RI DI KUALA LUMPUR HADIRI HUT AOMI",
+    source:
+      "https://www.antaranews.com/berita/2133574/dubes-ri-di-kuala-lumpur-hadiri-hut-aomi",
+  },
+  {
+    id: "14",
+    title: "AOMI DAMPINGI PEMULANGAN 1.000 PMI MALAYSIA SELAMA RAMADHAN",
+    source:
+      "https://www.antaranews.com/berita/2116274/aomi-dampingi-pemulangan-1000-pmi-malaysia-selama-ramadhan",
+  },
+  {
+    id: "15",
+    title: "PROGRAM REKALIBRASI PEMULANGAN PMI DARI MALAYSIA DIMULAI",
+    source:
+      "https://www.antaranews.com/berita/1912856/program-rekalibrasi-pemulangan-pmi-dari-malaysia-dimulai",
+  },
+  {
+    id: "16",
+    title: "KBRI DAN ORMAS BERI PENGHARGAAN MENTERI AGAMA MALAYSIA",
+    source:
+      "https://www.antaranews.com/berita/1905456/kbri-dan-ormas-beri-penghargaan-menteri-agama-malaysia",
+  },
+  {
+    id: "17",
+    title: "MUSYAWARAH BESAR AOMI MALAYSIA TETAPKAN SEMBILAN ORANG PRESIDIUM",
+    source:
+      "https://www.antaranews.com/berita/1905628/musyawarah-besar-aomi-malaysia-tetapkan-sembilan-orang-presidium",
+  },
+  {
+    id: "18",
+    title:
+      "KBRI DAN AOMI BERI PENGHARGAAN MENTERI WILAYAH PERSEKUTUAN MALAYSIA",
+    source:
+      "https://www.antaranews.com/berita/1905840/kbri-dan-aomi-beri-penghargaan-menteri-wilayah-persekutuan-malaysia",
+  },
+  {
+    id: "19",
+    title: "DUBES RI, AOMI KUNJUNGI WNI KORBAN KEBAKARAN DI SELANGOR MALAYSIA",
+    source:
+      "https://www.antaranews.com/berita/1895224/dubes-ri-aomi-kunjungi-wni-korban-kebakaran-di-selangor-malaysia",
+  },
+  {
+    id: "20",
+    title: "ORMAS MINTA KBRI BANTU PEMULANGAN KELOMPOK RENTAN",
+    source:
+      "https://www.antaranews.com/berita/1532580/ormas-minta-kbri-bantu-pemulangan-kelompok-rentan",
+  },
+  {
+    id: "21",
+    title: "HARI BURUH - ORMAS DI MALAYSIA BERBAGI SEMBAKO KE PMI",
+    source:
+      "https://www.antaranews.com/berita/1458417/hari-buruh-ormas-di-malaysia-berbagi-sembako-ke-pmi",
+  },
+  {
+    id: "22",
+    title: "SEJUMLAH ORMAS DATANGI KBRI KUALA LUMPUR SAMPAIKAN ASPIRASI PMI",
+    source:
+      "https://www.antaranews.com/berita/1420593/sejumlah-ormas-datangi-kbri-kuala-lumpur-sampaikan-aspirasi-pmi",
+  },
+];

@@ -9,7 +9,11 @@
       "tentang bp knpi malaysia",
       "pengurus bp knpi malaysia"
     ],
-    "link": ["/sejarah-bp-knpi", "opini"]
+    "link": [
+      "/sejarah-bp-knpi",
+      "/tentang-bp-knpi-malaysia",
+      "/pengurus-bp-knpi-malaysia"
+    ]
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
@@ -35,7 +39,7 @@
       "berita aomi malaysia",
       "pendampingan rekalibrasi pulang"
     ],
-    "link": ["media-online", "/berita-aomi", "/rekalibrasi"]
+    "link": ["media-online", "/berita-aomi-malaysia", "/rekalibrasi"]
   },
   "pmi-malaysia": {
     "title": [
@@ -43,6 +47,6 @@
       "berita pmi malaysia",
       "aduan dan aspirasi pmi malaysia"
     ],
-    "link": ["media-online", "rekalibrasi"]
+    "link": ["/uu-dan-peraturan-pmi", "media-online", "rekalibrasi"]
   }
 }
