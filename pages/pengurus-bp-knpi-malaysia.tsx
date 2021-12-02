@@ -55,7 +55,16 @@ const PengurusBPKNPI = (props: Props) => {
       <table className="w-full m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Sekretaris</td>
-          <td>: Muliadi</td>
+          <td>
+            :{" "}
+            <a
+              href="https://www.instagram.com/tengku.adnan/"
+              target="_blank"
+              className="hover:text-blue-700"
+            >
+              Muliadi
+            </a>
+          </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">

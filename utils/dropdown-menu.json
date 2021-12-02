@@ -1,7 +1,7 @@
 {
   "dpp-knpi": {
     "title": ["sejarah knpi", "pengurus dpp", "ketua umum"],
-    "link": ["/sejarah-knpi", "opini"]
+    "link": ["/sejarah-knpi", "opini", "#"]
   },
   "bp-knpi-malaysia": {
     "title": [
@@ -24,13 +24,15 @@
       "berita bp knpi malaysia",
       "berita dpp knpi",
       "berita umum",
-      "Opini"
+      "Opini",
+      "jurnal"
     ],
     "link": [
       "/berita-bp-knpi-malaysia",
       "/berita-dpp-knpi",
       "/berita-umum",
-      "/opini"
+      "/opini",
+      "/jurnal"
     ]
   },
   "aomi-malaysia": {
