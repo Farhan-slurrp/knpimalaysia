@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import Link from "next/link";
 
 interface Props {}
 
@@ -72,13 +74,12 @@ const UUDanPeraturanPMI = (props: Props) => {
                 width="17"
                 height="17"
               />
-              <a
-                href="/uu-perlindungan-pekerja-imigran"
-                className="group-hover:text-blue-500 group-hover:underline"
-              >
-                UU NOMOR 18 TAHUN 2017 TENTANG PERLINDUNGAN PEKERJA MIGRAN
-                INDONESIA.pdf
-              </a>
+              <Link href="/uu-perlindungan-pekerja-imigran">
+                <p className="cursor-pointer group-hover:text-blue-500 group-hover:underline">
+                  UU NOMOR 18 TAHUN 2017 TENTANG PERLINDUNGAN PEKERJA MIGRAN
+                  INDONESIA.pdf
+                </p>
+              </Link>
             </div>
           </p>
         </div>
