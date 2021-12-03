@@ -8,25 +8,25 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
+  require("dotenv").config();
   let nodemailer = require("nodemailer");
 
   const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "demo email",
-      pass: "pw",
+      user: process.env.EMAIL_NAME,
+      pass: process.env.EMAIL_PASSWORD,
     },
     secure: true,
   });
 
   const mailData = {
-    from: "demo email",
-    to: "your email",
-    subject: `Message From ${req.body.name}`,
-    text: req.body.message + " | Sent from: " + req.body.email,
-    html: `<div>${req.body.message}</div><p>Sent from:
-      ${req.body.email}</p>`,
+    from: process.env.EMAIL_NAME,
+    to: process.env.EMAIL_NAME,
+    subject: `${req.body.emailType} DARI ${req.body.name} | NOMOR ${req.body.docType}: ${req.body.docNum}`,
+    text: req.body.message,
+    html: `<div>${req.body.message}</div>`,
   };
 
   transporter.sendMail(mailData, function (err: any, info: any) {
