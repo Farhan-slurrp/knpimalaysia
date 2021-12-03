@@ -17,6 +17,7 @@ module.exports = {
       2: "50vh",
       3: "75vh",
       4: "100vh",
+      5: "150vh",
     },
   },
   variants: {

@@ -35,7 +35,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
         </button>
       </div>
       <div
-        className={`z-50 absolute right-0 w-max bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
+        className={`z-50 absolute right-0 min-w-full w-max bg-blue-500 origin-top-right shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
           isOpen ? "visible" : "invisible"
         }`}
         role="menu"

@@ -10,34 +10,37 @@ const undangUndang = [
   {
     title:
       "Peraturan Presiden No. 90/2019 | Badan Pelindungan Pekerja Migran Indonesia",
+    link: "perpres-902019",
   },
   {
     title:
       "Peraturan Pemerintah No. 59/2021 | Pelaksanaan Perlindungan Pekerja Migran Indonesia",
+    link: "pp-592021",
   },
   {
     title:
-      "Peraturan Pemerintah No. 59/2021 | Pelaksanaan Perlindungan Pekerja Migran Indonesia",
+      "Peraturan Menteri No. 7/2020 | Tata Cara Pengenaan Sanksi Administratif dalam Pelaksanaan Penempatan dan Pelindungan Pekerja Migran Indonesia",
+    link: "permenaker-72020",
   },
   {
     title:
       "Peraturan Menteri Ketenagakerjaan No. 9/2019 | Tata Cara Penempatan Pekerja Migran Indonesia",
+    link: "permenaker-92019",
   },
   {
     title:
       "Peraturan Menteri Ketenagakerjaan No. 10/2019 | Tata Cara Pemberian Izin Perusahaan Penempatan Pekerja Migran Indonesia",
+    link: "permenaker-102019",
   },
   {
     title:
       "Peraturan Menteri Ketenagakerjaan No. 17/2019 | Penghentian dan Pelarangan Penempatan Pekerja Migran Indonesia",
+    link: "permenaker-172019",
   },
   {
     title:
-      "Peraturan Menteri Ketenagakerjaan No. 18/2018 | Jaminan Sosial Pekerja Migran Indonesia ",
-  },
-  {
-    title:
-      "Peraturan Menteri Ketenagakerjaan No. 18/2018 | Jaminan Sosial Pekerja Migran Indonesia ",
+      "Peraturan Menteri Ketenagakerjaan No. 18/2018 | Jaminan Sosial Pekerja Migran Indonesia",
+    link: "permenaker-182018",
   },
 ];
 
@@ -74,8 +77,8 @@ const UUDanPeraturanPMI = (props: Props) => {
                 width="17"
                 height="17"
               />
-              <Link href="/uu-perlindungan-pekerja-imigran">
-                <p className="cursor-pointer group-hover:text-blue-500 group-hover:underline">
+              <Link href="/uu-dan-peraturan-pmi/uu-perlindungan-pekerja-imigran">
+                <p className="text-blue-700 cursor-pointer group-hover:underline">
                   UU NOMOR 18 TAHUN 2017 TENTANG PERLINDUNGAN PEKERJA MIGRAN
                   INDONESIA.pdf
                 </p>
@@ -144,7 +147,14 @@ const UUDanPeraturanPMI = (props: Props) => {
         <div>
           {undangUndang.map((uu, idx) => (
             <p key={idx}>
-              {idx + 1}. <a href="#">{uu["title"]}</a>
+              {idx + 1}.{" "}
+              <a
+                href={`/uu-dan-peraturan-pmi/${uu["link"]}`}
+                target="_blank"
+                className="text-blue-700 hover:underline"
+              >
+                {uu["title"]}
+              </a>
             </p>
           ))}
         </div>
