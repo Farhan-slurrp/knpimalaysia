@@ -24,11 +24,8 @@ const UUDanPeraturanPMI = (props: Props) => {
         </p>
       </div>
       <div>
-        <div className="border border-blue-500">
-          <a
-            href="/uu-dan-peraturan-pmi/uu-perlindungan-pekerja-imigran"
-            className="flex flex-col"
-          >
+        <Link href="/uu-dan-peraturan-pmi/uu-perlindungan-pekerja-imigran">
+          <div className="flex flex-col border border-blue-500">
             <h1 className="flex items-center gap-2 p-2 text-lg font-semibold text-white bg-blue-500">
               <InsertDriveFileOutlinedIcon /> UNDANG-UNDANG NOMOR 18 TAHUN 2017
             </h1>
@@ -39,8 +36,8 @@ const UUDanPeraturanPMI = (props: Props) => {
               </p>
               <small>Tanggal Disahkan & Diundangkan: 22 Nopember 2017</small>
             </div>
-          </a>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
