@@ -65,6 +65,8 @@ const Rekalibrasi = (props: Props) => {
           property="og:description"
           content="Formulir Pendaftaran Calon Peserta."
         />
+        <meta property="og:image" content="/rekalibrasi.jpeg" />
+        <link rel="icon" href="/rekalibrasi.jpeg" />
       </Head>
       <img src="/rekalibrasi.jpeg" alt="info" width="250" height="250" />
       <h2 className="mt-8 mb-12 text-2xl font-bold text-center text-gray-800">
