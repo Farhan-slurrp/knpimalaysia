@@ -71,7 +71,7 @@ const Rekalibrasi = (props: Props) => {
             Nama Lengkap:{" "}
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.1388067542"
             id="nama-lengkap"
@@ -108,7 +108,7 @@ const Rekalibrasi = (props: Props) => {
             Tempat Lahir:{" "}
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.561409861"
             id="tempat-lahir"
@@ -124,7 +124,7 @@ const Rekalibrasi = (props: Props) => {
             Tanggal Lahir:{" "}
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="date"
             name="entry.422346054"
             id="tanggal-lahir"
@@ -173,7 +173,7 @@ const Rekalibrasi = (props: Props) => {
             NOMOR DOKUMEN YANG DIMILIKI SAAT INI (SESUAI PILIHAN DIATAS):
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.1241030908"
             id="no-dokumen"
@@ -189,7 +189,7 @@ const Rekalibrasi = (props: Props) => {
             TANGGAL HABIS BERLAKU PASPOR ATAU SPLP:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none "
+            className="p-2 bg-transparent border border-gray-400 outline-none"
             type="date"
             name="entry.916558265"
             id="habis-masa-berlaku"
@@ -202,7 +202,7 @@ const Rekalibrasi = (props: Props) => {
             nomor hp/wa:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.2019658140"
             id="nomor-hp"
@@ -216,7 +216,7 @@ const Rekalibrasi = (props: Props) => {
             LAHIR SERTA NOMOR DOKUMEN ANAK:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.1617980304"
             id="data-anak"
@@ -266,7 +266,7 @@ const Rekalibrasi = (props: Props) => {
             ALAMAT DI MALAYSIA (Nomor Rumah & Nama Jalan):
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.1792253764"
             id="alamat-di-malaysia"
@@ -279,7 +279,7 @@ const Rekalibrasi = (props: Props) => {
             bandar:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.529814437"
             id="bandar"
@@ -292,7 +292,7 @@ const Rekalibrasi = (props: Props) => {
             negeri:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.1168985113"
             id="negeri"
@@ -308,7 +308,7 @@ const Rekalibrasi = (props: Props) => {
             ALAMAT DI indonesia (Nomor Rumah & Nama Jalan):
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.76524181"
             id="alamat-di-indonesia"
@@ -324,7 +324,7 @@ const Rekalibrasi = (props: Props) => {
             kabupaten/kota:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.1848295780"
             id="kabupaten-kota"
@@ -337,7 +337,7 @@ const Rekalibrasi = (props: Props) => {
             provinsi:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.458209569"
             id="provinsi"
@@ -387,7 +387,7 @@ const Rekalibrasi = (props: Props) => {
             alasan pulang:
           </label>
           <input
-            className="p-2 bg-transparent border border-gray-400 outline-none"
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
             name="entry.840994159"
             id="alasan-pulang"
