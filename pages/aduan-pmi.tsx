@@ -132,7 +132,7 @@ const AduanPMI = (props: Props) => {
             className="p-2 bg-transparent border border-gray-300 outline-none"
             onChange={(e) => setPhoneNum(e.target.value)}
             autoComplete="off"
-            placeholder="60******* (tanpa tanda '+')"
+            placeholder="Example: +60xxxxxxxx"
             required
           />
         </div>
