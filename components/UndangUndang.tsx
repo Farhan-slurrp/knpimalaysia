@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 interface Props {
@@ -6,6 +7,8 @@ interface Props {
 }
 
 const UndangUndang = (props: Props) => {
+  const router = useRouter();
+
   return (
     <div className="p-12">
       <h2 className="py-6 text-xl font-semibold text-center">
@@ -16,6 +19,14 @@ const UndangUndang = (props: Props) => {
         className="w-full border border-gray-400 rounded-md min-h-5"
         allow="autoplay"
       ></iframe>
+      <div className="flex justify-center pt-12">
+        <button
+          onClick={() => router.back()}
+          className="px-4 py-2 text-white bg-blue-500 rounded-md"
+        >
+          Kembali
+        </button>
+      </div>
     </div>
   );
 };
