@@ -21,12 +21,15 @@ export default function handler(
     secure: true,
   });
 
+  console.log();
+
   const mailData = {
     from: process.env.EMAIL_NAME,
     to: process.env.EMAIL_NAME,
-    subject: `${req.body.emailType} DARI ${req.body.name} | NOMOR ${req.body.docType}: ${req.body.docNum}`,
+    subject: `${req.body.emailType} DARI ${req.body.name.toUpperCase()}`,
     text: req.body.message,
-    html: `<div>${req.body.message}</div>`,
+    html: `<i>Dikirim oleh: ${req.body.name}</i><br/><i>Nomor HP/WA: ${req.body.phoneNum}</i><br/><i>Nomor ${req.body.docType}: ${req.body.docNum}</i><br/><br/><br/><div>${req.body.message}</div>`,
+    attachments: req.body.files || null,
   };
 
   transporter.sendMail(mailData, function (err: any, info: any) {

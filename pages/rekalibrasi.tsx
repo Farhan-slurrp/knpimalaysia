@@ -1,15 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 import { SignalWifiStatusbarNullRounded } from "@mui/icons-material";
 import React from "react";
+import SuccessPage from "../components/Sukses";
 
 interface Props {}
 
 const Rekalibrasi = (props: Props) => {
   const [data, setData] = React.useState({});
+  const [name, setName] = React.useState("");
   const [submitBtn, setSubmitBtn] = React.useState("SUBMIT");
+  const [sent, setSent] = React.useState(false);
 
   const handleChange = (e: any) => {
     setData({ ...data, [e.target.name]: e.target.value });
+    if (e.target.name == "entry.1388067542") {
+      setName(e.target.value);
+    }
   };
 
   const handleRequest = async (url: string) => {
@@ -34,13 +40,18 @@ const Rekalibrasi = (props: Props) => {
       query: data,
     });
     await handleRequest(q);
+    setSent(true);
     setSubmitBtn("SUKSES!!");
-    e.target.reset();
-    setData({});
+    // e.target.reset();
+    // setData({});
     setTimeout(() => {
       setSubmitBtn("SUBMIT");
     }, 5000);
   };
+
+  if (sent) {
+    return <SuccessPage type="pendaftaran" name={name} />;
+  }
 
   return (
     <div className="flex flex-col items-center w-full p-6 my-4">
