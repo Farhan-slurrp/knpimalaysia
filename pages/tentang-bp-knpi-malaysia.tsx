@@ -19,7 +19,7 @@ const PengurusKNPI = (props: Props) => {
         <br />
         <span className="text-lg font-semibold">FUNGSI</span> <br />
         <br />
-        Fungsi Badan Perwakilan Komite Nasional Pemuda Indonesia di luar negeri
+        Fungsi Badan Perwakilan Komite Nasional Pemuda Indonesia di Malaysia
         adalah menyelenggarakan kegiatan organisasi dalam bidang-bidang profesi,
         kajian, advokasi, minat bakat dan sosial serta kebudayaan yang
         disesuaikan dalam rangka memperluas jangkauan peran dan partisipasi
@@ -32,7 +32,7 @@ const PengurusKNPI = (props: Props) => {
         Badan Perwakilan KNPI di Malaysia bertujuan : <br />
         <br />
         a) Melaksanakan dan mengkoordinasikan bidang kegiatan organisasi dengan
-        melibatkan seluruh potensi Pemuda Indonesia yang berada di luar negeri
+        melibatkan seluruh potensi Pemuda Indonesia yang berada di Malaysia
         dengan perwakilan Pemerintah Indonesia, kelompok masyarakat Indonesia
         dan masyarakat di negara yang bersangkutan yang dapat di dharma baktikan
         dan bermanfaat bagi seluruh Pemuda khususnya, maupun untuk kepentingan
@@ -41,18 +41,18 @@ const PengurusKNPI = (props: Props) => {
         b) Mengembangkan pola berpikir dan orientasi perjuangan pemuda Indonesia
         ke arah tanggung jawab dan pengabdian terhadap pelaksanaan pembangunan
         bangsa dan negara dalam menjaga tetap utuhnya NKRI melalui peningkatan
-        nasionalisme Pemuda Indonesia di luar negeri yang disosialisasikan
-        kepada masyarakat internasional. <br />
+        nasionalisme Pemuda Indonesia di Malaysia yang disosialisasikan kepada
+        masyarakat internasional. <br />
         <br />
         c) Mengembangkan dan meningkatkan potensi dan kualitas pemuda Indonesia
         dalam kegiatan advokasi, kajian, pengabdian dan sosialisasi program
         secara profesional sebagai bagian dari upaya pelaksanaan pembangunan dan
-        pencitraan bangsa dan negara di luar negeri, <br />
+        pencitraan bangsa dan di Malaysia, <br />
         <br />
         d) Memotivasi Pemuda Indonesia pada khususnya dan generasi muda
         Indonesia pada umumnya dalam rangka mengembangkan inisiatif dan
-        kreativitasnya sesuai minat bakat dan keahlian yang dimilikinya di luar
-        negeri.
+        kreativitasnya sesuai minat bakat dan keahlian yang dimilikinya di
+        Malaysia.
         <br />
         <br />
         <br />
@@ -61,7 +61,7 @@ const PengurusKNPI = (props: Props) => {
         </span>{" "}
         <br />
         <br />
-        Pembentukan Badan Perwakilan KNPI di luar negeri di sahkan dengan Surat
+        Pembentukan Badan Perwakilan KNPI di Malaysia di sahkan dengan Surat
         Keputusan DPP KNPI. Hubungan Kelembagaan antara DPP KNPI dengan Badan
         Perwakilan KNPI di Malaysia : <br />
         <br />

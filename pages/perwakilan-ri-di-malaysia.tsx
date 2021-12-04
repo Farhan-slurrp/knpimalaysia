@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 interface Props {}
 
@@ -10,6 +11,14 @@ const PerwakilanRIMalaysia = (props: Props) => {
 
   return (
     <div className="p-12">
+      <Head>
+        <meta property="og:title" content="Perwakilan RI Di Malaysia" />
+        <meta property="og:image" content="/dubes.jfif" />
+        <meta
+          property="og:description"
+          content="Daftar Perwakilan RI Di Malaysia."
+        />
+      </Head>
       {/* kbri */}
       <div className="flex items-center w-3/4 gap-3 px-6 py-6 mb-6 border border-gray-400">
         <img
