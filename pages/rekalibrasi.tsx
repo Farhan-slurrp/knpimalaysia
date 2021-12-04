@@ -396,7 +396,7 @@ const Rekalibrasi = (props: Props) => {
         </div>
         <button
           type="submit"
-          disabled={submitBtn == "SUBMIT" ? false : true}
+          disabled={submitBtn == "DAFTAR" ? false : true}
           className={`py-2 mt-4 font-semibold text-white uppercase rounded-md ${
             submitBtn == "SUBMIT" ? "bg-green-500" : "bg-blue-500"
           }`}
