@@ -17,7 +17,7 @@
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
-    "link": ["berita", "opini", "#"]
+    "link": ["berita", "opini", "/informasi-kegiatan"]
   },
   "berita": {
     "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
