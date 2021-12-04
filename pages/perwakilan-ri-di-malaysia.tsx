@@ -12,12 +12,12 @@ const PerwakilanRIMalaysia = (props: Props) => {
   return (
     <div className="p-12">
       <Head>
-        <meta property="og:title" content="Perwakilan RI Di Malaysia" />
-        <meta property="og:image" content="/dubes.jfif" />
+        <title>Perwakilan RI Di Malaysia</title>
         <meta
-          property="og:description"
-          content="Daftar Perwakilan RI Di Malaysia."
+          name="description"
+          content="Daftar Alamat dan Pelayanan Perwakilan RI di Malaysia"
         />
+        <link rel="icon" href="/dubes.jfif" />
       </Head>
       {/* kbri */}
       <div className="flex items-center w-3/4 gap-3 px-6 py-6 mb-6 border border-gray-400">
