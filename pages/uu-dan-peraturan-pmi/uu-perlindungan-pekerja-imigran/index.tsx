@@ -3,10 +3,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 import Link from "next/link";
 import React from "react";
+import { useRouter } from "next/router";
 
 interface Props {}
 
 const UUPerlindunganPekerjaImigran = (props: Props) => {
+  const router = useRouter();
   const undangUndang = [
     {
       title:
@@ -645,6 +647,14 @@ const UUPerlindunganPekerjaImigran = (props: Props) => {
               telah dirinci. Hak-hak PMI yang dalam UU PPTKILN hanya 8 item,
               kini telah ditambahkan menjadi 13 item dalam UU PPMI.
             </p>
+          </div>
+          <div className="flex justify-center pt-8">
+            <button
+              onClick={() => router.back()}
+              className="px-4 py-2 text-white bg-blue-500 rounded-md"
+            >
+              Kembali
+            </button>
           </div>
         </div>
       </div>
