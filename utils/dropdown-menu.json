@@ -10,7 +10,7 @@
       "pengurus bp knpi malaysia"
     ],
     "link": [
-      "/sejarah-bp-knpi",
+      "/under-construction",
       "/tentang-bp-knpi-malaysia",
       "/pengurus-bp-knpi-malaysia"
     ]
@@ -25,7 +25,11 @@
   },
   "berita": {
     "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
-    "link": ["/berita-bp-knpi-malaysia", "/berita-dpp-knpi", "/berita-umum"]
+    "link": [
+      "/berita-bp-knpi-malaysia",
+      "/berita-dpp-knpi",
+      "/under-construction"
+    ]
   },
   "aomi-malaysia": {
     "title": [
