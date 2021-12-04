@@ -2,6 +2,7 @@
 import { SignalWifiStatusbarNullRounded } from "@mui/icons-material";
 import React from "react";
 import SuccessPage from "../components/Sukses";
+import Head from "next/head";
 
 interface Props {}
 
@@ -55,6 +56,16 @@ const Rekalibrasi = (props: Props) => {
 
   return (
     <div className="flex flex-col items-center w-full p-6 my-4">
+      <Head>
+        <meta
+          property="og:title"
+          content="Program Pendampingan Rekalibrasi Pulang"
+        />
+        <meta
+          property="og:description"
+          content="Formulir Pendaftaran Calon Peserta."
+        />
+      </Head>
       <img src="/rekalibrasi.jpeg" alt="info" width="250" height="250" />
       <h2 className="mt-8 mb-12 text-2xl font-bold text-center text-gray-800">
         Formulir Pendaftaran Rekalibrasi Pulang
