@@ -1,9 +1,9 @@
 import React from "react";
-import UndangUndang from "../../components/UndangUndang";
+import UndangUndang from "../../../components/UndangUndang";
 
 interface Props {}
 
-const UUPerlindunganPekerjaImigran = (props: Props) => {
+const FileUUPerlindunganPekerjaImigran = (props: Props) => {
   return (
     <UndangUndang
       name="UU NOMOR 18 TAHUN 2017 TENTANG PERLINDUNGAN PEKERJA MIGRAN INDONESIA"
@@ -12,4 +12,4 @@ const UUPerlindunganPekerjaImigran = (props: Props) => {
   );
 };
 
-export default UUPerlindunganPekerjaImigran;
+export default FileUUPerlindunganPekerjaImigran;
