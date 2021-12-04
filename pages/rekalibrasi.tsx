@@ -8,7 +8,7 @@ interface Props {}
 const Rekalibrasi = (props: Props) => {
   const [data, setData] = React.useState({});
   const [name, setName] = React.useState("");
-  const [submitBtn, setSubmitBtn] = React.useState("SUBMIT");
+  const [submitBtn, setSubmitBtn] = React.useState("DAFTAR");
   const [sent, setSent] = React.useState(false);
 
   const handleChange = (e: any) => {
@@ -45,7 +45,7 @@ const Rekalibrasi = (props: Props) => {
     // e.target.reset();
     // setData({});
     setTimeout(() => {
-      setSubmitBtn("SUBMIT");
+      setSubmitBtn("DAFTAR");
     }, 5000);
   };
 
