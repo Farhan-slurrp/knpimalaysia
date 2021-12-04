@@ -12,7 +12,7 @@ const Rekalibrasi = (props: Props) => {
   const [sent, setSent] = React.useState(false);
 
   const handleChange = (e: any) => {
-    setData({ ...data, [e.target.name]: e.target.value });
+    setData({ ...data, [e.target.name]: e.target.value.toUpperCase() });
     if (e.target.name == "entry.1388067542") {
       setName(e.target.value);
     }
