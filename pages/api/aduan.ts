@@ -15,8 +15,8 @@ export default function handler(
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: process.env.EMAIL_NAME,
-      pass: process.env.EMAIL_PASSWORD,
+      user: process.env.NEXT_PUBLIC_EMAIL_NAME,
+      pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,
     },
     secure: true,
   });
@@ -24,8 +24,8 @@ export default function handler(
   console.log();
 
   const mailData = {
-    from: process.env.EMAIL_NAME,
-    to: process.env.EMAIL_NAME,
+    from: process.env.NEXT_PUBLIC_EMAIL_NAME,
+    to: process.env.NEXT_PUBLIC_EMAIL_NAME,
     subject: `${req.body.emailType} DARI ${req.body.name.toUpperCase()}`,
     text: req.body.message,
     html: `<i>Dikirim oleh: ${req.body.name}</i><br/><i>Nomor HP/WA: ${req.body.phoneNum}</i><br/><i>Nomor ${req.body.docType}: ${req.body.docNum}</i><br/><br/><br/><div>${req.body.message}</div>`,
