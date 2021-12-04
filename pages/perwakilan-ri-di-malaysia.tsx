@@ -12,10 +12,11 @@ const PerwakilanRIMalaysia = (props: Props) => {
   return (
     <div className="p-12">
       <Head>
-        <title>Perwakilan RI Di Malaysia</title>
+        <meta property="og:title" content="Perwakilan RI Di Malaysia" />
+        <meta property="og:image" content="/dubes.jfif" />
         <meta
-          name="description"
-          content="Daftar Alamat dan Pelayanan Perwakilan RI di Malaysia"
+          property="og:description"
+          content="Daftar Alamat Dan Pelayanan Perwakilan RI Di Malaysia."
         />
         <link rel="icon" href="/dubes.jfif" />
       </Head>
