@@ -99,8 +99,8 @@ const UUCiptaKerja = (props: Props) => {
         </div>
         <div className="flex flex-col gap-4">
           <h2 className="text-xl font-semibold">
-            PERATURAN PELAKSANAAN DARI UNDANG-UNDANG NO. 18 TENTANG PELINDUNGAN
-            PEKERJA MIGRAN INDONESIA:
+            PERATURAN PELAKSANAAN DARI BAB IV KETENAGAKERJAAN: UNDANG-UNDANG NO.
+            18 TENTANG PELINDUNGAN PEKERJA MIGRAN INDONESIA:
           </h2>
           <div>
             {undangUndang.map((uu, idx) => (

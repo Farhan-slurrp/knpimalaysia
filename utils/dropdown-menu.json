@@ -1,7 +1,7 @@
 {
   "dpp-knpi": {
     "title": ["sejarah knpi", "pengurus dpp", "ketua umum"],
-    "link": ["/sejarah-knpi", "opini", "#"]
+    "link": ["/sejarah-knpi", "/under-construction", "/under-construction"]
   },
   "bp-knpi-malaysia": {
     "title": [
@@ -17,7 +17,11 @@
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
-    "link": ["berita", "opini", "/informasi-kegiatan"]
+    "link": [
+      "/under-construction",
+      "/under-construction",
+      "/under-construction"
+    ]
   },
   "berita": {
     "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
@@ -37,6 +41,6 @@
       "berita pmi malaysia",
       "aduan dan aspirasi pmi malaysia"
     ],
-    "link": ["/uu-dan-peraturan-pmi", "media-online", "/aduan-pmi"]
+    "link": ["/uu-dan-peraturan-pmi", "/berita-pmi", "/aduan-pmi"]
   }
 }
