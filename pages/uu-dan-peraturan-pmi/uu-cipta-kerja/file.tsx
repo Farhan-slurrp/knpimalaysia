@@ -6,7 +6,7 @@ interface Props {}
 const FileUUCiptaKerja = (props: Props) => {
   return (
     <UndangUndang
-      name="UNDANG-UNDANG NOMOR 11 TAHUN 2020 TENTANG CIPTA KERJA"
+      name="BAB IV KETENAGAKERJAAN: UNDANG-UNDANG NOMOR 11 TAHUN 2020 TENTANG CIPTA KERJA"
       link="https://drive.google.com/file/d/14iCFZ2uRdhXi-IfL88uSXccCE26gQgR3/preview"
     ></UndangUndang>
   );
