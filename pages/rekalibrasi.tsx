@@ -117,6 +117,7 @@ const Rekalibrasi = (props: Props) => {
             name="entry.561409861"
             id="tempat-lahir"
             onChange={handleChange}
+            required
           />
         </div>
         {/* tanggal lahir */}
