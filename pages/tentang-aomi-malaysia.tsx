@@ -12,7 +12,7 @@ const TentangAOMI = (props: Props) => {
       </a>
       <p className="text-lg font-semibold text-center">
         <i>
-          “Bekerjasama dan Sama Sama Bekerja - Memupuk Kebersamaan Dalam
+          “Bekerja-sama dan Sama-sama Bekerja - Memupuk Kebersamaan Dalam
           Keberagaman”
         </i>
       </p>
@@ -49,10 +49,10 @@ const TentangAOMI = (props: Props) => {
         20. Persatuan Bawean Malaysia (PBM). <br />
         21. Asosiasi Pekerja Migran Indonesia (APMI) Malaysia. <br />
         22. Persaudaraan Pekerja Muslim Indonesia (PPMI) Malaysia. <br />
-        23. Himpunan Keluarga Tenaga-kerja Perantau (HKTP) Malaysia. <br />
+        23. Himpunan Tenaga Kerja Perantau (HTKP) Malaysia. <br />
         24. Kesatuan Organisasi Serbaguna Gotong Royong 1957 (KOSGORO 1957)
         Malaysia. <br />
-        25. Sarikat Buruh Migrant Indonesia (SBMI) Malaysia. <br />
+        25. Serikat Buruh Migran Indonesia (SBMI) Malaysia. <br />
         26. Himpunan Keluarga Kerinci Bersatu (HKKBM) Malaysia. <br />
         27. Keluarga Besar Kerinci Bersatu (KBKBM) Malaysia. <br />
         28. Ikatan Keluarga Sakti Alam Kerinci (IKEBSAK) Malaysia. <br />
@@ -62,7 +62,7 @@ const TentangAOMI = (props: Props) => {
         32. Himpunan Keluarga Kabupaten Batubara (HIKABARA) Malaysia. <br />
         33. Ikatan Keluarga Minang (IKM) Malaysia. <br />
         34. Alkifayah KRB Malaysia. <br />
-        35. Ikatan Keluarga & Simpatisan Pondok Penyapen (IKBAS) Malaysia.{" "}
+        35. Ikatan Keluarga & Simpatisan Pondok Penyapen (IKBAS) Malaysia.
         <br />
         36. Persatuan Warga Gresik Malaysia (PWGM). <br />
       </p>
