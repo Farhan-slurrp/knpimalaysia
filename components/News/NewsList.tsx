@@ -22,7 +22,7 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
             onClick={() => router.push(`/${baseLink}/${news["id"]}`)}
           >
             <img
-              src={news["thumbnail"] ? news["thumbnail"] : "/no-image.jpg"}
+              src={news["thumbnail"] ? news["thumbnail"] : "/knpi.png"}
               alt="no-img"
               width="80"
               height="70"
