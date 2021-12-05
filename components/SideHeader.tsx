@@ -16,7 +16,7 @@ const SideHeader = (props: Props) => {
     <div className="sticky top-0 z-50 flex flex-col h-screen pt-6 bg-blue-500">
       <a
         href="/"
-        className={`uppercase px-3 py-3 items-center hover:bg-blue-600 ${
+        className={`uppercase px-3 py-3 border-t border-b md:border-0 border-white items-center hover:bg-blue-600 ${
           router.route == "/" ? "bg-blue-700" : "bg-blue-500"
         }`}
       >
@@ -28,7 +28,7 @@ const SideHeader = (props: Props) => {
       <DropDownMenu title="galeri kegiatan knpi" menus={menu["galeri"]} />
       <a
         href="/perwakilan-ri-di-malaysia"
-        className={`px-4 py-4 uppercase hover:bg-blue-600
+        className={`px-4 py-4 uppercase hover:bg-blue-600 border-t border-b md:border-0 border-white 
           ${
             router.route == "/perwakilan-ri-di-malaysia"
               ? "bg-blue-700"
@@ -39,14 +39,14 @@ const SideHeader = (props: Props) => {
       </a>
       <a
         href="/opini"
-        className={`px-4 py-4 uppercase hover:bg-blue-600
+        className={`px-4 py-4 uppercase hover:bg-blue-600 border-t border-b md:border-0 border-white 
           ${router.route == "/opini" ? "bg-blue-700" : "bg-blue-500"}`}
       >
         opini
       </a>
       <a
         href="/jurnal"
-        className={`px-4 py-4 uppercase hover:bg-blue-600
+        className={`px-4 py-4 uppercase hover:bg-blue-600 border-t border-b md:border-0 border-white 
           ${router.route == "/jurnal" ? "bg-blue-700" : "bg-blue-500"}`}
       >
         jurnal

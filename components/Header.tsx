@@ -66,7 +66,7 @@ function Header({}: Props): ReactElement {
         <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />
       </div>
       {/* mobile screen */}
-      <div className="visible w-screen py-2 text-xs font-bold text-white bg-blue-500 md:invisible">
+      <div className="flex flex-col items-end visible w-screen py-4 text-xs font-bold text-white bg-blue-500 md:invisible">
         {isOpen ? (
           <CloseIcon
             className="mx-4 cursor-pointer"
