@@ -19,6 +19,14 @@ module.exports = {
       4: "100vh",
       5: "150vh",
     },
+    minWidth: {
+      0: "0",
+      1: "25vw",
+      2: "50vw",
+      3: "75vw",
+      4: "100vw",
+      5: "150vw",
+    },
   },
   variants: {
     extend: {},

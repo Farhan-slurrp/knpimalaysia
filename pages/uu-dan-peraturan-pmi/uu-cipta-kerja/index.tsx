@@ -78,21 +78,40 @@ const UUCiptaKerja = (props: Props) => {
             <p>Nomor: 11</p>
             <p>Tanggal Disahkan: 2 Nopember 2020</p>
             <p>Tanggal Diundangkan: 2 Nopember 2020</p>
-            <p className="flex items-center gap-3">
+            <p className="flex gap-3">
               File:{" "}
-              <div className="flex items-center gap-2 px-3 py-1 border border-gray-300 group rounded-xl">
-                <img
-                  src="https://www.datalytyx.com/wp-content/uploads/2017/10/PDF-image.png"
-                  alt="pdf"
-                  width="17"
-                  height="17"
-                />
-                <Link href="/uu-dan-peraturan-pmi/uu-cipta-kerja/file">
-                  <p className="text-blue-700 cursor-pointer group-hover:underline">
-                    BAB IV KETENAGAKERJAAN: UNDANG-UNDANG NOMOR 11 TAHUN 2020
-                    TENTANG CIPTA KERJA.pdf
-                  </p>
-                </Link>
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2 px-3 py-1 border border-gray-300 group rounded-xl">
+                  <img
+                    src="https://www.datalytyx.com/wp-content/uploads/2017/10/PDF-image.png"
+                    alt="pdf"
+                    width="17"
+                    height="17"
+                  />
+                  <Link href="/uu-dan-peraturan-pmi/uu-cipta-kerja/file">
+                    <p className="font-semibold text-blue-700 cursor-pointer group-hover:underline">
+                      BAB IV KETENAGAKERJAAN: UNDANG-UNDANG NOMOR 11 TAHUN 2020
+                      TENTANG CIPTA KERJA.pdf
+                    </p>
+                  </Link>
+                </div>
+                <div className="flex items-center gap-2 px-3 py-1 border border-gray-300 group rounded-xl">
+                  <img
+                    src="https://www.datalytyx.com/wp-content/uploads/2017/10/PDF-image.png"
+                    alt="pdf"
+                    width="17"
+                    height="17"
+                  />
+                  <a
+                    href="https://drive.google.com/file/d/1vP-li9s6ezrskzTpD--nBYg_7CNh7u9A/view"
+                    target="_blank"
+                  >
+                    <p className="text-blue-700 cursor-pointer group-hover:underline">
+                      Naskah Lengkap Undang-Undang Nomor 11 Tentang Cipta Kerja
+                      (15 Bab dan 186 Pasal).pdf
+                    </p>
+                  </a>
+                </div>
               </div>
             </p>
           </div>

@@ -18,7 +18,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
       <div>
         <button
           type="button"
-          className={`inline-flex justify-center w-max px-4 py-4 font-bold uppercase hover:bg-blue-600 ${
+          className={`inline-flex md:justify-center w-screen md:w-max px-4 py-4 font-bold uppercase hover:bg-blue-600 ${
             menus["link"].includes(router.route) ? "bg-blue-700" : "bg-blue-500"
           }`}
           id="menu-button"

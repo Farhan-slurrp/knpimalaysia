@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { INews } from "../../utils/news";
 import { useRouter } from "next/router";
@@ -11,12 +12,21 @@ const SingleNews = ({ news }: Props) => {
 
   return (
     <div className="flex flex-col gap-10 px-4 py-12">
-      <p className="text-2xl font-semibold text-center text-gray-900">
-        {news ? news["title"] : ""}
-      </p>
+      <a
+        href={news ? (news["source"] ? news["source"] : "#") : "#"}
+        target="_blank"
+      >
+        <p className="text-2xl font-semibold text-center text-gray-900">
+          {news ? news["title"] : ""}
+        </p>
+      </a>
+      <small>
+        <span>&#42;</span>
+        <i>Klik judul jika terjadi error / berita tidak muncul</i>
+      </small>
       {news && news["source"] && (
         <iframe
-          className="w-full min-h-4"
+          className="w-full min-h-5"
           src={news ? news["source"] : ""}
           frameBorder="0"
         ></iframe>

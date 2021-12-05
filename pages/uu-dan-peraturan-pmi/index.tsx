@@ -18,6 +18,12 @@ const allData = [
     dates: "Tanggal Disahkan & Diundangkan: 2 November 2020",
     link: "/uu-dan-peraturan-pmi/uu-cipta-kerja",
   },
+  {
+    title: "PERATURAN BADAN PELINDUNGAN PEKERJA MIGRAN INDONESIA",
+    desc: "Basis Data Peraturan Yang Ditetapkan Oleh Kepala BP2MI Republik Indonesia",
+    dates: "",
+    link: "/uu-dan-peraturan-pmi/perban-perlindungan-pekerja-migran-indonesia",
+  },
 ];
 
 const UUDanPeraturanPMI = (props: Props) => {
@@ -44,7 +50,7 @@ const UUDanPeraturanPMI = (props: Props) => {
                 {data["title"]}
               </h1>
               <div className="px-4 py-2 text-lg">
-                <p className="font-semibold">{data["desc"]}</p>
+                <p className="font-semibold">{data["desc"].toUpperCase()}</p>
                 <small>{data["dates"]}</small>
               </div>
             </div>

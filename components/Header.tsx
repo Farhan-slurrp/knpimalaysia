@@ -7,16 +7,21 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import HomeIcon from "@mui/icons-material/Home";
 import Link from "next/link";
+import MenuIcon from "@mui/icons-material/Menu";
+import SideHeader from "./SideHeader";
+import CloseIcon from "@mui/icons-material/Close";
 
 interface Props {}
 
 function Header({}: Props): ReactElement {
   const router = useRouter();
+  const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col-reverse w-full md:flex-col">
       <Image src="/banner.jpg" alt="banner" height="424" width="400"></Image>
-      <div className="flex flex-wrap items-center justify-center w-full text-xs font-bold text-white bg-blue-500">
+      {/* wide screen */}
+      <div className="flex flex-wrap items-center justify-center invisible w-full text-xs font-bold text-white bg-blue-500 md:visible">
         <a
           href="/"
           className={`uppercase px-3 py-3 items-center hover:bg-blue-600 ${
@@ -59,6 +64,21 @@ function Header({}: Props): ReactElement {
         </a>
         <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />
         <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />
+      </div>
+      {/* mobile screen */}
+      <div className="visible w-screen py-2 text-xs font-bold text-white bg-blue-500 md:invisible">
+        {isOpen ? (
+          <CloseIcon
+            className="mx-4 cursor-pointer"
+            onClick={() => setIsOpen(!isOpen)}
+          />
+        ) : (
+          <MenuIcon
+            className="mx-4 cursor-pointer"
+            onClick={() => setIsOpen(!isOpen)}
+          />
+        )}
+        {isOpen && <SideHeader />}
       </div>
     </div>
   );
