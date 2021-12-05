@@ -13,7 +13,7 @@ const SideHeader = (props: Props) => {
   const router = useRouter();
 
   return (
-    <div className="sticky top-0 z-50 flex flex-col h-screen pt-6 bg-blue-500">
+    <div className="fixed z-50 flex flex-col h-screen pt-6 overflow-y-scroll bg-blue-500 top-12">
       <a
         href="/"
         className={`uppercase px-3 py-3 border-t border-b md:border-0 border-white items-center hover:bg-blue-600 ${
