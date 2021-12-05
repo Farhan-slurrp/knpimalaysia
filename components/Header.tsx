@@ -21,7 +21,7 @@ function Header({}: Props): ReactElement {
     <div className="flex flex-col-reverse w-full md:flex-col">
       <Image src="/banner.jpg" alt="banner" height="424" width="400"></Image>
       {/* wide screen */}
-      <div className="flex flex-wrap items-center justify-center invisible w-full text-xs font-bold text-white bg-blue-500 md:visible">
+      <div className="flex-wrap items-center justify-center hidden w-full text-xs font-bold text-white bg-blue-500 md:flex">
         <a
           href="/"
           className={`uppercase px-3 py-3 items-center hover:bg-blue-600 ${
