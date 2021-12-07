@@ -20,9 +20,9 @@ const Layout = ({ children }: Props) => {
       </Head>
 
       <Header />
-      <div className="flex w-full">
-        <div className="w-3/4">{children}</div>
-        <Sidebar />
+      <div className="flex w-screen md:w-full">
+        <div className="">{children}</div>
+        {/* <Sidebar /> */}
       </div>
     </div>
   );

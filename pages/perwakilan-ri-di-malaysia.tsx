@@ -10,7 +10,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
   const router = useRouter();
 
   return (
-    <div className="p-12">
+    <div className="w-screen p-2 md:p-12">
       <Head>
         <meta property="og:title" content="Perwakilan RI Di Malaysia" />
         <meta property="og:image" content="/dubes.jfif" />
@@ -21,7 +21,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
         <link rel="icon" href="/dubes.jfif" />
       </Head>
       {/* kbri */}
-      <div className="flex items-center w-3/4 gap-3 px-6 py-6 mb-6 border border-gray-400">
+      <div className="flex flex-col flex-wrap items-center w-full gap-3 px-2 py-6 mb-6 border border-gray-400 md:flex-nowrap md:flex-row md:px-6 md:w-3/4">
         <img
           onClick={() => router.push("/berita-umum/0")}
           src="/dubes.jfif"
@@ -40,7 +40,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
           <span className="text-blue-500">(Sumber: detiknews)</span>
         </p>
       </div>
-      <div>
+      <div className="flex flex-col flex-wrap">
         <h2 className="text-xl font-semibold">
           1. KEDUTAAN BESAR REPUBLIK INDONESIA (KBRI) KUALA LUMPUR, MALAYSIA
         </h2>
@@ -207,7 +207,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </div>
         </div>
         {/* cara daftar */}
-        <div className="flex items-center gap-2">
+        <div className="flex flex-col gap-2 md:items-center lg:flex-row">
           <p className="font-semibold">
             Cara Daftar Temu Janji Pelayanan KBRI Kuala Lumpur:
           </p>
@@ -236,7 +236,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.facebook.com/IndonesianEmbassyKualaLumpur"
               >
-                https://www.facebook.com/IndonesianEmbassyKualaLumpur
+                Indonesian Embassy Kuala Lumpur
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -251,7 +251,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.instagram.com/indonesiainkualalumpur"
               >
-                https://www.instagram.com/indonesiainkualalumpur
+                @indonesiainkualalumpur
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -266,7 +266,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://twitter.com/IndonesiaInKL"
               >
-                https://twitter.com/IndonesiaInKL
+                @IndonesiaInKL
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -281,7 +281,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.youtube.com/user/kbrikualalumpur"
               >
-                https://www.youtube.com/user/kbrikualalumpur
+                Embassy of the Republic of Indonesia Kuala Lumpur
               </a>
             </p>
           </div>
@@ -391,7 +391,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
         </div>
         {/* janji temu */}
         <div className="py-6">
-          <h3 className="font-semibold">
+          <h3 className="flex flex-col py-1 font-semibold lg:flex-row">
             Daftar Temu Janji Pelayanan KJRI Penang:
             <a
               target="_blank"
@@ -438,7 +438,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.facebook.com/indonesiainpenang"
               >
-                https://www.facebook.com/indonesiainpenang
+                Konsulat Jenderal RI Penang
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -453,7 +453,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.instagram.com/indonesiainpenang"
               >
-                https://www.instagram.com/indonesiainpenang
+                @indonesiainpenang
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -468,7 +468,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://twitter.com/IndonesiaPenang"
               >
-                https://twitter.com/IndonesiaPenang
+                @IndonesiaPenang
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -483,7 +483,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.youtube.com/channel/UC0ObKT56xhXjqTo8cKhZCgQ"
               >
-                https://www.youtube.com/channel/UC0ObKT56xhXjqTo8cKhZCgQ
+                KJRI Penang
               </a>
             </p>
           </div>
@@ -647,7 +647,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.facebook.com/IndonesianInJohorBahru"
               >
-                https://www.facebook.com/IndonesianInJohorBahru
+                Indonesian Consulate General Johor Bahru
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -662,7 +662,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.instagram.com/indonesiainjb"
               >
-                https://www.instagram.com/indonesiainjb
+                @indonesiainjb
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -677,7 +677,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://twitter.com/indonesiainjb"
               >
-                https://twitter.com/indonesiainjb
+                @indonesiainjb
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -692,7 +692,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.youtube.com/channel/UCcqMN5IRhG5zs6W89atgZbQ"
               >
-                https://www.youtube.com/channel/UCcqMN5IRhG5zs6W89atgZbQ
+                KJRI Johor Bahru TV
               </a>
             </p>
           </div>
@@ -848,14 +848,13 @@ const PerwakilanRIMalaysia = (props: Props) => {
             Aplikasi Pendaftaran Online Whatsapp Keimigrasian (APOWAKIM) KJRI
             Kuching:
           </h3>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <p>Tutorial:</p>
             <a
               target="_blank"
               className="ml-2 hover:text-blue-700"
               href="https://www.facebook.com/kjrikuching/videos/tutorial-apowakim-aplikasi-pendaftaran-online-whatsapp-keimigrasian-kjri-kuching/908880299630166/"
             >
-              https://www.facebook.com/kjrikuching/videos/tutorial-apowakim-aplikasi-pendaftaran-online-whatsapp-keimigrasian-kjri-kuching/908880299630166/
               <span className="text-blue-700">(Klik disini!)</span>
             </a>
           </div>
@@ -876,7 +875,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.facebook.com/kjrikuching"
               >
-                https://www.facebook.com/kjrikuching
+                KJRI Kuching
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -891,7 +890,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.instagram.com/kjrikuching"
               >
-                https://www.instagram.com/kjrikuching
+                @kjrikuching
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -906,7 +905,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://twitter.com/kjrikuching"
               >
-                https://twitter.com/kjrikuching
+                @kjrikuching
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -921,7 +920,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.youtube.com/channel/UCuYsNARXP6zSJvWJhtOYTWQ"
               >
-                https://www.youtube.com/channel/UCuYsNARXP6zSJvWJhtOYTWQ
+                kjri kuching
               </a>
             </p>
           </div>
@@ -1056,7 +1055,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.facebook.com/kjrikotakinabalu"
               >
-                https://www.facebook.com/kjrikotakinabalu
+                Kjri Kota Kinabalu I
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -1071,7 +1070,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.instagram.com/indonesiainkotakinabalu"
               >
-                https://www.instagram.com/indonesiainkotakinabalu
+                @indonesiainkotakinabalu
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -1086,7 +1085,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://twitter.com/indonesiainkk"
               >
-                https://twitter.com/indonesiainkk
+                @indonesiainkk
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -1101,7 +1100,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.youtube.com/channel/UCdUmig1xs_ibKTvFay8MzuQ"
               >
-                https://www.youtube.com/channel/UCdUmig1xs_ibKTvFay8MzuQ
+                KJRI Kota Kinabalu TV
               </a>
             </p>
           </div>
@@ -1198,7 +1197,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </table>
         </div>
         {/* cara daftar */}
-        <div className="flex flex-col gap-2 py-6">
+        <div className="flex flex-col flex-wrap gap-2 py-6">
           <p className="font-semibold">
             Daftar Temu Janji Pelayanan KRI Tawau:
           </p>
@@ -1227,7 +1226,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.facebook.com/konsulatritawau"
               >
-                https://www.facebook.com/konsulatritawau
+                Konsulat RI Tawau
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -1242,7 +1241,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.instagram.com/indonesiaintawau"
               >
-                https://www.instagram.com/indonesiaintawau
+                @indonesiaintawau
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -1257,7 +1256,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://twitter.com/kritawau"
               >
-                https://twitter.com/kritawau
+                @kritawau
               </a>
             </p>
             <p className="flex items-center gap-2">
@@ -1272,7 +1271,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                 className="ml-2 hover:underline hover:text-blue-700"
                 href="https://www.youtube.com/channel/UCQquJ4wBetIiJPasZG6oglw"
               >
-                https://www.youtube.com/channel/UCQquJ4wBetIiJPasZG6oglw
+                media kri tawau
               </a>
             </p>
           </div>
