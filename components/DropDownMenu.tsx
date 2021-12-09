@@ -37,11 +37,9 @@ const DropDownMenu = ({ title, menus }: Props) => {
           onClick={() => setIsOpen(!isOpen)}
         >
           {title}
-          {isOpen ? (
-            <ExpandLessIcon className="block md:hidden" />
-          ) : (
-            <ExpandMoreIcon className="block md:hidden" />
-          )}
+          <div className="block md:hidden">
+            {isOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+          </div>
         </button>
       </div>
       <div

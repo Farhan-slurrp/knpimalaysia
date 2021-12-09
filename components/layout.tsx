@@ -28,7 +28,7 @@ const Layout = ({ children }: Props) => {
 
       <Header />
       <div className="flex justify-center w-full min-h-4">
-        <div className="">{children}</div>
+        <div>{children}</div>
         {/* <Sidebar /> */}
       </div>
     </div>
