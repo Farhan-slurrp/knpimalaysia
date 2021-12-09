@@ -1,7 +1,10 @@
 import { useRouter } from "next/router";
 import React from "react";
 
-const AppStore = React.createContext(null);
+const AppStore = React.createContext({
+  isOpen: false,
+  setIsOpen: (isOpen: boolean) => {},
+});
 AppStore.displayName = "AppStore";
 
 export const useAppStore = () => React.useContext(AppStore);
