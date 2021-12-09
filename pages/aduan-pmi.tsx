@@ -81,14 +81,14 @@ const AduanPMI = (props: Props) => {
   }
 
   return (
-    <div className="p-12">
+    <div className="p-1 md:p-12">
       <h2 className="pb-8 text-2xl font-semibold text-center">
         BOX ADUAN DAN ASPIRASI PMI
       </h2>
       <form
         action="POST"
         onSubmit={handleSubmit}
-        className="flex flex-col gap-5 p-16 border border-gray-300 rounded-md"
+        className="flex flex-col gap-5 p-2 border border-gray-300 rounded-md md:p-16 md:min-w-2"
       >
         <div className="flex flex-col gap-3">
           <label htmlFor="doctype">
@@ -169,7 +169,7 @@ const AduanPMI = (props: Props) => {
           />
         </div>
         <div className="flex flex-col gap-3">
-          <div className="flex items-center justify-between w-full">
+          <div className="flex flex-col-reverse items-center justify-between w-full gap-2 md:flex-row">
             <label htmlFor="message">
               Pesan: <span className="text-red-500">&#42;</span>
             </label>

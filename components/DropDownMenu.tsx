@@ -1,5 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 
 interface Props {
   title: string;
@@ -18,7 +20,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
       <div>
         <button
           type="button"
-          className={`inline-flex md:justify-center w-screen md:w-max px-4 py-4 font-bold uppercase hover:bg-blue-600 ${
+          className={`inline-flex border-b md:border-0 border-white items-center justify-between md:justify-center w-screen md:w-max px-4 py-4 font-bold uppercase hover:bg-blue-600 ${
             menus["link"].includes(router.route)
               ? "bg-blue-500 md:bg-blue-700"
               : "bg-blue-500"
@@ -32,13 +34,19 @@ const DropDownMenu = ({ title, menus }: Props) => {
               setIsOpen(false);
             }, 4000);
           }}
+          onClick={() => setIsOpen(!isOpen)}
         >
           {title}
+          {isOpen ? (
+            <ExpandLessIcon className="block md:hidden" />
+          ) : (
+            <ExpandMoreIcon className="block md:hidden" />
+          )}
         </button>
       </div>
       <div
-        className={`z-50 md:absolute right-0 min-w-full w-screen border-b border-t border-white md:w-max bg-blue-500 origin-top-right md:shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${
-          isOpen ? "md:visible" : "md:invisible"
+        className={`z-50 md:absolute right-0 min-w-full w-screen md:w-max bg-blue-500 origin-top-right md:shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none border-b md:border-0 border-white ${
+          isOpen ? "flex flex-col md:visible" : "hidden md:invisible"
         }`}
         role="menu"
         aria-orientation="vertical"

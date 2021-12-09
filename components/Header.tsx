@@ -10,12 +10,13 @@ import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import SideHeader from "./SideHeader";
 import CloseIcon from "@mui/icons-material/Close";
+import { useAppStore } from "../stores/AppContext";
 
 interface Props {}
 
 function Header({}: Props): ReactElement {
   const router = useRouter();
-  const [isOpen, setIsOpen] = React.useState(false);
+  const { isOpen, setIsOpen } = useAppStore();
 
   return (
     <div className="flex flex-col-reverse w-full md:flex-col">
@@ -66,7 +67,7 @@ function Header({}: Props): ReactElement {
         <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />
       </div>
       {/* mobile screen */}
-      <div className="flex flex-col items-end visible w-screen py-4 text-xs font-bold text-white bg-blue-500 md:invisible">
+      <div className="flex flex-col items-end visible w-full py-4 text-xs font-bold text-white bg-blue-500 shadow-xl md:invisible">
         {isOpen ? (
           <CloseIcon
             className="mx-4 cursor-pointer"
