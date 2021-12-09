@@ -26,7 +26,7 @@ const SingleNews = ({ news }: Props) => {
       </small>
       {news && news["source"] && (
         <iframe
-          className="w-full border border-gray-400 rounded-md min-h-5"
+          className="w-full md:min-w-3 border border-gray-400 rounded-md min-h-5"
           src={news ? news["source"] : ""}
           frameBorder="0"
         ></iframe>
