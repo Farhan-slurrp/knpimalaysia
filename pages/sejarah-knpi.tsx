@@ -8,7 +8,7 @@ const SejarahKNPI = (props: Props) => {
       <h1 className="pt-16 pb-8 text-xl font-semibold text-center">
         SEJARAH UMUM KNPI
       </h1>
-      <div className="px-12 py-6 text-justify">
+      <div className="px-6 md:px-12 py-6 text-justify">
         <p>
           Komite Nasional Pemuda Indonesia atau KNPI merupakan sebuah organisasi
           kepemudaan yang ada di Indonesia.
