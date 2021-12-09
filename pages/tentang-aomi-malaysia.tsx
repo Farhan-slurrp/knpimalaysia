@@ -6,7 +6,7 @@ interface Props {}
 
 const TentangAOMI = (props: Props) => {
   return (
-    <div className="flex flex-col justify-center gap-6 px-16 py-6">
+    <div className="flex flex-col justify-center gap-6 px-6 md:px-16 py-6">
       <a href="https://aomi.org.my" target="_blank">
         <img src="/aomi.png" alt="aomi" className="w-full" />
       </a>

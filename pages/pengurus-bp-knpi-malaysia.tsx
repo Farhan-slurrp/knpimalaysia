@@ -5,13 +5,13 @@ interface Props {}
 
 const PengurusBPKNPI = (props: Props) => {
   return (
-    <div className="p-12">
+    <div className="p-2 md:p-12">
       <h1 className="text-2xl font-semibold text-center">
         KOMPOSISI DAN PERSONALIA <br />
         BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA DI MALAYSIA <br />
         PERIODE 2019 – 2022
       </h1>
-      <table className="w-full m-12">
+      <table className="w-full mx-6 my-12 md:m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Ketua</td>
           <td>
@@ -52,7 +52,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Muhammad Rajiv Syarif</td>
         </tr>
       </table>
-      <table className="w-full m-12">
+      <table className="w-full mx-6 my-12 md:m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Sekretaris</td>
           <td>
@@ -77,7 +77,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Ikhwan Abdul Majid Nasution</td>
         </tr>
       </table>
-      <table className="w-full m-12">
+      <table className="w-full mx-6 my-12 md:m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Bendahara</td>
           <td>
@@ -100,7 +100,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Robby Aditya Nugraha</td>
         </tr>
       </table>
-      <table className="w-full m-12">
+      <table className="w-full mx-6 my-12 md:m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Penasehat</td>
           <td>: Sagir Alva</td>
@@ -114,12 +114,12 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Khairul Hamzah</td>
         </tr>
       </table>
-      <table className="w-full mx-12">
+      <table className="w-full mx-6 md:mx-12">
         <tr className="w-full">
           <td className="font-semibold">Divisi-divisi:</td>
         </tr>
       </table>
-      <table className="w-full m-12 mt-4">
+      <table className="w-full mx-6 my-12 md:m-12 mt-4">
         <tr className="w-full">
           <td className="font-semibold">1. Divisi Keorganisasian</td>
         </tr>
@@ -160,7 +160,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Resa Tifani Asni</td>
         </tr>
       </table>
-      <table className="w-full m-12 mt-4">
+      <table className="w-full mx-6 my-12 md:m-12 mt-4">
         <tr className="w-full">
           <td className="font-semibold">2. Divisi Advokasi, Hukum & HAM</td>
         </tr>
@@ -197,7 +197,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Herlina Pratika</td>
         </tr>
       </table>
-      <table className="w-full m-12 mt-4">
+      <table className="w-full mx-6 my-12 md:m-12 mt-4">
         <tr className="w-full">
           <td className="font-semibold">3. Divisi Ekonomi & Kewirausahawan</td>
         </tr>
@@ -242,7 +242,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Shafa Alvia</td>
         </tr>
       </table>
-      <table className="w-full m-12 mt-4">
+      <table className="w-full mx-6 my-12 md:m-12 mt-4">
         <tr className="w-full">
           <td className="font-semibold">
             4. Divisi Olahraga, Budaya & Pariwisata
@@ -281,7 +281,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Deshalsa Rahma Fitria</td>
         </tr>
       </table>
-      <table className="w-full m-12 mt-4">
+      <table className="w-full mx-6 my-12 md:m-12 mt-4">
         <tr className="w-full">
           <td className="font-semibold">5. Divisi Komunikasi & Informatika</td>
         </tr>
@@ -326,7 +326,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td>: Evita Putri</td>
         </tr>
       </table>
-      <table className="w-full mx-12 mt-4">
+      <table className="w-full mx-6 md:mx-12 mt-4">
         <tr className="w-full">
           <td className="font-semibold">6. Divisi Pelajar & Mahasiswa</td>
         </tr>
