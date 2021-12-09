@@ -12,13 +12,13 @@ interface Props {
 const NewsList = ({ title, allNews, baseLink }: Props) => {
   const router = useRouter();
   return (
-    <div className="p-4">
+    <div className="p-2 md:p-4">
       <h2 className="py-4 text-2xl font-semibold text-gray-900">{title}</h2>
       <div className="flex flex-col gap-4">
         {allNews.map((news) => (
           <div
             key={news["source"]}
-            className="flex items-center gap-4 p-4 border border-gray-300 rounded-md cursor-pointer"
+            className="flex items-center flex-wrap gap-4 p-4 border border-gray-300 rounded-md cursor-pointer"
             onClick={() => router.push(`/${baseLink}/${news["id"]}`)}
           >
             <img
@@ -28,7 +28,7 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
               height="70"
               className="border border-gray-400"
             />
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col flex-wrap justify-center">
               <p className="text-xl hover:text-blue-500 hover:underline">
                 {news["title"]}
               </p>
