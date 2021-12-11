@@ -103,10 +103,10 @@ const SideHeader = (props: Props) => {
           className="flex gap-2 items-center"
         >
           <img
-            src="https://cliply.co/wp-content/uploads/2019/04/371903520_SOCIAL_ICONS_YOUTUBE.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png"
             alt="yt"
-            width={26}
-            height={26}
+            width={20}
+            height={20}
           />
           BP KNPI MALAYSIA
         </a>
