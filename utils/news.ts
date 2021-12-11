@@ -4,6 +4,8 @@ export interface INews {
   source?: string;
   content?: string;
   thumbnail?: string;
+  publisher?: string;
+  publishDate?: string;
 }
 
 export const BPKNPINews: INews[] = [
@@ -14,6 +16,8 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/2488769/knpi-malaysia-gelar-peringatan-sumpah-pemuda",
     thumbnail:
       "https://cdn.antaranews.com/cache/800x533/2021/10/28/Tengku-Adnan1.jpg.webp",
+    publisher: "Antara News",
+    publishDate: "29 Oktober 2021",
   },
   {
     id: "1",
@@ -22,6 +26,8 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/2372038/ppi-malaysia-diskusikan-legalitas-dokumen-pmi",
     thumbnail:
       "https://cdn.antaranews.com/cache/800x533/2021/09/04/Webinar.jpeg.webp",
+    publisher: "Antara News",
+    publishDate: "4 September 2021",
   },
   {
     id: "2",
@@ -31,6 +37,8 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/2266266/knpi-minta-presiden-fasilitasi-pemulangan-pmi-malaysia-lebih-masif",
     thumbnail:
       "https://cdn.antaranews.com/cache/800x533/2021/07/14/Tengku-Adnan.jpeg.webp",
+    publisher: "Antara News",
+    publishDate: "14 Juli 2021",
   },
   {
     id: "3",
@@ -517,6 +525,57 @@ export const BeritaUmum: INews[] = [
 ];
 
 export const DPPKNPINews: INews[] = [
+  {
+    id: "0f",
+    title:
+      "Bantuan Kemanusiaan untuk Warga yang Terdampak Erupsi Semeru Terus Berdatangan",
+    source:
+      "https://www.tribunnews.com/regional/2021/12/10/bantuan-kemanusiaan-untuk-warga-yang-terdampak-erupsi-semeru-terus-berdatangan",
+    thumbnail:
+      "https://cdn-2.tstatic.net/tribunnews/foto/bank/images/pengungsi-erupsi-semeru-mulai-bersihkan-rumah_20211209_091648.jpg",
+  },
+  {
+    id: "0e",
+    title: "DPP KNPI Salurkan Bantuan bagi Warga Terdampak Erupsi Semeru",
+    source:
+      "https://www.beritasatu.com/nasional/865297/dpp-knpi-salurkan-bantuan-bagi-warga-terdampak-erupsi-semeru",
+    thumbnail:
+      "https://img.beritasatu.com/cache/beritasatu/910x580-2/1639117286.jpg",
+  },
+  {
+    id: "0d",
+    title: "DPP KNPI Salurkan Bantuan untuk Korban Semeru",
+    source:
+      "https://www.viva.co.id/berita/nasional/1431068-dpp-knpi-salurkan-bantuan-untuk-korban-semeru",
+    thumbnail:
+      "https://thumb.viva.co.id/media/frontend/thumbs3/2021/12/10/61b35c866ab6d-pengurus-dpp-knpi-turut-menyalurkan-bantuan-bagi-warga-terdampak-erupsi-semeru_1265_711.jpeg",
+  },
+  {
+    id: "0c",
+    title:
+      "BANTU KORBAN LETUSAN GUNUNG SEMERU, KNPI TERJUN KE LOKASI BAWA SEMBAKO",
+    source:
+      "https://daerah.sindonews.com/read/624357/704/bantu-korban-letusan-gunung-semeru-knpi-terjun-ke-lokasi-bawa-sembako-1639123955",
+    thumbnail:
+      "https://pict-a.sindonews.net/dyn/732/pena/news/2021/12/10/704/624357/bantu-korban-letusan-gunung-semeru-knpi-terjun-ke-lokasi-bawa-sembako-lff.jpg",
+  },
+  {
+    id: "0b",
+    title:
+      "DPP KNPI SALURKAN PAKET KEMANUSIAAN UNTUK WARGA TERDAMPAK ERUPSI SEMERU",
+    source:
+      "https://www.welfare.id/2021/12/dpp-knpi-salurkan-paket-kemanusiaan.html",
+    thumbnail:
+      "https://lh3.googleusercontent.com/-w8ngH6p6-2g/YbLcliywH8I/AAAAAAAAKdk/r8P6RBPEuUcGpaQGZexujygrH-s6hCckQCNcBGAsYHQ/s1600/1639111827542323-0.png",
+  },
+  {
+    id: "0a",
+    title: "DPP KNPI TERJUN LANGSUNG BANTU MASYARAKAT TERDAMPAK ERUPSI SEMERU",
+    source:
+      "https://indonewsdaily.com/dpp-knpi-terjun-langsung-bantu-masyarakat-terdampak-erupsi-semeru",
+    thumbnail:
+      "https://indonewsdaily.com/wp-content/uploads/2021/12/IMG-20211209-WA0056-1536x864.jpg",
+  },
   {
     id: "0",
     title:

@@ -10,7 +10,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
   const router = useRouter();
 
   return (
-    <div className="w-screen p-2 md:p-12">
+    <div className="w-screen md:w-full p-4 md:px-12 m-auto">
       <Head>
         <meta property="og:title" content="Perwakilan RI Di Malaysia" />
         <meta property="og:image" content="/dubes.jfif" />
@@ -194,15 +194,43 @@ const PerwakilanRIMalaysia = (props: Props) => {
             </a>
           </h3>
           <div>
-            <li>Perpanjangan Paspor untuk WNI yang memiliki Ijin Tinggal</li>
-            <li>Pembuatan Surat Perjalanan Laksana Paspor (SPLP)</li>
             <li>
-              Pendaftaran Permohonan Surat Keterangan Catatan Kepolisian (SKCK)
-              Bagi WNI
+              <a
+                target="_blank"
+                className="ml-2 hover:underline hover:text-blue-700"
+                href="http://paspor.kbrikl.id/#top"
+              >
+                Perpanjangan Paspor untuk WNI yang memiliki Ijin Tinggal
+              </a>
             </li>
             <li>
-              Pendaftaran Permohonan Surat Keterangan Catatan Kepolisian (SKCK)
-              Warga Negara Asing yang Pernah Menetap Di Indonesia
+              <a
+                target="_blank"
+                className="ml-2 hover:underline hover:text-blue-700"
+                href="http://splp.kbrikl.id/"
+              >
+                Pembuatan Surat Perjalanan Laksana Paspor (SPLP)
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                className="ml-2 hover:underline hover:text-blue-700"
+                href="https://antrean.kbrikl.id/"
+              >
+                Pendaftaran Permohonan Surat Keterangan Catatan Kepolisian
+                (SKCK) Bagi WNI
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                className="ml-2 hover:underline hover:text-blue-700"
+                href="https://antrean.kbrikl.id/"
+              >
+                Pendaftaran Permohonan Surat Keterangan Catatan Kepolisian
+                (SKCK) Warga Negara Asing yang Pernah Menetap Di Indonesia
+              </a>
             </li>
           </div>
         </div>
@@ -1197,7 +1225,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
           </table>
         </div>
         {/* cara daftar */}
-        <div className="flex flex-col flex-wrap gap-2 py-6">
+        <div className="flex flex-col md:flex-row flex-wrap gap-2 py-6">
           <p className="font-semibold">
             Daftar Temu Janji Pelayanan KRI Tawau:
           </p>
@@ -1206,7 +1234,6 @@ const PerwakilanRIMalaysia = (props: Props) => {
             className="ml-2 hover:text-blue-700"
             href="https://www.temujanjiantrianpelayanankritawau.org/mohon-temu-janji"
           >
-            https://www.temujanjiantrianpelayanankritawau.org/mohon-temu-janji
             <span className="text-blue-700">(Klik disini!)</span>
           </a>
         </div>

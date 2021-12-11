@@ -4,11 +4,11 @@ interface Props {}
 
 const PengurusKNPI = (props: Props) => {
   return (
-    <div>
+    <div className="px-8 md:px-24">
       <h1 className="pt-16 pb-8 text-xl font-semibold text-center">
         BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA DI MALAYSIA
       </h1>
-      <p className="p-8 pb-16 text-justify">
+      <p className="text-justify">
         <span className="text-lg font-semibold">STATUS</span> <br />
         <br />
         Status Badan Perwakilan KNPI di Malaysia adalah semi otonom yang secara
@@ -81,6 +81,139 @@ const PengurusKNPI = (props: Props) => {
         pada AD/ART KNPI serta tidak bertentangan dengan Peraturan
         Perundang-undangan RI yang berlaku.
       </p>
+      <h3 className="text-center font-semibold text-lg pb-8 pt-16">
+        STRUKTUR PENGURUS BP KNPI MALAYSIA
+        <br />
+        BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA DI MALAYSIA
+        <br />
+        DARI MASA KE MASA
+      </h3>
+      <div className="flex flex-col items-center">
+        <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
+          <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+            <td className="text-center py-2 w-full h-full border-gray-700">
+              PERIODE IV: 2019 - 2022
+            </td>
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+          </tr>
+          <tr className="font-semibold grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              MULIADI
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              TENGKU ADNAN
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              ERLINDA FITRIWATI
+            </td>
+          </tr>
+          <tr className="grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              SEKRETARIS
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              KETUA
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              BENDAHARA
+            </td>
+          </tr>
+        </table>
+        <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
+          <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+            <td className="text-center py-2 w-full h-full border-gray-700">
+              PERIODE IV: 2016 - 2019
+            </td>
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+          </tr>
+          <tr className="font-semibold grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              TENGKU ADNAN
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              KHAIRUL HAMZAH
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              ERLINDA FITRIWATI
+            </td>
+          </tr>
+          <tr className="grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              SEKRETARIS
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              KETUA
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              BENDAHARA
+            </td>
+          </tr>
+        </table>
+        <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
+          <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+            <td className="text-center py-2 w-full h-full border-gray-700">
+              PERIODE IV: 2015 - 2016
+            </td>
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+          </tr>
+          <tr className="font-semibold grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              TENGKU ADNAN
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              M.YASAR
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              ERLINDA FITRIWATI
+            </td>
+          </tr>
+          <tr className="grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              SEKRETARIS
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              KETUA
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              BENDAHARA
+            </td>
+          </tr>
+        </table>
+        <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
+          <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+            <td className="text-center py-2 w-full h-full border-gray-700">
+              PERIODE IV: 2011 - 2015
+            </td>
+            <td className="text-center py-2 w-full h-full border-gray-700"></td>
+          </tr>
+          <tr className="font-semibold grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              TENGKU ADNAN
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              SAGIR ALVA
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              RIDA KEMALA
+            </td>
+          </tr>
+          <tr className="grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              SEKRETARIS
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              KETUA
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700">
+              BENDAHARA
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
   );
 };

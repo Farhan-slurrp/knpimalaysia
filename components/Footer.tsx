@@ -6,7 +6,7 @@ interface Props {}
 const Footer = (props: Props) => {
   return (
     <div className="flex flex-col items-center p-4 text-xs text-gray-800 border-t border-gray-300">
-      <p>
+      <p className="text-center">
         Alamat Sekretariat: Lot 108, Jalan Ampang, Desa Pahlawan, Kuala Lumpur,
         Malaysia
       </p>
