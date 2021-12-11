@@ -65,7 +65,9 @@ const TentangAOMI = (props: Props) => {
         35. Ikatan Keluarga & Simpatisan Pondok Penyapen (IKBAS) Malaysia.
         <br />
         36. Persatuan Warga Gresik Malaysia (PWGM). <br />
+        <br />
       </p>
+      <p>(Sumber: www.aomi.org.my)</p>
     </div>
   );
 };
