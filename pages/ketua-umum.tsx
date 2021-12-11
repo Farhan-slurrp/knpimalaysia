@@ -15,7 +15,7 @@ const KetuaUmum = (props: Props) => {
           <div key={idx} className="flex flex-col gap-3 items-center">
             <img src={ketua["src"]} alt={ketua["name"]} />
             <div className="flex flex-col items-center">
-              <p className="font-semibold text-center">
+              <p className="font-semibold text-center text-sm md:text-base">
                 {ketua["name"].toUpperCase()}
               </p>
               <p>({ketua["periode"]})</p>

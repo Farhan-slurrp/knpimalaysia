@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import { useAppStore } from "../stores/AppContext";
+import BackToTopButton from "./BackToTopButton";
 
 interface Props {
   children: any;
@@ -27,9 +28,10 @@ const Layout = ({ children }: Props) => {
       </Head>
 
       <Header />
-      <div className="flex justify-center w-full min-h-4">
+      <div className="flex justify-center w-full min-h-4 relative">
         <div>{children}</div>
         {/* <Sidebar /> */}
+        <BackToTopButton />
       </div>
     </div>
   );
