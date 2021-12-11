@@ -9,7 +9,7 @@ interface Props {}
 const BeritaAOMI = (props: Props) => {
   return (
     <NewsList
-      title="SEMUA BERITA TENTANG AOMI MALAYSIA"
+      title="BERITA TENTANG AOMI MALAYSIA"
       allNews={AOMINews}
       baseLink="berita-aomi-malaysia"
     />

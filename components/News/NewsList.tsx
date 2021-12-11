@@ -13,7 +13,7 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
   const router = useRouter();
   return (
     <div className="w-screen md:w-full p-2 md:p-4 flex flex-col items-center">
-      <h2 className="py-4 text-center md:text-left text-2xl mb-8 font-semibold text-gray-900">
+      <h2 className="py-4 text-center md:text-left text-lg md:text-2xl mb-8 font-semibold text-gray-900">
         {title}
       </h2>
       <div className="flex flex-col gap-4 items-center md:items-stretch">
