@@ -1,66 +1,82 @@
 [
   {
     "name": "HARIS PERTAMA",
-    "src": "/ketua-umum/O. HARIS PERTAMA.png"
+    "src": "/ketua-umum/O. HARIS PERTAMA.png",
+    "periode": "2018-2021"
   },
   {
     "name": "MUHAMMAD RIFAI DARUS",
-    "src": "/ketua-umum/N. MUHAMMAD RIFAI DARUS.JPG"
+    "src": "/ketua-umum/N. MUHAMMAD RIFAI DARUS.JPG",
+    "periode": "2015-2018"
   },
   {
     "name": "Taufan EN Rotorasiko",
-    "src": "/ketua-umum/M. Taufan EN Rotorasiko.jpg"
+    "src": "/ketua-umum/M. Taufan EN Rotorasiko.jpg",
+    "periode": "2011-2014"
   },
   {
     "name": "AHMAD DOLLI KUNIA",
-    "src": "/ketua-umum/L.B AHMAD DOLLI KUNIA.jpg"
+    "src": "/ketua-umum/L.B AHMAD DOLLI KUNIA.jpg",
+    "periode": "2008-2011"
   },
   {
     "name": "AZIZ SYAMSUDIN",
-    "src": "/ketua-umum/L.A AZIZ SYAMSUDIN.jpg"
+    "src": "/ketua-umum/L.A AZIZ SYAMSUDIN.jpg",
+    "periode": "2008-2011"
   },
   {
     "name": "Hasanudin Yusuf",
-    "src": "/ketua-umum/K. Hasanudin Yusuf.jpg"
+    "src": "/ketua-umum/K. Hasanudin Yusuf.jpg",
+    "periode": "2005-2008"
   },
   {
     "name": "IDRUS MARHAM",
-    "src": "/ketua-umum/J. IDRUS MARHAM.jpg"
+    "src": "/ketua-umum/J. IDRUS MARHAM.jpg",
+    "periode": "2002-2005"
   },
   {
     "name": "ADHYAKSA DAULT",
-    "src": "/ketua-umum/I. ADHYAKSA DAULT.jpg"
+    "src": "/ketua-umum/I. ADHYAKSA DAULT.jpg",
+    "periode": "1999-2002"
   },
   {
     "name": "MAULANA ISMAN",
-    "src": "/ketua-umum/H. MAULANA ISMAN.jpg"
+    "src": "/ketua-umum/H. MAULANA ISMAN.jpg",
+    "periode": "1996-1999"
   },
   {
     "name": "TUBAGUS HARYONO",
-    "src": "/ketua-umum/G. TUBAGUS HARYONO.jpg"
+    "src": "/ketua-umum/G. TUBAGUS HARYONO.jpg",
+    "periode": "1993-1996"
   },
   {
     "name": "TJAHJO KUMOLO",
-    "src": "/ketua-umum/F. TJAHJO KUMOLO.jpg"
+    "src": "/ketua-umum/F. TJAHJO KUMOLO.jpg",
+    "periode": "1990-1993"
   },
   {
     "name": "DIDIET HARYADI",
-    "src": "/ketua-umum/E. DIDIET HARYADI.jpg"
+    "src": "/ketua-umum/E. DIDIET HARYADI.jpg",
+    "periode": "1987-1990"
   },
   {
     "name": "ABDULLAH PUTEH",
-    "src": "/ketua-umum/D. ABDULLAH PUTEH.jpg"
+    "src": "/ketua-umum/D. ABDULLAH PUTEH.jpg",
+    "periode": "1984-1987"
   },
   {
     "name": "AULIA A. RAHMAN",
-    "src": "/ketua-umum/C. AULIA A. RAHMAN.JPG"
+    "src": "/ketua-umum/C. AULIA A. RAHMAN.JPG",
+    "periode": "1981-1984"
   },
   {
     "name": "H AKBAR TANDJUNG",
-    "src": "/ketua-umum/B. H AKBAR TANDJUNG.jpg"
+    "src": "/ketua-umum/B. H AKBAR TANDJUNG.jpg",
+    "periode": "1978-1981"
   },
   {
     "name": "DAVID NAPITUPULU",
-    "src": "/ketua-umum/A. DAVID NAPITUPULU.jpg"
+    "src": "/ketua-umum/A. DAVID NAPITUPULU.jpg",
+    "periode": "1974-1978"
   }
 ]

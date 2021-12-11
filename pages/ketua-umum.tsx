@@ -6,14 +6,22 @@ interface Props {}
 
 const KetuaUmum = (props: Props) => {
   return (
-    <div className="grid grid-cols-4 gap-x-8 gap-y-12 p-8">
-      {ketum.map((ketua, idx) => (
-        <div key={idx} className="flex flex-col gap-2 items-center">
-          <img src={ketua["src"]} alt={ketua["name"]} />
-          <p>{ketua["name"].toUpperCase()}</p>
-        </div>
-      ))}
-    </div>
+    <main className="flex flex-col items-center gap-14 py-8">
+      <h1 className="font-semibold text-2xl">
+        KETUA UMUM DPP KNPI DARI MASA KE MASA
+      </h1>
+      <div className="grid grid-cols-4 gap-x-8 gap-y-12 p-8">
+        {ketum.map((ketua, idx) => (
+          <div key={idx} className="flex flex-col gap-3 items-center">
+            <img src={ketua["src"]} alt={ketua["name"]} />
+            <div className="flex flex-col items-center">
+              <p className="font-semibold">{ketua["name"].toUpperCase()}</p>
+              <p>({ketua["periode"]})</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </main>
   );
 };
 
