@@ -20,6 +20,11 @@ const PerwakilanRIMalaysia = (props: Props) => {
         />
         <link rel="icon" href="/dubes.jfif" />
       </Head>
+      <h1 className="pb-12 pt-12 md:pt-0 font-semibold text-lg md:text-2xl text-center">
+        DAFTAR ALAMAT DAN PELAYANAN PERWAKILAN REPUBLIK INDONESIA{" "}
+        <br className="md:hidden block" />
+        DI MALAYSIA
+      </h1>
       {/* kbri */}
       <div className="flex flex-col flex-wrap items-center w-full gap-3 px-2 py-6 mb-6 border border-gray-400 md:flex-nowrap md:flex-row md:px-6 md:w-3/4">
         <img
@@ -237,7 +242,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
         {/* cara daftar */}
         <div className="flex flex-col gap-2 md:items-center lg:flex-row">
           <p className="font-semibold">
-            Cara Daftar Temu Janji Pelayanan KBRI Kuala Lumpur:
+            Tutorial Cara Daftar Temu Janji Pelayanan KBRI Kuala Lumpur:
           </p>
           <a
             target="_blank"
@@ -439,7 +444,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
         {/* cara daftar */}
         <div className="flex flex-col gap-2">
           <p className="font-semibold">
-            Cara Daftar Temu Janji Pelayanan KJRI Penang:
+            Tutorial Cara Daftar Temu Janji Pelayanan KJRI Penang:
           </p>
           <a
             target="_blank"
@@ -648,7 +653,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
         {/* cara daftar */}
         <div className="flex flex-col gap-2">
           <p className="font-semibold">
-            Cara Daftar Temu Janji Pelayanan KJRI Johor Bahru:
+            Tutorial Cara Daftar Temu Janji Pelayanan KJRI Johor Bahru:
           </p>
           <a
             target="_blank"
