@@ -76,7 +76,7 @@ const SideHeader = (props: Props) => {
         >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
-            alt="fb"
+            alt="ig"
             width={20}
             height={20}
           />
@@ -90,7 +90,7 @@ const SideHeader = (props: Props) => {
         >
           <img
             src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
-            alt="fb"
+            alt="tw"
             width={20}
             height={20}
           />
@@ -104,9 +104,9 @@ const SideHeader = (props: Props) => {
         >
           <img
             src="https://cliply.co/wp-content/uploads/2019/04/371903520_SOCIAL_ICONS_YOUTUBE.png"
-            alt="fb"
-            width={20}
-            height={20}
+            alt="yt"
+            width={26}
+            height={26}
           />
           BP KNPI MALAYSIA
         </a>
