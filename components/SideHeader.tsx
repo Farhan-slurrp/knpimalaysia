@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 import { useRouter } from "next/router";
@@ -52,6 +53,64 @@ const SideHeader = (props: Props) => {
       </a>
       <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />
       <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />
+      <div className="p-4 flex gap-4 justify-center flex-wrap">
+        <a
+          href="https://facebook.com/knpimalaysia/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex gap-2 items-center"
+        >
+          <img
+            src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png"
+            alt="fb"
+            width={20}
+            height={20}
+          />
+          BP KNPI MALAYSIA
+        </a>
+        <a
+          href="https://www.instagram.com/knpimalaysia/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex gap-2 items-center"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+            alt="fb"
+            width={20}
+            height={20}
+          />
+          BP KNPI MALAYSIA
+        </a>
+        <a
+          href="https://twitter.com/knpimalaysia/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex gap-2 items-center"
+        >
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+            alt="fb"
+            width={20}
+            height={20}
+          />
+          BP KNPI MALAYSIA
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCB4ZBRFMW07kFUeYord5v6Q"
+          target="_blank"
+          rel="noreferrer"
+          className="flex gap-2 items-center"
+        >
+          <img
+            src="https://cliply.co/wp-content/uploads/2019/04/371903520_SOCIAL_ICONS_YOUTUBE.png"
+            alt="fb"
+            width={20}
+            height={20}
+          />
+          BP KNPI MALAYSIA
+        </a>
+      </div>
     </div>
   );
 };
