@@ -20,7 +20,7 @@ function Header({}: Props): ReactElement {
 
   return (
     <div className="flex flex-col-reverse w-full items-center md:flex-col">
-      <div className="w-full border-8 border-b-0 border-blue-500 flex justify-center bg-white">
+      <div className="w-full border-8 md:border-b-0 border-blue-500 flex justify-center bg-white">
         <img src="/wall.jpeg" alt="banner" className="w-full p-4"></img>
       </div>
       {/* wide screen */}
