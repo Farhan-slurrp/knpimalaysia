@@ -13,12 +13,16 @@ const KetuaUmum = (props: Props) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-12 py-8">
         {ketum.map((ketua, idx) => (
           <div key={idx} className="flex flex-col gap-3 items-center">
-            <img src={ketua["src"]} alt={ketua["name"]} />
+            <img
+              src={ketua["src"]}
+              alt={ketua["name"]}
+              onContextMenu={(e) => e.preventDefault()}
+            />
             <div className="flex flex-col items-center">
-              <p className="font-semibold text-center text-sm md:text-base">
+              <p className="font-semibold text-center text-xs md:text-base">
                 {ketua["name"].toUpperCase()}
               </p>
-              <p>({ketua["periode"]})</p>
+              <p className="text-xs md:text-base">({ketua["periode"]})</p>
             </div>
           </div>
         ))}
