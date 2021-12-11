@@ -11,10 +11,8 @@ const TentangAOMI = (props: Props) => {
         <img src="/aomi.png" alt="aomi" className="w-full" />
       </a>
       <p className="text-lg font-semibold text-center">
-        <i>
-          “Bekerja-sama dan Sama-sama Bekerja - Memupuk Kebersamaan Dalam
-          Keberagaman”
-        </i>
+        “Bekerja-sama dan Sama-sama Bekerja | Memupuk Kebersamaan Dalam
+        Keberagaman”
       </p>
       <p>
         Daftar Organisasi Masyarakat yang Bergabung di Aliansi Organisasi
