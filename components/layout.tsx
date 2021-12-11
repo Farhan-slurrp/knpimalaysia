@@ -29,7 +29,7 @@ const Layout = ({ children }: Props) => {
 
       <Header />
       <div className="flex justify-center w-full min-h-4 relative">
-        <div>{children}</div>
+        <div className="mb-12">{children}</div>
         {/* <Sidebar /> */}
         <BackToTopButton />
       </div>
