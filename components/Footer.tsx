@@ -7,8 +7,9 @@ const Footer = (props: Props) => {
   return (
     <div className="flex flex-col items-center p-4 text-xs text-gray-800 border-t border-gray-300">
       <p className="text-center">
-        Alamat Sekretariat: Lot 108, Jalan Ampang, Desa Pahlawan, Kuala Lumpur,
-        Malaysia
+        Alamat Sekretariat: Lot 108, Jalan Ampang,{" "}
+        <br className="md:hidden block" />
+        Desa Pahlawan, 55000, Kuala Lumpur, Malaysia
       </p>
       <div className="flex items-center gap-6">
         <p className="flex items-center">

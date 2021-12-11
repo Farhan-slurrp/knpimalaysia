@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const Home: NextPage = () => {
   return (
     <div>
-      <main className="p-8">
+      <main className="p-8 min-h-3">
         <img
           src="/under-construction.jpeg"
           alt="under-construction"
