@@ -6,7 +6,9 @@ const PengurusKNPI = (props: Props) => {
   return (
     <div className="px-6 md:px-24">
       <h1 className="pt-16 pb-8 text-xl font-semibold text-center">
-        BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA DI MALAYSIA
+        BADAN PERWAKILAN <br />
+        KOMITE NASIONAL PEMUDA INDONESIA <br />
+        DI MALAYSIA
       </h1>
       <p className="text-justify text-sm md:text-base">
         <span className="text-lg font-semibold">STATUS</span> <br />
@@ -81,14 +83,13 @@ const PengurusKNPI = (props: Props) => {
         pada AD/ART KNPI serta tidak bertentangan dengan Peraturan
         Perundang-undangan RI yang berlaku.
       </p>
-      <h3 className="text-center font-semibold text-base md:text-lg pb-8 pt-16">
-        STRUKTUR PENGURUS BP KNPI MALAYSIA
+      <h3 className="text-center font-semibold text-sm md:text-lg pb-8 pt-16">
+        STRUKTUR PENGURUS DARI MASA KE MASA
         <br />
         BADAN PERWAKILAN <br className="md:hidden block" />
         KOMITE NASIONAL PEMUDA INDONESIA <br className="md:hidden block" />
         DI MALAYSIA
         <br />
-        DARI MASA KE MASA
       </h3>
       <div className="flex flex-col items-center">
         <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
@@ -97,7 +98,7 @@ const PengurusKNPI = (props: Props) => {
               PERIODE IV: 2019 - 2022
             </td>
           </tr>
-          <tr className="font-semibold grid grid-cols-3">
+          <tr className="font-semibold grid grid-cols-3 items-center justify-center">
             <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
               MULIADI
             </td>
