@@ -7,7 +7,7 @@ interface Props {}
 const BeritaDPPKNPI = (props: Props) => {
   return (
     <NewsList
-      title="BERITA TENTANG DPP KNPI MALAYSIA"
+      title="BERITA TENTANG DPP KNPI"
       allNews={DPPKNPINews}
       baseLink="berita-dpp-knpi"
     />
