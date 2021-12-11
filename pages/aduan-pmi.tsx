@@ -81,7 +81,7 @@ const AduanPMI = (props: Props) => {
   }
 
   return (
-    <div className="p-1 md:p-12">
+    <div className="px-1 py-8 md:p-12">
       <h2 className="pb-8 text-2xl font-semibold text-center">
         BOX ADUAN DAN ASPIRASI PMI
       </h2>
