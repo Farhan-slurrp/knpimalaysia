@@ -106,7 +106,7 @@ const PengurusKNPI = (props: Props) => {
               TENGKU ADNAN
             </td>
             <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
-              ERLINDA FITRIWATI
+              ERLINDA FITRIAWATI
             </td>
           </tr>
           <tr className="grid grid-cols-3">
@@ -135,7 +135,7 @@ const PengurusKNPI = (props: Props) => {
               KHAIRUL HAMZAH
             </td>
             <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
-              ERLINDA FITRIWATI
+              ERLINDA FITRIAWATI
             </td>
           </tr>
           <tr className="grid grid-cols-3">
@@ -164,7 +164,7 @@ const PengurusKNPI = (props: Props) => {
               M.YASAR
             </td>
             <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
-              ERLINDA FITRIWATI
+              ERLINDA FITRIAWATI
             </td>
           </tr>
           <tr className="grid grid-cols-3">
