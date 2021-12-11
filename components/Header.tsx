@@ -19,8 +19,10 @@ function Header({}: Props): ReactElement {
   const { isOpen, setIsOpen } = useAppStore();
 
   return (
-    <div className="flex flex-col-reverse w-full md:flex-col">
-      <Image src="/banner.jpg" alt="banner" height="424" width="400"></Image>
+    <div className="flex flex-col-reverse w-full items-center md:flex-col">
+      <div className="w-full border-8 border-b-0 border-blue-500 flex justify-center bg-white">
+        <img src="/wall.jpeg" alt="banner" className="w-full p-4"></img>
+      </div>
       {/* wide screen */}
       <div className="flex-wrap items-center justify-center hidden w-full text-xs font-bold text-white bg-blue-500 md:flex">
         <a

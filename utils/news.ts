@@ -48,6 +48,8 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/2168462/majelis-belia-malaysia-dan-knpi-sambut-gencatan-senjata-hamas-israel",
     thumbnail:
       "https://cdn.antaranews.com/cache/800x533/2021/05/21/KNPI2.jpeg.webp",
+    publisher: "Antara News",
+    publishDate: "21 Mei 2021",
   },
   {
     id: "4",
@@ -57,6 +59,8 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/2163226/knpi-minta-peran-ri-malaysia-dan-brunei-dukung-palestina-berlanjut",
     thumbnail:
       "https://cdn.antaranews.com/cache/800x533/2021/05/19/Tengku-Adnan2.jpeg.webp",
+    publisher: "Antara News",
+    publishDate: "19 Mei 2021",
   },
   {
     id: "5",
@@ -65,6 +69,8 @@ export const BPKNPINews: INews[] = [
       "https://www.antaranews.com/berita/2110638/garuda-indonesia-terbangkan-pmi-program-rekalibrasi-dari-malaysia",
     thumbnail:
       "https://cdn.antaranews.com/cache/800x533/2021/04/20/Garuda-KNPI-SBMI_1.jpeg.webp",
+    publisher: "Antara News",
+    publishDate: "20 April 2021",
   },
   {
     id: "6",

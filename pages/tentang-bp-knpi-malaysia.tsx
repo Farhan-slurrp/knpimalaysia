@@ -124,7 +124,7 @@ const PengurusKNPI = (props: Props) => {
           <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
             <td className="text-center py-2 w-full h-full border-gray-700"></td>
             <td className="text-center py-2 w-full h-full border-gray-700">
-              PERIODE IV: 2016 - 2019
+              PERIODE III: 2016 - 2019
             </td>
             <td className="text-center py-2 w-full h-full border-gray-700"></td>
           </tr>
@@ -155,7 +155,7 @@ const PengurusKNPI = (props: Props) => {
           <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
             <td className="text-center py-2 w-full h-full border-gray-700"></td>
             <td className="text-center py-2 w-full h-full border-gray-700">
-              PERIODE IV: 2015 - 2016
+              PERIODE II: 2015 - 2016
             </td>
             <td className="text-center py-2 w-full h-full border-gray-700"></td>
           </tr>
@@ -186,7 +186,7 @@ const PengurusKNPI = (props: Props) => {
           <tr className="font-semibold bg-blue-500 grid grid-cols-3 text-white">
             <td className="text-center py-2 w-full h-full border-gray-700"></td>
             <td className="text-center py-2 w-full h-full border-gray-700">
-              PERIODE IV: 2011 - 2015
+              PERIODE I: 2011 - 2015
             </td>
             <td className="text-center py-2 w-full h-full border-gray-700"></td>
           </tr>
