@@ -102,15 +102,12 @@ const UUCiptaKerja = (props: Props) => {
                     width="17"
                     height="17"
                   />
-                  <a
-                    href="/uu-dan-peraturan-pmi/naskah-lengkap-uu-ciptakerja"
-                    target="_blank"
-                  >
+                  <Link href="/uu-dan-peraturan-pmi/naskah-lengkap-uu-ciptakerja">
                     <p className="text-blue-700 cursor-pointer group-hover:underline">
                       Naskah Lengkap Undang-Undang Nomor 11 Tentang Cipta Kerja
                       (15 Bab dan 186 Pasal).pdf
                     </p>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </p>
