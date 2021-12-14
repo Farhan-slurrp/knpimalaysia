@@ -7,7 +7,7 @@ const PeraturanPemerintah592021 = (props: Props) => {
   return (
     <UndangUndang
       name="Peraturan Pemerintah No. 59/2021 | Pelaksanaan Perlindungan Pekerja Migran Indonesia"
-      link="https://drive.google.com/file/d/19Yzi4IV00s2kGYxd-bVbUy0EkuihbY6V/preview"
+      link="https://drive.google.com/file/d/1Jm71XdY54VZEYwZkSoV4e9bImLY0FSfk/preview"
     ></UndangUndang>
   );
 };

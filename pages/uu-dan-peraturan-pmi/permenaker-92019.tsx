@@ -7,7 +7,7 @@ const Permenaker92019 = (props: Props) => {
   return (
     <UndangUndang
       name="Peraturan Menteri Ketenagakerjaan No. 9/2019 | Tata Cara Penempatan Pekerja Migran Indonesia"
-      link="https://drive.google.com/file/d/15JVHYAlTqNLkZ-wACoEzTjalj2W9IpMr/preview"
+      link="https://drive.google.com/file/d/1yalLeKDGZtmym2zUnRW-MRGGDbJ3MiJL/preview"
     ></UndangUndang>
   );
 };
