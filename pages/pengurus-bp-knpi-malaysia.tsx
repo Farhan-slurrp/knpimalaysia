@@ -8,7 +8,8 @@ const PengurusBPKNPI = (props: Props) => {
     <div className="p-3 md:p-12 text-2xs md:text-base flex flex-col justify-center w-screen">
       <h1 className="md:text-2xl text-base font-semibold text-center">
         KOMPOSISI DAN PERSONALIA <br />
-        BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA{" "}
+        BADAN PERWAKILAN KOMITE NASIONAL <br className="md:hidden block" />
+        PEMUDA INDONESIA
         <br className="md:hidden block" />
         DI MALAYSIA <br />
         PERIODE 2019 – 2022
