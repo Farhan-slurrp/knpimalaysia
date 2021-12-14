@@ -5,13 +5,8 @@ import { useAppStore } from "../stores/AppContext";
 import CloseIcon from "@mui/icons-material/Close";
 
 export async function getServerSideProps(_context: any) {
-  const res = await fetch(
-    "https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=UCB4ZBRFMW07kFUeYord5v6Q&key=AIzaSyA266ObefE7sVtCjt87hVZ6FWqpRP9-PoU"
-  );
-  const channeldata = await res.json();
-  const maxResults = channeldata["items"][0]["statistics"]["videoCount"];
   const videosListRes = await fetch(
-    `https://www.googleapis.com/youtube/v3/search?key=AIzaSyA266ObefE7sVtCjt87hVZ6FWqpRP9-PoU&channelId=UCB4ZBRFMW07kFUeYord5v6Q&part=snippet,id&order=date&maxResults=${maxResults}`
+    `https://www.googleapis.com/youtube/v3/search?key=${process.env.NEXT_PUBLIC_YT_API_KEY}&channelId=UCB4ZBRFMW07kFUeYord5v6Q&part=snippet,id&order=date&maxResults=50`
   );
   const data = await videosListRes.json();
   return {
@@ -33,7 +28,7 @@ const GaleriVideo = (props: Props) => {
   console.log(items);
   return (
     <div
-      className={`relative grid grid-cols-1 md:grid-cols-4 gap-4 p-2 md:p-4 ${
+      className={`relative grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4 p-2 md:p-4 ${
         isOpen ? "h-screen" : "h-full"
       }`}
     >
