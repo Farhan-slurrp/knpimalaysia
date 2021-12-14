@@ -4,6 +4,8 @@ import React from "react";
 const AppStore = React.createContext({
   isOpen: false,
   setIsOpen: (isOpen: boolean) => {},
+  isHeightFull: true,
+  setIsHeightFull: (isHeightFull: boolean) => {},
 });
 AppStore.displayName = "AppStore";
 
@@ -15,10 +17,13 @@ interface Props {
 
 export const AppStoreProvider = ({ children }: Props) => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isHeightFull, setIsHeightFull] = React.useState(true);
   const router = useRouter();
 
   return (
-    <AppStore.Provider value={{ isOpen, setIsOpen }}>
+    <AppStore.Provider
+      value={{ isOpen, setIsOpen, isHeightFull, setIsHeightFull }}
+    >
       {children}
     </AppStore.Provider>
   );

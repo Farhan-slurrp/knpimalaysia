@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontSize: {
-      "3xs": ".25rem",
-      "2xs": ".55rem",
+      "3xs": ".40rem",
+      "2xs": ".50rem",
       xs: ".75rem",
       sm: ".875rem",
       tiny: ".875rem",

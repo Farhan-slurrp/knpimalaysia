@@ -17,11 +17,7 @@
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
-    "link": [
-      "/under-construction",
-      "/under-construction",
-      "/under-construction"
-    ]
+    "link": ["/under-construction", "/galeri-video", "/under-construction"]
   },
   "berita": {
     "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
@@ -37,7 +33,11 @@
       "berita aomi malaysia",
       "pendampingan rekalibrasi pulang"
     ],
-    "link": ["/tentang-aomi-malaysia", "/berita-aomi-malaysia", "/under-construction"]
+    "link": [
+      "/tentang-aomi-malaysia",
+      "/berita-aomi-malaysia",
+      "/under-construction"
+    ]
   },
   "pmi-malaysia": {
     "title": [

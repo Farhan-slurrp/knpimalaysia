@@ -10,12 +10,16 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => {
-  const { isOpen } = useAppStore();
+  const { isOpen, isHeightFull } = useAppStore();
 
   return (
     <div
       className={`flex flex-col m-auto overflow-x-scroll border-l border-r border-gray-500 max-w-7xl bg-gray-50 font-poppins min-h-4 ${
-        isOpen ? "overflow-hidden h-screen" : "overflow-auto h-full"
+        isOpen
+          ? "overflow-hidden h-screen"
+          : !isHeightFull
+          ? "overflow-hidden h-screen"
+          : "overflow-auto h-full"
       }`}
     >
       <Head>
@@ -31,7 +35,7 @@ const Layout = ({ children }: Props) => {
       <div className="flex justify-center w-full min-h-4 relative">
         <div className="mb-12">{children}</div>
         {/* <Sidebar /> */}
-        <BackToTopButton />
+        {isHeightFull && <BackToTopButton />}
       </div>
     </div>
   );
