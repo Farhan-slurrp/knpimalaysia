@@ -50,17 +50,17 @@ const undangUndang = [
   {
     title:
       "Peraturan Menteri Nomor 8 Tahun 2021: Tentang Peraturan Pelaksanaan Peraturan Pemerintah Nomor 34 Tahun 2021 tentang Penggunaan Tenaga Kerja Asing",
-    link: "#",
+    link: "permenaker-82021",
   },
   {
     title:
       "Peraturan Menteri Nomor 7 Tahun 2021: Tentang Tata Cara Pendaftaran Peserta dan Pelaksanaan Rekomposisi Iuran Dalam Program Jaminan Kehilangan Pekerjaan",
-    link: "#",
+    link: "permenaker-72021",
   },
   {
     title:
       "Peraturan Menteri Nomor 6 Tahun 2021: Tentang Penetapan Standar Kegiatan Usaha dan/atau Produk Pada Penyelenggaraan Perizinan Berusaha Berbasis Risiko Sektor Ketenagakerjaan",
-    link: "#",
+    link: "permenaker-62021",
   },
 ];
 
