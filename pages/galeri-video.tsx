@@ -60,7 +60,7 @@ const GaleriVideo = (props: Props) => {
               />
             </div>
           </div>
-          <p>{item["snippet"]["title"]}</p>
+          <p dangerouslySetInnerHTML={{ __html: item["snippet"]["title"] }}></p>
         </div>
       ))}
       {isOpen && (

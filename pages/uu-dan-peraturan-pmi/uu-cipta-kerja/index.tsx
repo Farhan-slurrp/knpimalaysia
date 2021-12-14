@@ -11,41 +11,41 @@ const undangUndang = [
   {
     title:
       "Peraturan Pemerintah Nomor 37 Tahun 2021: Tentang Penyelenggaraan Program Jaminan Kehilangan Pekerjaan",
-    link: "#",
+    link: "pp-372021",
   },
   {
     title: "Peraturan Pemerintah Nomor 36 Tahun 2021: Tentang Pengupahan",
-    link: "#",
+    link: "pp-362021",
   },
   {
     title:
       "Peraturan Pemerintah Nomor 35 Tahun 2021: Tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja",
-    link: "#",
+    link: "pp-352021",
   },
   {
     title:
       "Peraturan Pemerintah Nomor 34 tahun 2021: Tentang Penggunaan Tenaga Kerja Asing",
-    link: "#",
+    link: "pp-342021",
   },
   {
     title:
       "Peraturan Pemerintah Nomor 5 Tahun 2021: Tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko",
-    link: "#",
+    link: "pp-52021",
   },
   {
     title:
       "Peraturan Menteri Nomor 23 Tahun 2021: Tentang Pencabutan Peraturan Menteri Ketenagakerjaan Sebagai Akibat Diundangkannya Undang-Undang Nomor 11 Tahun 2020 Tentang Cipta Kerja Beserta Peraturan Pelaksanaan",
-    link: "#",
+    link: "permenaker-232021",
   },
   {
     title:
       "Peraturan Menteri Nomor 15 Tahun 2021: Tentang Tata Cara Pemberian Manfaat Jaminan Kehilangan Pekerjaan",
-    link: "#",
+    link: "permenaker-152021",
   },
   {
     title:
       "Peraturan Menteri Nomor 13 Tahun 2021: Tentang Tata Cara Pengangkatan, Pemberhentian, dan Penggantian Anggota Dewan Pengupahan, dan Tata Kerja Dewan Pengupahan",
-    link: "#",
+    link: "permenaker-132021",
   },
   {
     title:
@@ -103,7 +103,7 @@ const UUCiptaKerja = (props: Props) => {
                     height="17"
                   />
                   <a
-                    href="https://drive.google.com/file/d/1vP-li9s6ezrskzTpD--nBYg_7CNh7u9A/view"
+                    href="/uu-dan-peraturan-pmi/naskah-lengkap-uu-ciptakerja"
                     target="_blank"
                   >
                     <p className="text-blue-700 cursor-pointer group-hover:underline">
