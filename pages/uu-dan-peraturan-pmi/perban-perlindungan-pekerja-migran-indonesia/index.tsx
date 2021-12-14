@@ -8,52 +8,52 @@ const undangUndang = [
   {
     title:
       "PERATURAN BADAN NOMOR 07 TAHUN  2021: Tentang Pemberian Bantuan Bagi Calon Pekerja Migran Indonesia dan Pekerja Migran Indonesia Bermasalah",
-    link: "#",
+    link: "perban-72021",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 03 TAHUN  2021: Tentang Tunda Pelayanan Bagi Perusahaan Penempatan Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-32021",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 02 TAHUN  2021: Tentang Perjanjian Penempatan antara Badan Pelindungan Pekerja Migran Indonesia dan Calon Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-22021",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 01 TAHUN  2021: Tentang Perubahan atas Peraturan Badan Pelindungan Pekerja Migran Indonesia Nomor 9 Tahun 2020 tentang Pembebasan Biaya Penempatan Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-12021",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 09 TAHUN  2020: Tentang Pembebasan Biaya Penempatan Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-92020",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 05 TAHUN  2020: Tentang Rencana Strategis Badan Pelindungan Pekerja Migran Indonesia Tahun 2020-2024",
-    link: "#",
+    link: "perban-52020",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 04 TAHUN  2020: Tentang Organisasi dan Tata Kerja Badan Pelindungan Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-42020",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 03 TAHUN  2020: Tentang Tata Cara Penerbitan dan Pencabutan Surat Izin Perekrutan Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-32020",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 02 TAHUN  2020: Tentang Biaya Penempatan Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-22020",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 01 TAHUN  2020: Tentang Standar, Penandatanganan dan Verifikasi Perjanjian Kerja Pekerja Migran Indonesia",
-    link: "#",
+    link: "perban-12020",
   },
   {
     title:

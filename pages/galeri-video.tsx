@@ -33,7 +33,7 @@ const GaleriVideo = (props: Props) => {
   console.log(items);
   return (
     <div
-      className={`relative grid grid-cols-4 gap-4 p-4 ${
+      className={`relative grid grid-cols-1 md:grid-cols-4 gap-4 p-2 md:p-4 ${
         isOpen ? "h-screen" : "h-full"
       }`}
     >
@@ -84,7 +84,7 @@ const GaleriVideo = (props: Props) => {
           <iframe
             key={isOpen}
             id="ytplayer"
-            className="h-2/3 w-3/5 border border-white rounded-md"
+            className="h-1/3 md:h-2/3 w-full md:w-3/5 border border-white rounded-md"
             src={`https://www.youtube.com/embed/${isOpen}?autoplay=1&origin=http://example.com`}
             frameBorder="0"
           ></iframe>
