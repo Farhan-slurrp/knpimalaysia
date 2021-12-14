@@ -5,7 +5,7 @@ interface Props {}
 
 const PengurusBPKNPI = (props: Props) => {
   return (
-    <div className="p-4 md:p-12 text-xs md:text-base">
+    <div className="p-3 md:p-12 text-2xs md:text-base flex flex-col justify-center w-screen">
       <h1 className="md:text-2xl text-base font-semibold text-center">
         KOMPOSISI DAN PERSONALIA <br />
         BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA{" "}
