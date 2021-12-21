@@ -1,9 +1,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { useRouter } from "next/router";
 
 interface Props {}
 
 const PengurusanPekerjaAsingMalaysia = (props: Props) => {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col gap-4 items-center px-2 md:px-12">
       <h1 className="py-8 text-lg md:text-2xl font-semibold">
@@ -57,6 +60,12 @@ const PengurusanPekerjaAsingMalaysia = (props: Props) => {
           INFORMASI JABATAN TENAGA KERJA SEMENANJUNG MALAYSIA
         </a>
       </div>
+      <button
+        onClick={() => router.back()}
+        className="px-4 py-2 bg-blue-500 rounded-md text-white mt-4"
+      >
+        Kembali
+      </button>
     </div>
   );
 };
