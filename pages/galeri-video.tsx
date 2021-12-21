@@ -6,8 +6,9 @@ import CloseIcon from "@mui/icons-material/Close";
 
 export async function getServerSideProps(_context: any) {
   const videosListRes = await fetch(
-    `https://www.googleapis.com/youtube/v3/search?key=${process.env.NEXT_PUBLIC_YT_API_KEY}&channelId=UCB4ZBRFMW07kFUeYord5v6Q&part=snippet,id&order=date&maxResults=50`
+    `https://youtube.googleapis.com/youtube/v3/search?part=snippet,id&channelId=UCB4ZBRFMW07kFUeYord5v6Q&key=${process.env.NEXT_PUBLIC_YT_API_KEY}&order=date&maxResults=50`
   );
+  console.log(videosListRes);
   const data = await videosListRes.json();
   return {
     props: {
@@ -21,7 +22,7 @@ interface Props {
 }
 
 const GaleriVideo = (props: Props) => {
-  const items = props.data["items"];
+  const items = props.data["items"] || [];
   const [isOpen, setIsOpen] = React.useState(null);
   const { setIsHeightFull } = useAppStore();
 

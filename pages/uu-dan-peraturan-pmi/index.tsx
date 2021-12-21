@@ -24,6 +24,12 @@ const allData = [
     dates: "",
     link: "/uu-dan-peraturan-pmi/perban-perlindungan-pekerja-migran-indonesia",
   },
+  {
+    title: "INFORMASI TENTANG PENGURUSAN PEKERJA ASING KERAJAAN MALAYSIA",
+    desc: "",
+    dates: "",
+    link: "/uu-dan-peraturan-pmi/informasi-pengurusan-pekerja-asing-malaysia",
+  },
 ];
 
 const UUDanPeraturanPMI = (props: Props) => {
@@ -49,10 +55,12 @@ const UUDanPeraturanPMI = (props: Props) => {
               <h1 className="flex items-center gap-2 p-2 text-lg font-semibold text-white bg-blue-500">
                 {data["title"]}
               </h1>
-              <div className="px-4 py-2 text-lg">
-                <p className="font-semibold">{data["desc"].toUpperCase()}</p>
-                <small>{data["dates"]}</small>
-              </div>
+              {data["desc"] && (
+                <div className="px-4 py-2 text-lg">
+                  <p className="font-semibold">{data["desc"].toUpperCase()}</p>
+                  <small>{data["dates"]}</small>
+                </div>
+              )}
             </div>
           </Link>
         ))}
