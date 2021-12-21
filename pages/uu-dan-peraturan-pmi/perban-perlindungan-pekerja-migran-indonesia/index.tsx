@@ -58,32 +58,32 @@ const undangUndang = [
   {
     title:
       "PERATURAN BADAN NOMOR 03 TAHUN  2019: Tentang Petunjuk Teknis Pelayanan Kepulangan Pekerja Migran Indonesia Bermasalah sampai ke daerah Asal",
-    link: "#",
+    link: "perban-32019",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 10 TAHUN  2017: Tentang Pedoman Penanganan Pengaduan di Lingkungan BNP2TKI",
-    link: "#",
+    link: "perban-102017",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 06 TAHUN  2017: Tentang Komunitas Keluarga Buruh Migran",
-    link: "#",
+    link: "perban-62017",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 04 TAHUN  2017: Tentang Pemberdayaan TKI, TKI Purna, dan Keluarganya",
-    link: "#",
+    link: "perban-42017",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 01 TAHUN  2017: Tentang Pedoman Penyelenggaraan Peningkatan Kualitas/Kompetensi Calon Tenaga Kerja Indonesia",
-    link: "#",
+    link: "perban-12017",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 10 TAHUN  2016: Tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis Pelayanan Penempatan dan Perlindungan Tenaga Kerja Indonesia",
-    link: "#",
+    link: "perban-102016",
   },
   {
     title:
