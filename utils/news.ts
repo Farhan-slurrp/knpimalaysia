@@ -528,6 +528,12 @@ export const BeritaUmum: INews[] = [
     source:
       "https://news.detik.com/infografis/d-5601987/hermono-diplomat-pembela-pekerja-migran",
   },
+  {
+    id: "1",
+    title: "Warga Indonesia selamatkan penduduk, mangsa banjir selar menteri",
+    source:
+      "https://www.malaysiakini.com/news/604067?fbclid=IwAR0eKmjSe4MRf9MbeXu0So0Iyx-lLAOETzdvrUkbMkea2WUwi9fmRaHdHZU",
+  },
 ];
 
 export const DPPKNPINews: INews[] = [
