@@ -121,7 +121,7 @@ const PerbanPerlindunganPMI = (props: Props) => {
               <p key={idx}>
                 {idx + 1}.{" "}
                 <a
-                  href={`/uu-dan-peraturan-pmi/${uu["link"]}`}
+                  href={`/uu-dan-peraturan-pmi/f/${uu["link"]}`}
                   target="_blank"
                   className="text-blue-700 hover:underline"
                 >
