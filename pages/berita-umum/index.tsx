@@ -7,13 +7,11 @@ interface Props {}
 const BeritaUmum = (props: Props) => {
   return (
     <div>
-      {" "}
       <NewsList
         title="BERITA TENTANG DPP KNPI"
         allNews={ListBeritaUmum}
         baseLink="berita-dpp-knpi"
       />
-      );
     </div>
   );
 };
