@@ -33,11 +33,7 @@
       "berita aomi malaysia",
       "pendampingan rekalibrasi pulang"
     ],
-    "link": [
-      "/tentang-aomi-malaysia",
-      "/berita-aomi-malaysia",
-      "/under-construction"
-    ]
+    "link": ["/tentang-aomi-malaysia", "/berita-aomi-malaysia", "/rekalibrasi"]
   },
   "pmi-malaysia": {
     "title": [

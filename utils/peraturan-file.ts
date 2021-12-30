@@ -79,6 +79,21 @@ export const file: File[] = [
     name: "PERATURAN BADAN NOMOR 10 TAHUN  2017: Tentang Pedoman Penanganan Pengaduan di Lingkungan BNP2TKI",
     link: "https://drive.google.com/file/d/12udJfuIBaLvQ2qLqlgiIxzMcwPpoMYtY/preview",
   },
+  {
+    title: "permenaker-62021",
+    name: "Peraturan Menteri Nomor 6 Tahun 2021: Tentang Penetapan Standar Kegiatan Usaha dan/atau Produk Pada Penyelenggaraan Perizinan Berusaha Berbasis Risiko Sektor Ketenagakerjaan",
+    link: "https://drive.google.com/file/d/1C7cS4YafIMjexXPQOFMzoFo0UjAYeS1C/preview",
+  },
+  {
+    title: "permenaker-72020",
+    name: "Peraturan Menteri No. 7/2020 | Tata Cara Pengenaan Sanksi Administratif dalam Pelaksanaan Penempatan dan Pelindungan Pekerja Migran Indonesia",
+    link: "https://drive.google.com/file/d/1jyH7atu4HY9V2J7qTwznl_uKU07GhdIp/preview",
+  },
+  {
+    title: "permenaker-72021",
+    name: "Peraturan Menteri Nomor 7 Tahun 2021: Tentang Tata Cara Pendaftaran Peserta dan Pelaksanaan Rekomposisi Iuran Dalam Program Jaminan Kehilangan Pekerjaan",
+    link: "https://drive.google.com/file/d/18tKM9lc6uC8mfyfQe1dRuFyHiv9Cs3z5/preview",
+  },
 ];
 
 interface File {

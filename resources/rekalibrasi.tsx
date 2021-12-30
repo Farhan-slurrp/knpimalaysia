@@ -14,7 +14,7 @@ const Rekalibrasi = (props: Props) => {
 
   const handleChange = (e: any) => {
     setData({ ...data, [e.target.name]: e.target.value.toUpperCase() });
-    if (e.target.name == "entry.39251784") {
+    if (e.target.name == "entry.1388067542") {
       setName(e.target.value);
     }
   };
@@ -32,10 +32,9 @@ const Rekalibrasi = (props: Props) => {
   };
 
   const handleSubmit = async (e: any) => {
-    const id = "1FAIpQLSerUcwlkvPhheEhvZ7-eZmLbhdhJazWtzu0mC_LPiMoqWYaDA"; //YOUR FORM ID
+    const id = "1F_MXFNs2Wpb8bvCOKRakuDj4A3_2DPJRD_Dy6WEM2QI"; //YOUR FORM ID
     e.preventDefault();
-    const formUrl =
-      "https://docs.google.com/forms/u/6/d/e/" + id + "/formResponse";
+    const formUrl = "https://docs.google.com/forms/d/" + id + "/formResponse";
     const queryString = require("query-string");
     const q = queryString.stringifyUrl({
       url: formUrl,
@@ -87,7 +86,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.39251784"
+            name="entry.1388067542"
             id="nama-lengkap"
             onChange={handleChange}
             required
@@ -102,7 +101,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="LAKI-LAKI"
-              name="entry.1664538433"
+              name="entry.1861933517"
               value="LAKI-LAKI"
               onChange={handleChange}
               required
@@ -113,7 +112,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="PEREMPUAN"
-              name="entry.1664538433"
+              name="entry.1861933517"
               value="PEREMPUAN"
               onChange={handleChange}
             />
@@ -128,7 +127,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.1613817072"
+            name="entry.561409861"
             id="tempat-lahir"
             onChange={handleChange}
             required
@@ -145,7 +144,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="date"
-            name="entry.824568806"
+            name="entry.422346054"
             id="tanggal-lahir"
             onChange={handleChange}
             required
@@ -161,7 +160,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="PASPOR"
-              name="entry.1338916289"
+              name="entry.713031867"
               value="PASPOR"
               onChange={handleChange}
               required
@@ -172,7 +171,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="SPLP"
-              name="entry.1338916289"
+              name="entry.713031867"
               value="SPLP"
               onChange={handleChange}
             />
@@ -182,21 +181,11 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="KTP"
-              name="entry.1338916289"
+              name="entry.713031867"
               value="KTP"
               onChange={handleChange}
             />
               <label htmlFor="KTP">KTP</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="KARTU KELUARGA"
-              name="entry.1338916289"
-              value="KARTU KELUARGA"
-              onChange={handleChange}
-            />
-              <label htmlFor="KARTU KELUARGA">KARTU KELUARGA</label>
           </div>
         </div>
         {/* nomor dokumen */}
@@ -208,7 +197,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.1123142711"
+            name="entry.1241030908"
             id="no-dokumen"
             onChange={handleChange}
             required
@@ -225,22 +214,8 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 bg-transparent border border-gray-400 outline-none"
             type="date"
-            name="entry.1520960194"
+            name="entry.916558265"
             id="habis-masa-berlaku"
-            onChange={handleChange}
-          />
-        </div>
-        {/* data anak */}
-        <div className="flex flex-col gap-2">
-          <label className="font-semibold text-gray-700" htmlFor="data-anak">
-            JIKA MEMBAWA ANAK, TULISKAN NAMA LENGKAP ANAK, TEMPAT LAHIR, TANGGAL
-            LAHIR SERTA NOMOR DOKUMEN ANAK:
-          </label>
-          <input
-            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
-            type="text"
-            name="entry.1319785188"
-            id="data-anak"
             onChange={handleChange}
           />
         </div>
@@ -252,11 +227,62 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.1524905898"
+            name="entry.2019658140"
             id="nomor-hp"
             onChange={handleChange}
             required
           />
+        </div>
+        {/* data anak */}
+        <div className="flex flex-col gap-2">
+          <label className="font-semibold text-gray-700" htmlFor="data-anak">
+            JIKA MEMBAWA ANAK, TULISKAN NAMA LENGKAP ANAK, TEMPAT LAHIR, TANGGAL
+            LAHIR SERTA NOMOR DOKUMEN ANAK:
+          </label>
+          <input
+            className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
+            type="text"
+            name="entry.1617980304"
+            id="data-anak"
+            onChange={handleChange}
+          />
+        </div>
+        {/* destinasi kepulangan */}
+        <div className="flex flex-col gap-2">
+          <p className="font-semibold text-gray-700">
+            destinasi kepulangan: <span className="text-red-500">&#42;</span>
+          </p>
+          <div className="flex items-center gap-1">
+            <input
+              type="radio"
+              id="SURABAYA"
+              name="entry.2133735545"
+              value="SURABAYA"
+              onChange={handleChange}
+              required
+            />
+              <label htmlFor="SURABAYA">SURABAYA</label>
+          </div>
+          <div className="flex items-center gap-1">
+            <input
+              type="radio"
+              id="MEDAN"
+              name="entry.2133735545"
+              value="MEDAN"
+              onChange={handleChange}
+            />
+              <label htmlFor="MEDAN">MEDAN</label>
+          </div>
+          <div className="flex items-center gap-1">
+            <input
+              type="radio"
+              id="JAKARTA"
+              name="entry.2133735545"
+              value="JAKARTA"
+              onChange={handleChange}
+            />
+              <label htmlFor="JAKARTA">JAKARTA</label>
+          </div>
         </div>
         {/* alamat malaysia */}
         <div className="flex flex-col gap-2">
@@ -264,13 +290,13 @@ const Rekalibrasi = (props: Props) => {
             className="font-semibold text-gray-700"
             htmlFor="alamat-di-malaysia"
           >
-            ALAMAT DI MALAYSIA (NOMOR RUMAH DAN NAMA JALAN):{" "}
+            ALAMAT DI MALAYSIA (Nomor Rumah & Nama Jalan):{" "}
             <span className="text-red-500">&#42;</span>
           </label>
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.622320924"
+            name="entry.1792253764"
             id="alamat-di-malaysia"
             onChange={handleChange}
             required
@@ -284,7 +310,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.2141538284"
+            name="entry.529814437"
             id="bandar"
             onChange={handleChange}
             required
@@ -298,109 +324,11 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.1537761018"
+            name="entry.1168985113"
             id="negeri"
             onChange={handleChange}
             required
           />
-        </div>
-        {/* destinasi kepulangan */}
-        <div className="flex flex-col gap-2">
-          <p className="font-semibold text-gray-700">
-            destinasi kepulangan: <span className="text-red-500">&#42;</span>
-          </p>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="SURABAYA"
-              name="entry.1201072392"
-              value="SURABAYA"
-              onChange={handleChange}
-              required
-            />
-              <label htmlFor="SURABAYA">SURABAYA</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="MEDAN"
-              name="entry.1201072392"
-              value="MEDAN"
-              onChange={handleChange}
-            />
-              <label htmlFor="MEDAN">MEDAN</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="JAKARTA"
-              name="entry.1201072392"
-              value="JAKARTA"
-              onChange={handleChange}
-            />
-              <label htmlFor="JAKARTA">JAKARTA</label>
-          </div>
-        </div>
-        {/* RENCANA PULANG */}
-        <div className="flex flex-col gap-2">
-          <p className="font-semibold text-gray-700">
-            RENCANA PULANG: <span className="text-red-500">&#42;</span>
-          </p>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="FEBRUARI 2020"
-              name="entry.502113277"
-              value="FEBRUARI 2022"
-              onChange={handleChange}
-              required
-            />
-              <label htmlFor="FEBRUARI 2022">FEBRUARI 2022</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="MARET 2020"
-              name="entry.502113277"
-              value="MARET 2022"
-              onChange={handleChange}
-              required
-            />
-              <label htmlFor="MARET 2022">MARET 2022</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="APRIL 2020"
-              name="entry.502113277"
-              value="APRIL 2022"
-              onChange={handleChange}
-              required
-            />
-              <label htmlFor="APRIL 2022">APRIL 2022</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="MEI 2020"
-              name="entry.502113277"
-              value="MEI 2022"
-              onChange={handleChange}
-              required
-            />
-              <label htmlFor="MEI 2022">MEI 2022</label>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="radio"
-              id="JUNI 2020"
-              name="entry.502113277"
-              value="JUNI 2022"
-              onChange={handleChange}
-              required
-            />
-              <label htmlFor="JUNI 2022">JUNI 2022</label>
-          </div>
         </div>
         {/* alamat indonesia */}
         <div className="flex flex-col gap-2">
@@ -408,13 +336,13 @@ const Rekalibrasi = (props: Props) => {
             className="font-semibold text-gray-700"
             htmlFor="alamat-di-indonesia"
           >
-            ALAMAT DI indonesia (NOMOR RUMAH, NAMA JALAN, NAMA DESA/KELURAHAN):{" "}
+            ALAMAT DI indonesia (Nomor Rumah & Nama Jalan):{" "}
             <span className="text-red-500">&#42;</span>
           </label>
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.2092018895"
+            name="entry.76524181"
             id="alamat-di-indonesia"
             onChange={handleChange}
             required
@@ -431,7 +359,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.2111923876"
+            name="entry.1848295780"
             id="kabupaten-kota"
             onChange={handleChange}
             required
@@ -445,7 +373,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.2013971010"
+            name="entry.458209569"
             id="provinsi"
             onChange={handleChange}
             required
@@ -460,7 +388,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="SAKIT"
-              name="entry.134450213"
+              name="entry.624850740"
               value="SAKIT"
               onChange={handleChange}
             />
@@ -470,7 +398,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="HAMIL"
-              name="entry.134450213"
+              name="entry.624850740"
               value="HAMIL"
               onChange={handleChange}
               required
@@ -481,7 +409,7 @@ const Rekalibrasi = (props: Props) => {
             <input
               type="radio"
               id="SEHAT"
-              name="entry.134450213"
+              name="entry.624850740"
               value="SEHAT"
               onChange={handleChange}
             />
@@ -499,7 +427,7 @@ const Rekalibrasi = (props: Props) => {
           <input
             className="p-2 uppercase bg-transparent border border-gray-400 outline-none"
             type="text"
-            name="entry.1035142121"
+            name="entry.840994159"
             id="alasan-pulang"
             onChange={handleChange}
             required
