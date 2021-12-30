@@ -21,7 +21,9 @@ const UndangUndang = (props: Props) => {
       ></iframe>
       <div className="flex justify-center pt-12">
         <button
-          onClick={() => router.replace("/")}
+          onClick={() =>
+            window.history.length > 1 ? router.back() : router.replace("/")
+          }
           className="px-4 py-2 text-white bg-blue-500 rounded-md"
         >
           Kembali
