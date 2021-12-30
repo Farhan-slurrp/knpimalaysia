@@ -88,22 +88,17 @@ const undangUndang = [
   {
     title:
       "PERATURAN BADAN NOMOR 28 TAHUN  2015: Tentang Tata Cara Penyelesaian Masalah Calon Tenaga Kerja Indonesia/Tenaga Kerja Indonesia Melalui Mediasi dan Advokasi",
-    link: "#",
+    link: "perban-282015",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 18 TAHUN  2015: Tentang Pelayanan Penempatan Calon TKI/TKI Melalui Daerah Perbatasan Kabupaten Nunukan",
-    link: "#",
+    link: "perban-182015",
   },
   {
     title:
       "PERATURAN BADAN NOMOR 16 TAHUN  2015: Tentang Petunjuk Teknis Pelayanan Kepulangan Tenaga Kerja Indonesia Bermasalah",
-    link: "#",
-  },
-  {
-    title:
-      "PERATURAN BADAN NOMOR 18 TAHUN  2015: Tentang Pelayanan Penempatan Calon TKI/TKI Melalui Daerah Perbatasan Kabupaten Nunukan",
-    link: "#",
+    link: "perban-162015",
   },
 ];
 

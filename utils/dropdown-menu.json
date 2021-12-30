@@ -21,11 +21,7 @@
   },
   "berita": {
     "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
-    "link": [
-      "/berita-bp-knpi-malaysia",
-      "/berita-dpp-knpi",
-      "/under-construction"
-    ]
+    "link": ["/berita-bp-knpi-malaysia", "/berita-dpp-knpi", "/berita-umum"]
   },
   "aomi-malaysia": {
     "title": [
@@ -33,7 +29,11 @@
       "berita aomi malaysia",
       "pendampingan rekalibrasi pulang"
     ],
-    "link": ["/tentang-aomi-malaysia", "/berita-aomi-malaysia", "/rekalibrasi"]
+    "link": [
+      "/tentang-aomi-malaysia",
+      "/berita-aomi-malaysia",
+      "/under-construction"
+    ]
   },
   "pmi-malaysia": {
     "title": [

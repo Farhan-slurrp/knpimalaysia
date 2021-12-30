@@ -521,7 +521,7 @@ export const AOMINews: INews[] = [
   },
 ];
 
-export const BeritaUmum: INews[] = [
+export const ListBeritaUmum: INews[] = [
   {
     id: "0",
     title: "Hermono, Diplomat Pembela Pekerja Migran",
