@@ -46,7 +46,7 @@ const AdminLogin = (props: Props) => {
   //   console.log(authCookie.userAuth);
 
   return (
-    <div className="flex items-start h-full w-full">
+    <div className="flex items-start justify-center h-full w-full">
       <div className="p-4 rounded-md border border-blue-200 flex flex-col gap-4 m-4 mt-12">
         <h1 className="text-2xl text-center font-semibold text-blue-500">
           KNPI Admin Login Page
@@ -63,7 +63,7 @@ const AdminLogin = (props: Props) => {
             <label htmlFor="email">Email:</label>
             <input
               type="email"
-              className="bg-transparent p-2 text-gray-700 outline-none border border-blue-200"
+              className="text-sm bg-transparent p-2 text-gray-700 outline-none border border-blue-200"
               name="email"
               autoComplete="off"
               value={email}
@@ -77,7 +77,7 @@ const AdminLogin = (props: Props) => {
               <input
                 type={hiddenPassword ? "password" : "text"}
                 name="password"
-                className="w-full bg-transparent p-2 text-gray-700 outline-none border border-blue-200"
+                className="text-sm w-full bg-transparent p-2 text-gray-700 outline-none border border-blue-200"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 autoComplete="off"

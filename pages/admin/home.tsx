@@ -12,17 +12,6 @@ import AdminLayout from "../../components/AdminLayout";
 interface Props {}
 
 const AdminHome = (props: Props) => {
-  const [authCookie, setAuthCookie, removeAuthCookie] = useCookies([
-    "KNPIAdminUserAuth",
-  ]);
-  const router = useRouter();
-
-  React.useEffect(() => {
-    if (!authCookie.KNPIAdminUserAuth) {
-      router.push("/admin");
-    }
-  }, [authCookie]);
-
   return (
     <AdminLayout>
       <div className="flex flex-col items-center p-12 pt-16">
