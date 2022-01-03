@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import "tailwindcss/tailwind.css";
 import { AppStoreProvider } from "../stores/AppContext";
 import { useRouter } from "next/router";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
