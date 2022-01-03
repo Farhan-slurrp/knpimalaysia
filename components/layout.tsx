@@ -33,7 +33,7 @@ const Layout = ({ children }: Props) => {
 
       <Header />
       <div className="flex justify-center w-full min-h-4 relative">
-        <div className="mb-12">{children}</div>
+        {children}
         {/* <Sidebar /> */}
         {isHeightFull && <BackToTopButton />}
       </div>
