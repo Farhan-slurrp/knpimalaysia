@@ -22,13 +22,13 @@ const AdminHome = (props: Props) => {
           <Link href={"/admin/berita"}>
             <div className="p-8 py-16 min-w-1 rounded-md hover:text-white border border-blue-500 text-blue-500 hover:bg-blue-500 cursor-pointer flex flex-col items-center gap-4">
               <p className="text-center text-2xl font-semibold">BERITA</p>
-              <NewspaperIcon className="text-7xl" />
+              <NewspaperIcon className="text-7xl" fontSize="large" />
             </div>
           </Link>
           <Link href={"/admin/berita"}>
             <div className="p-8 py-16 min-w-1 rounded-md hover:text-white border border-blue-500 text-blue-500 hover:bg-blue-500 cursor-pointer flex flex-col items-center gap-4">
               <p className="text-center text-2xl font-semibold">GALERI</p>
-              <CollectionsIcon className="text-7xl" />
+              <CollectionsIcon className="text-7xl" fontSize="large" />
             </div>
           </Link>
         </div>
