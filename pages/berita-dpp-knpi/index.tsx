@@ -24,6 +24,7 @@ const BeritaDPPKNPI = (props: Props) => {
         thumbnail: doc.data().thumbnailImage,
         publisher: doc.data().publisher,
         publishDate: doc.data().publishDate,
+        type: doc.data().type,
       };
       setAllNews([...allNews, newNews]);
     });

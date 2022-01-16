@@ -3,15 +3,22 @@ import { useRouter } from "next/router";
 import React from "react";
 import AdminLayout from "../../../../components/AdminLayout";
 import { db } from "../../../../firebase/init";
+import JoditEditor from "jodit-react";
 
 interface Props {}
 
 const CreateNews = (props: Props) => {
   const router = useRouter();
+  const editor = React.useRef(null);
+  const [content, setContent] = React.useState("");
 
   console.log(router.query);
 
-  const handleSubmit = async (e) => {
+  const config = {
+    readonly: false, // all options from https://xdsoft.net/jodit/doc/
+  };
+
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     if (router.query["sumber"] == "external") {
       const data = {
@@ -20,14 +27,16 @@ const CreateNews = (props: Props) => {
         publisher: e.target["publisher"].value,
         publishDate: e.target["publish-date"].value,
         thumbnailImage: e.target["thumbnail-image"].value,
+        type: router.query["sumber"],
       };
 
       const res = await db
-        .collection(router.query["type"].toString())
+        .collection(router.query["type"]!.toString())
         .doc()
         .set(data);
 
       console.log(res);
+      e.target.reset();
     }
   };
 
@@ -109,6 +118,61 @@ const CreateNews = (props: Props) => {
                 name="thumbnail-image"
                 type="text"
                 required
+              />
+            </div>
+            <button
+              type="submit"
+              className="p-2 bg-green-500 w-1/3 text-white font-semibold"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      )}
+      {router.query["sumber"] == "internal" && (
+        <div className="p-12 flex justify-center">
+          <form
+            className="p-4 border border-gray-200 flex flex-col items-center w-2/3 gap-6"
+            onSubmit={handleSubmit}
+          >
+            <h1 className="text-center text-2xl">Berita Baru</h1>
+            <div className="flex flex-col gap-2 w-full">
+              <label htmlFor="judul">Judul:</label>
+              <input
+                className="bg-transparent border p-1 border-gray-400 outline-none rounded-md"
+                name="judul"
+                type="text"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2 w-full">
+              <label htmlFor="publish-date">Tanggal Terbit:</label>
+              <input
+                className="bg-transparent border p-1 border-gray-400 outline-none rounded-md"
+                name="publish-date"
+                type="text"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2 w-full">
+              <label htmlFor="thumbnail-image">
+                Gambar Thumbnail & Banner:
+              </label>
+              <input
+                className="bg-transparent border p-1 border-gray-400 outline-none rounded-md"
+                name="thumbnail-image"
+                type="file"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2 w-full">
+              <p>Konten:</p>
+              <JoditEditor
+                ref={editor}
+                value={content}
+                config={config}
+                onBlur={(newContent) => setContent(newContent)} // preferred to use only this option to update the content for performance reasons
+                onChange={(newContent) => {}}
               />
             </div>
             <button

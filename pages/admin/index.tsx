@@ -34,6 +34,7 @@ const AdminLogin = (props: Props) => {
       console.log(CredUser);
     } catch (error: any) {
       setIsError(true);
+      console.log(error);
     }
   };
 

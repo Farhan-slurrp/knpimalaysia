@@ -6,6 +6,7 @@ export interface INews {
   thumbnail?: string;
   publisher?: string;
   publishDate?: string;
+  type?: string;
 }
 
 export const BPKNPINews: INews[] = [
