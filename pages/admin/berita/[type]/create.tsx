@@ -3,13 +3,18 @@ import { useRouter } from "next/router";
 import React from "react";
 import AdminLayout from "../../../../components/AdminLayout";
 import { db } from "../../../../firebase/init";
-import JoditEditor from "jodit-react";
+import dynamic from "next/dynamic";
+
+const importJodit = () => import("jodit-react");
+
+const JoditEditor = dynamic(importJodit, {
+  ssr: false,
+});
 
 interface Props {}
 
 const CreateNews = (props: Props) => {
   const router = useRouter();
-  const editor = React.useRef(null);
   const [content, setContent] = React.useState("");
 
   console.log(router.query);
@@ -168,7 +173,6 @@ const CreateNews = (props: Props) => {
             <div className="flex flex-col gap-2 w-full">
               <p>Konten:</p>
               <JoditEditor
-                ref={editor}
                 value={content}
                 config={config}
                 onBlur={(newContent) => setContent(newContent)} // preferred to use only this option to update the content for performance reasons
