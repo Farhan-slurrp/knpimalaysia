@@ -10,6 +10,26 @@ interface Props {
 const SingleNews = ({ news }: Props) => {
   const router = useRouter();
 
+  console.log(news);
+
+  if (news && news["type"] == "internal") {
+    return (
+      <div className="p-12 px-20 text-gray-800 flex flex-col items-stretch gap-20">
+        <h1 className="text-2xl font-semibold text-center">{news["title"]}</h1>
+        <img src={news["thumbnail"]} alt="" />
+        <div dangerouslySetInnerHTML={{ __html: news["content"]! }} />
+        <div className="flex justify-center">
+          <button
+            onClick={() => router.back()}
+            className="px-4 py-2 text-blue-500 border border-blue-500 rounded-md hover:text-white hover:bg-blue-500"
+          >
+            Kembali
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col gap-10 px-4 py-12">
       <a

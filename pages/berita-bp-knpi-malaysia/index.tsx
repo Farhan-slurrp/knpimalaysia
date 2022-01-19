@@ -39,7 +39,11 @@ const BeritaBPKNPI = (props: Props) => {
   return (
     <NewsList
       title="BERITA TENTANG BP KNPI MALAYSIA"
-      allNews={allNews}
+      allNews={allNews.sort((a, b) => {
+        const d1 = new Date(a["publishDate"]!).getTime();
+        const d2 = new Date(b["publishDate"]!).getTime();
+        return d1 > d2 ? -1 : 1;
+      })}
       baseLink="berita-bp-knpi-malaysia"
     />
   );

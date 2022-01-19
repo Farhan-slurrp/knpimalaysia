@@ -41,7 +41,6 @@ function Header({}: Props): ReactElement {
           title="bp knpi malaysia"
           menus={menu["bp-knpi-malaysia"]}
         />
-        <DropDownMenu title="berita knpi" menus={menu["berita"]} />
         <DropDownMenu title="galeri kegiatan knpi" menus={menu["galeri"]} />
         <a
           href="/perwakilan-ri-di-malaysia"
@@ -61,13 +60,7 @@ function Header({}: Props): ReactElement {
         >
           opini
         </a>
-        <a
-          href="/jurnal"
-          className={`px-4 py-4 uppercase hover:bg-blue-600
-          ${router.route == "/jurnal" ? "bg-blue-700" : "bg-blue-500"}`}
-        >
-          jurnal
-        </a>
+        <DropDownMenu title="berita" menus={menu["berita"]} />
         <DropDownMenu title="aomi malaysia" menus={menu["aomi-malaysia"]} />
         <DropDownMenu title="pojok pmi malaysia" menus={menu["pmi-malaysia"]} />
       </div>

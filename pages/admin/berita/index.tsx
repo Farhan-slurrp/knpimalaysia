@@ -24,10 +24,6 @@ const AdminBerita = (props: Props) => {
       link: "/admin/berita/opini",
     },
     {
-      title: "jurnal",
-      link: "/admin/berita/jurnal",
-    },
-    {
       title: "berita aomi malaysia",
       link: "/admin/berita/berita-aomi-malaysia",
     },

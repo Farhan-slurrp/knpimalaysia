@@ -14,7 +14,7 @@ const DropDownMenu = ({ title, menus }: Props) => {
 
   return (
     <div
-      className="relative inline-block text-left"
+      className="relative inline-block text-left w-max"
       onMouseLeave={() => setIsOpen(false)}
     >
       <div>

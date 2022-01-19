@@ -26,6 +26,8 @@ export default function SingleBPKNPINews(props: Props): ReactElement {
       thumbnail: doc.data()?.thumbnailImage,
       publisher: doc.data()?.publisher,
       publishDate: doc.data()?.publishDate,
+      type: doc.data()?.type,
+      content: doc.data()?.content,
     };
     setNews(newNews);
   };

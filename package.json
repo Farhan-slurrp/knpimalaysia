@@ -12,6 +12,7 @@
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.2.0",
     "@mui/material": "^5.2.2",
+    "date-fns": "^2.28.0",
     "dotenv": "^10.0.0",
     "firebase": "^9.6.1",
     "jodit-react": "^1.1.17",

@@ -20,8 +20,8 @@
     "link": ["/under-construction", "/galeri-video", "/under-construction"]
   },
   "berita": {
-    "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum"],
-    "link": ["/berita-bp-knpi-malaysia", "/berita-dpp-knpi", "/berita-umum"]
+    "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum", "berita pmi malaysia"],
+    "link": ["/berita-bp-knpi-malaysia", "/berita-dpp-knpi", "/berita-umum", "/berita-pmi"]
   },
   "aomi-malaysia": {
     "title": [
@@ -38,9 +38,8 @@
   "pmi-malaysia": {
     "title": [
       "undang-undang dan peraturan tentang pmi",
-      "berita pmi malaysia",
       "aduan dan aspirasi pmi malaysia"
     ],
-    "link": ["/uu-dan-peraturan-pmi", "/berita-pmi", "/aduan-pmi"]
+    "link": ["/uu-dan-peraturan-pmi", "/aduan-pmi"]
   }
 }

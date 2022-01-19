@@ -46,6 +46,7 @@ const CreateNews = (props: Props) => {
         publishDate: e.target["publish-date"].value,
         thumbnailImage: linkIMG ? e.target["thumbnail-image"].value : fileURL,
         content,
+        type: router.query["sumber"],
       };
 
       const res = await db
