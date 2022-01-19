@@ -39,7 +39,7 @@ const BeritaAOMI = (props: Props) => {
   return (
     <NewsList
       title="BERITA TENTANG AOMI MALAYSIA"
-      allNews={AOMINews}
+      allNews={allNews}
       baseLink="berita-aomi-malaysia"
     />
   );

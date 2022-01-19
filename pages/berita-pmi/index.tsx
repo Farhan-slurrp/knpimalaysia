@@ -9,7 +9,7 @@ const BeritaUmum = (props: Props) => {
   const [allNews, setAllNews] = React.useState<INews[]>([]);
 
   const getBerita = async () => {
-    const newsRef = db.collection("berita-pmi");
+    const newsRef = db.collection("berita-pmi-malaysia");
     const snapshot = await newsRef.get();
     if (snapshot.empty) {
       console.log("No matching documents.");

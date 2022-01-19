@@ -13,6 +13,10 @@ interface Props {
 const NewsList = ({ title, allNews, baseLink }: Props) => {
   const router = useRouter();
 
+  console.log(allNews);
+
+  if (!allNews) return <div></div>;
+
   return (
     <div className="w-screen md:w-full p-2 md:p-4 flex flex-col items-center">
       <h2 className="py-4 text-center md:text-left text-lg md:text-2xl mb-8 font-semibold text-gray-900">
@@ -39,7 +43,8 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
                 </p>
                 <p className="text-xs text-gray-800">
                   Tanggal Terbit:{" "}
-                  {format(new Date(news["publishDate"]!), "dd MMMM yyyy")}
+                  {news["publishDate"] &&
+                    format(new Date(news["publishDate"]), "dd MMMM yyyy")}
                 </p>
                 {news["type"] == "external" && (
                   <p className="text-xs text-gray-800">

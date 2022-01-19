@@ -15,7 +15,10 @@ const SingleBeritaUmum = (props: Props) => {
   });
 
   const getNewsData = async () => {
-    const doc = await db.collection("berita-pmi").doc(id?.toString()).get();
+    const doc = await db
+      .collection("berita-pmi-malaysia")
+      .doc(id?.toString())
+      .get();
     const newNews = {
       id: doc.id,
       title: doc.data()?.judul,
