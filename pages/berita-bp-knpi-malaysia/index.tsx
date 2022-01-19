@@ -28,7 +28,7 @@ const BeritaBPKNPI = (props: Props) => {
         publishDate: doc.data().publishDate,
         type: doc.data().type,
       };
-      setAllNews([...allNews, newNews]);
+      setAllNews((prevNews) => [...prevNews, newNews]);
     });
   };
 
