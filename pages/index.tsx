@@ -66,17 +66,33 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <main className="p-8 min-h-3">
-        <div className="flex gap-4 flex-wrap">
-          {combinedNews &&
-            combinedNews.map((news, idx) => {
-              return (
-                <div key={idx} className="w-1/4">
-                  <img src={news.thumbnail} alt="" />
-                  <p>{news.title}</p>
-                </div>
-              );
-            })}
+      <main className="p-8 min-h-3 px-32">
+        <div className="flex flex-col gap-4 flex-wrap">
+          <h1 className="uppercase text-2xl font-semibold">Berita Terkini</h1>
+          <div className="flex overflow-x-hidden gap-4 gap-y-8 items-center">
+            {combinedNews && combinedNews.length > 0 && (
+              <div
+                className={`w-full h-max border border-gray-400 rounded-md p-4`}
+              >
+                <img src={combinedNews[0].thumbnail} alt="" />
+                <p>{combinedNews[0].title}</p>
+              </div>
+            )}
+            <div className="flex flex-col w-full gap-4">
+              {combinedNews &&
+                combinedNews.slice(1, 4).map((news, idx) => {
+                  return (
+                    <div
+                      key={idx}
+                      className={`w-full flex gap-4 items-start justify-between border border-gray-400 rounded-md p-4`}
+                    >
+                      <img className="w-28" src={news.thumbnail} alt="" />
+                      <p>{news.title}</p>
+                    </div>
+                  );
+                })}
+            </div>
+          </div>
         </div>
       </main>
       <Footer />
