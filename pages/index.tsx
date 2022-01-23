@@ -131,10 +131,15 @@ const Home: NextPage = () => {
                         key={idx}
                       >
                         <div
-                          className={`w-full flex gap-4 items-start justify-between p-4 cursor-pointer`}
+                          className={`w-full flex items-center gap-4 justify-between p-4 cursor-pointer border border-gray-200`}
                         >
                           <img className="w-28" src={news.thumbnail} alt="" />
-                          <p>{news.title}</p>
+                          <div className="flex flex-col gap-1">
+                            <small className="-mt-3 text-xs text-gray-700 p-1 font-semibold uppercase">
+                              {getNewsCategory(news).split("-").join(" ")}
+                            </small>
+                            <p>{news.title}</p>
+                          </div>
                         </div>
                       </Link>
                     );
@@ -142,15 +147,16 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 flex-wrap mt-16">
+        <div className="flex flex-col gap-4 flex-wrap mt-12">
           <h1 className="uppercase text-2xl font-semibold">
             Berita bp knpi malaysia
           </h1>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             {groupedNews &&
               groupedNews["berita-bp-knpi-malaysia"] &&
-              groupedNews["berita-bp-knpi-malaysia"].map(
-                (news: any, idx: any) => {
+              getSortedNews(groupedNews["berita-bp-knpi-malaysia"])
+                .slice(0, 3)
+                .map((news: any, idx: any) => {
                   return (
                     <Link
                       href={`${getNewsCategory(news)}/${news.id}`}
@@ -164,10 +170,134 @@ const Home: NextPage = () => {
                       </div>
                     </Link>
                   );
-                }
-              )}
+                })}
+            <Link href="/berita-bp-knpi-malaysia">
+              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                Load More...
+              </p>
+            </Link>
           </div>
         </div>
+        <div className="flex flex-col gap-4 flex-wrap mt-12">
+          <h1 className="uppercase text-2xl font-semibold">Berita dpp knpi</h1>
+          <div className="flex flex-col gap-3">
+            {groupedNews &&
+              groupedNews["berita-dpp-knpi"] &&
+              getSortedNews(groupedNews["berita-dpp-knpi"])
+                .slice(0, 3)
+                .map((news: any, idx: any) => {
+                  return (
+                    <Link
+                      href={`${getNewsCategory(news)}/${news.id}`}
+                      key={idx}
+                    >
+                      <div
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                      >
+                        <img className="w-28" src={news.thumbnail} alt="" />
+                        <p className="text-lg">{news.title}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
+            <Link href="/berita-dpp-knpi">
+              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                Load More...
+              </p>
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 flex-wrap mt-12">
+          <h1 className="uppercase text-2xl font-semibold">
+            Berita aomi malaysia
+          </h1>
+          <div className="flex flex-col gap-3">
+            {groupedNews &&
+              groupedNews["berita-aomi-malaysia"] &&
+              getSortedNews(groupedNews["berita-aomi-malaysia"])
+                .slice(0, 3)
+                .map((news: any, idx: any) => {
+                  return (
+                    <Link
+                      href={`${getNewsCategory(news)}/${news.id}`}
+                      key={idx}
+                    >
+                      <div
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                      >
+                        <img className="w-28" src={news.thumbnail} alt="" />
+                        <p className="text-lg">{news.title}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
+            <Link href="/berita-aomi-malaysia">
+              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                Load More...
+              </p>
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 flex-wrap mt-12">
+          <h1 className="uppercase text-2xl font-semibold">
+            Berita pmi malaysia
+          </h1>
+          <div className="flex flex-col gap-3">
+            {groupedNews &&
+              groupedNews["berita-pmi-malaysia"] &&
+              getSortedNews(groupedNews["berita-pmi-malaysia"])
+                .slice(0, 3)
+                .map((news: any, idx: any) => {
+                  return (
+                    <Link
+                      href={`${getNewsCategory(news)}/${news.id}`}
+                      key={idx}
+                    >
+                      <div
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                      >
+                        <img className="w-28" src={news.thumbnail} alt="" />
+                        <p className="text-lg">{news.title}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
+            <Link href="/berita-pmi-malaysia">
+              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                Load More...
+              </p>
+            </Link>
+          </div>
+        </div>
+        {/* <div className="flex flex-col gap-4 flex-wrap mt-12">
+          <h1 className="uppercase text-2xl font-semibold">opini</h1>
+          <div className="flex flex-col gap-3">
+            {groupedNews &&
+              groupedNews["opini"] &&
+              getSortedNews(groupedNews["opini"])
+                .slice(0, 3)
+                .map((news: any, idx: any) => {
+                  return (
+                    <Link
+                      href={`${getNewsCategory(news)}/${news.id}`}
+                      key={idx}
+                    >
+                      <div
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                      >
+                        <img className="w-28" src={news.thumbnail} alt="" />
+                        <p className="text-lg">{news.title}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
+            <Link href="/opini">
+              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                Load More...
+              </p>
+            </Link>
+          </div>
+        </div> */}
       </main>
       <Footer />
     </div>
