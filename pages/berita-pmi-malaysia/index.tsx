@@ -38,7 +38,11 @@ const BeritaUmum = (props: Props) => {
     <div>
       <NewsList
         title="BERITA TENTANG PMI MALAYSIA"
-        allNews={allNews}
+        allNews={allNews.sort((a, b) => {
+          const d1 = new Date(a["publishDate"]!).getTime();
+          const d2 = new Date(b["publishDate"]!).getTime();
+          return d1 > d2 ? -1 : 1;
+        })}
         baseLink="berita-pmi"
       />
     </div>

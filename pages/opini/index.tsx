@@ -36,7 +36,15 @@ const BeritaUmum = (props: Props) => {
 
   return (
     <div>
-      <NewsList title="OPINI" allNews={allNews} baseLink="opini" />
+      <NewsList
+        title="OPINI"
+        allNews={allNews.sort((a, b) => {
+          const d1 = new Date(a["publishDate"]!).getTime();
+          const d2 = new Date(b["publishDate"]!).getTime();
+          return d1 > d2 ? -1 : 1;
+        })}
+        baseLink="opini"
+      />
     </div>
   );
 };

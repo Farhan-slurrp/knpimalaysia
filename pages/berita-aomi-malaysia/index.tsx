@@ -39,7 +39,11 @@ const BeritaAOMI = (props: Props) => {
   return (
     <NewsList
       title="BERITA TENTANG AOMI MALAYSIA"
-      allNews={allNews}
+      allNews={allNews.sort((a, b) => {
+        const d1 = new Date(a["publishDate"]!).getTime();
+        const d2 = new Date(b["publishDate"]!).getTime();
+        return d1 > d2 ? -1 : 1;
+      })}
       baseLink="berita-aomi-malaysia"
     />
   );
