@@ -155,14 +155,13 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 flex-wrap mt-12">
-          <h1 className="uppercase text-2xl font-semibold">
-            Berita bp knpi malaysia
-          </h1>
-          <div className="flex flex-col gap-3">
-            {groupedNews &&
-              groupedNews["berita-bp-knpi-malaysia"] &&
-              getSortedNews(groupedNews["berita-bp-knpi-malaysia"])
+        {groupedNews && groupedNews["berita-bp-knpi-malaysia"] && (
+          <div className="flex flex-col gap-4 flex-wrap mt-12">
+            <h1 className="uppercase text-2xl font-semibold">
+              Berita bp knpi malaysia
+            </h1>
+            <div className="flex flex-col gap-3">
+              {getSortedNews(groupedNews["berita-bp-knpi-malaysia"])
                 .slice(0, 3)
                 .map((news: any, idx: any) => {
                   return (
@@ -179,19 +178,21 @@ const Home: NextPage = () => {
                     </Link>
                   );
                 })}
-            <Link href="/berita-bp-knpi-malaysia">
-              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
-                Load More...
-              </p>
-            </Link>
+              <Link href="/berita-bp-knpi-malaysia">
+                <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                  Load More...
+                </p>
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col gap-4 flex-wrap mt-12">
-          <h1 className="uppercase text-2xl font-semibold">Berita dpp knpi</h1>
-          <div className="flex flex-col gap-3">
-            {groupedNews &&
-              groupedNews["berita-dpp-knpi"] &&
-              getSortedNews(groupedNews["berita-dpp-knpi"])
+        )}
+        {groupedNews && groupedNews["berita-dpp-knpi"] && (
+          <div className="flex flex-col gap-4 flex-wrap mt-12">
+            <h1 className="uppercase text-2xl font-semibold">
+              Berita dpp knpi
+            </h1>
+            <div className="flex flex-col gap-3">
+              {getSortedNews(groupedNews["berita-dpp-knpi"])
                 .slice(0, 3)
                 .map((news: any, idx: any) => {
                   return (
@@ -208,21 +209,21 @@ const Home: NextPage = () => {
                     </Link>
                   );
                 })}
-            <Link href="/berita-dpp-knpi">
-              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
-                Load More...
-              </p>
-            </Link>
+              <Link href="/berita-dpp-knpi">
+                <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                  Load More...
+                </p>
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col gap-4 flex-wrap mt-12">
-          <h1 className="uppercase text-2xl font-semibold">
-            Berita aomi malaysia
-          </h1>
-          <div className="flex flex-col gap-3">
-            {groupedNews &&
-              groupedNews["berita-aomi-malaysia"] &&
-              getSortedNews(groupedNews["berita-aomi-malaysia"])
+        )}
+        {groupedNews && groupedNews["berita-aomi-malaysia"] && (
+          <div className="flex flex-col gap-4 flex-wrap mt-12">
+            <h1 className="uppercase text-2xl font-semibold">
+              Berita aomi malaysia
+            </h1>
+            <div className="flex flex-col gap-3">
+              {getSortedNews(groupedNews["berita-aomi-malaysia"])
                 .slice(0, 3)
                 .map((news: any, idx: any) => {
                   return (
@@ -239,21 +240,21 @@ const Home: NextPage = () => {
                     </Link>
                   );
                 })}
-            <Link href="/berita-aomi-malaysia">
-              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
-                Load More...
-              </p>
-            </Link>
+              <Link href="/berita-aomi-malaysia">
+                <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                  Load More...
+                </p>
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col gap-4 flex-wrap mt-12">
-          <h1 className="uppercase text-2xl font-semibold">
-            Berita pmi malaysia
-          </h1>
-          <div className="flex flex-col gap-3">
-            {groupedNews &&
-              groupedNews["berita-pmi-malaysia"] &&
-              getSortedNews(groupedNews["berita-pmi-malaysia"])
+        )}
+        {groupedNews && groupedNews["berita-pmi-malaysia"] && (
+          <div className="flex flex-col gap-4 flex-wrap mt-12">
+            <h1 className="uppercase text-2xl font-semibold">
+              Berita pmi malaysia
+            </h1>
+            <div className="flex flex-col gap-3">
+              {getSortedNews(groupedNews["berita-pmi-malaysia"])
                 .slice(0, 3)
                 .map((news: any, idx: any) => {
                   return (
@@ -270,19 +271,19 @@ const Home: NextPage = () => {
                     </Link>
                   );
                 })}
-            <Link href="/berita-pmi-malaysia">
-              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
-                Load More...
-              </p>
-            </Link>
+              <Link href="/berita-pmi-malaysia">
+                <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                  Load More...
+                </p>
+              </Link>
+            </div>
           </div>
-        </div>
-        {/* <div className="flex flex-col gap-4 flex-wrap mt-12">
-          <h1 className="uppercase text-2xl font-semibold">opini</h1>
-          <div className="flex flex-col gap-3">
-            {groupedNews &&
-              groupedNews["opini"] &&
-              getSortedNews(groupedNews["opini"])
+        )}
+        {groupedNews && groupedNews["opini"] && (
+          <div className="flex flex-col gap-4 flex-wrap mt-12">
+            <h1 className="uppercase text-2xl font-semibold">opini</h1>
+            <div className="flex flex-col gap-3">
+              {getSortedNews(groupedNews["opini"])
                 .slice(0, 3)
                 .map((news: any, idx: any) => {
                   return (
@@ -299,13 +300,14 @@ const Home: NextPage = () => {
                     </Link>
                   );
                 })}
-            <Link href="/opini">
-              <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
-                Load More...
-              </p>
-            </Link>
+              <Link href="/opini">
+                <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                  Load More...
+                </p>
+              </Link>
+            </div>
           </div>
-        </div> */}
+        )}
       </main>
       <Footer />
     </div>
