@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Footer from "../components/Footer";
 import { db } from "../firebase/init";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const Home: NextPage = () => {
   const [combinedNews, setCombinedNews] = React.useState<any[]>([]);
@@ -85,15 +86,22 @@ const Home: NextPage = () => {
   if (!loading) console.log(groupedNews);
 
   if (loading) {
-    return <div></div>;
+    return (
+      <div className="min-h-4 grid place-items-center">
+        <div className="flex flex-col items-center gap-4">
+          <CircularProgress />
+          <p className="text-blue-600 font-semibold">Loading..</p>
+        </div>
+      </div>
+    );
   }
 
   return (
     <div>
-      <main className="p-8 min-h-3 px-32">
+      <main className="py-12 px-2 min-h-3 md:px-32">
         <div className="flex flex-col gap-4 flex-wrap">
           <h1 className="uppercase text-2xl font-semibold">Berita Terkini</h1>
-          <div className="flex overflow-x-hidden gap-4 gap-y-8">
+          <div className="flex flex-col md:flex-row overflow-x-hidden gap-4 gap-y-8">
             {combinedNews && combinedNews.length > 0 && (
               <Link
                 href={`${getNewsCategory(getSortedNews(combinedNews)[0])}/${
