@@ -87,7 +87,7 @@ const Home: NextPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-4 grid place-items-center">
+      <div className="min-h-3 grid place-items-center">
         <div className="flex flex-col items-center gap-4">
           <CircularProgress />
           <p className="text-blue-600 font-semibold">Loading..</p>
@@ -155,7 +155,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        {groupedNews && groupedNews["berita-bp-knpi-malaysia"] && (
+        {groupedNews && groupedNews["berita-bp-knpi-malaysia"].length > 0 && (
           <div className="flex flex-col gap-4 flex-wrap mt-12">
             <h1 className="uppercase text-2xl font-semibold">
               Berita bp knpi malaysia
@@ -186,7 +186,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         )}
-        {groupedNews && groupedNews["berita-dpp-knpi"] && (
+        {groupedNews && groupedNews["berita-dpp-knpi"].length > 0 && (
           <div className="flex flex-col gap-4 flex-wrap mt-12">
             <h1 className="uppercase text-2xl font-semibold">
               Berita dpp knpi
@@ -217,7 +217,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         )}
-        {groupedNews && groupedNews["berita-aomi-malaysia"] && (
+        {groupedNews && groupedNews["berita-aomi-malaysia"].length > 0 && (
           <div className="flex flex-col gap-4 flex-wrap mt-12">
             <h1 className="uppercase text-2xl font-semibold">
               Berita aomi malaysia
@@ -248,7 +248,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         )}
-        {groupedNews && groupedNews["berita-pmi-malaysia"] && (
+        {groupedNews && groupedNews["berita-pmi-malaysia"].length > 0 && (
           <div className="flex flex-col gap-4 flex-wrap mt-12">
             <h1 className="uppercase text-2xl font-semibold">
               Berita pmi malaysia
@@ -279,7 +279,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         )}
-        {groupedNews && groupedNews["opini"] && (
+        {groupedNews && groupedNews["opini"].length > 0 && (
           <div className="flex flex-col gap-4 flex-wrap mt-12">
             <h1 className="uppercase text-2xl font-semibold">opini</h1>
             <div className="flex flex-col gap-3">
