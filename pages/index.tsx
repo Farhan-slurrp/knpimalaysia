@@ -109,7 +109,7 @@ const Home: NextPage = () => {
                 }`}
               >
                 <div
-                  className={`w-full h-max border border-gray-400 rounded-md p-4 flex flex-col gap-3 cursor-pointer`}
+                  className={`w-full h-max border border-gray-200 rounded-md p-4 flex flex-col gap-3 cursor-pointer`}
                 >
                   <img src={getSortedNews(combinedNews)[0].thumbnail} alt="" />
                   <small className="-mt-3 text-sm text-blue-700 px-2 py-2 font-semibold bg-blue-100 uppercase">
@@ -170,7 +170,7 @@ const Home: NextPage = () => {
                       key={idx}
                     >
                       <div
-                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-200 rounded-md`}
                       >
                         <img className="w-28" src={news.thumbnail} alt="" />
                         <p className="text-lg">{news.title}</p>
@@ -201,7 +201,7 @@ const Home: NextPage = () => {
                       key={idx}
                     >
                       <div
-                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-200 rounded-md`}
                       >
                         <img className="w-28" src={news.thumbnail} alt="" />
                         <p className="text-lg">{news.title}</p>
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
                       key={idx}
                     >
                       <div
-                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-200 rounded-md`}
                       >
                         <img className="w-28" src={news.thumbnail} alt="" />
                         <p className="text-lg">{news.title}</p>
@@ -263,7 +263,7 @@ const Home: NextPage = () => {
                       key={idx}
                     >
                       <div
-                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-200 rounded-md`}
                       >
                         <img className="w-28" src={news.thumbnail} alt="" />
                         <p className="text-lg">{news.title}</p>
@@ -292,7 +292,7 @@ const Home: NextPage = () => {
                       key={idx}
                     >
                       <div
-                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-300 rounded-md`}
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-200 rounded-md`}
                       >
                         <img className="w-28" src={news.thumbnail} alt="" />
                         <p className="text-lg">{news.title}</p>
