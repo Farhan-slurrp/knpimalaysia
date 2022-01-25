@@ -123,7 +123,7 @@ const Home: NextPage = () => {
                 </div>
               </Link>
             )}
-            <div className="flex flex-col w-full gap-4">
+            <div className="flex flex-col w-full gap-3 md:gap-4">
               {combinedNews &&
                 combinedNews
                   .sort((a, b) => {
