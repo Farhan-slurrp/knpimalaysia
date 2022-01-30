@@ -38,19 +38,18 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
                 className="border border-gray-400"
               />
               <div className="flex flex-col justify-center">
+                {news["type"] == "external" && (
+                  <p className="text-xs text-gray-800 px-2 py-1 mb-1 rounded-lg bg-gray-100 font-semibold w-max">
+                    {news["publisher"]}
+                  </p>
+                )}
                 <p className="text-xl hover:text-blue-500 hover:underline text-ellipsis">
                   {news["title"]}
                 </p>
                 <p className="text-xs text-gray-800">
-                  Tanggal Terbit:{" "}
                   {news["publishDate"] &&
                     format(new Date(news["publishDate"]), "dd MMMM yyyy")}
                 </p>
-                {news["type"] == "external" && (
-                  <p className="text-xs text-gray-800">
-                    Sumber: {news["publisher"]}
-                  </p>
-                )}
               </div>
             </div>
           ))}
