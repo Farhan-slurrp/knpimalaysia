@@ -14,6 +14,7 @@ const Home: NextPage = () => {
     "berita-bp-knpi-malaysia": [],
     "berita-dpp-knpi": [],
     "berita-pmi-malaysia": [],
+    "berita-umum": [],
     opini: [],
   };
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
     "berita-bp-knpi-malaysia",
     "berita-dpp-knpi",
     "berita-pmi-malaysia",
+    "berita-umum",
     "opini",
   ];
 
@@ -272,6 +274,35 @@ const Home: NextPage = () => {
                   );
                 })}
               <Link href="/berita-pmi-malaysia">
+                <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
+                  Load More...
+                </p>
+              </Link>
+            </div>
+          </div>
+        )}
+        {groupedNews && groupedNews["berita-umum"].length > 0 && (
+          <div className="flex flex-col gap-4 flex-wrap mt-12">
+            <h1 className="uppercase text-2xl font-semibold">berita umum</h1>
+            <div className="flex flex-col gap-3">
+              {getSortedNews(groupedNews["berita-umum"])
+                .slice(0, 3)
+                .map((news: any, idx: any) => {
+                  return (
+                    <Link
+                      href={`${getNewsCategory(news)}/${news.id}`}
+                      key={idx}
+                    >
+                      <div
+                        className={`w-full flex gap-4 items-start p-4 cursor-pointer border border-gray-200 rounded-md`}
+                      >
+                        <img className="w-28" src={news.thumbnail} alt="" />
+                        <p className="text-lg">{news.title}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
+              <Link href="/opini">
                 <p className="text-blue-400 cursor-pointer font-semibold -mt-1">
                   Load More...
                 </p>
