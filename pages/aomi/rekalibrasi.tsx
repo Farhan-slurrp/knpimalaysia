@@ -444,7 +444,7 @@ const Rekalibrasi = (props: Props) => {
             className="font-semibold text-gray-700"
             htmlFor="nama-keluarga-di-indonesia"
           >
-            NAMA KELUARGA YANG DIHUBUNGI DI INDONESIA:{" "}
+            NAMA KELUARGA YANG DAPAT DIHUBUNGI DI INDONESIA:{" "}
             <span className="text-red-500">&#42;</span>
           </label>
           <input
@@ -462,7 +462,7 @@ const Rekalibrasi = (props: Props) => {
             className="font-semibold text-gray-700"
             htmlFor="no-hp-keluarga-di-indonesia"
           >
-            NOMOR HP/WA KELUARGA YANG DIHUBUNGI DI INDONESIA:{" "}
+            NOMOR HP/WA KELUARGA YANG DAPAT DIHUBUNGI DI INDONESIA:{" "}
             <span className="text-red-500">&#42;</span>
           </label>
           <input
