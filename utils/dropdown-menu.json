@@ -1,7 +1,7 @@
 {
   "dpp-knpi": {
-    "title": ["sejarah knpi", "pengurus dpp", "ketua umum"],
-    "link": ["/sejarah-knpi", "/under-construction", "/ketua-umum"]
+    "title": ["sejarah knpi", "ketua umum"],
+    "link": ["/sejarah-knpi", "/ketua-umum"]
   },
   "bp-knpi-malaysia": {
     "title": [
@@ -20,8 +20,18 @@
     "link": ["/under-construction", "/galeri-video", "/under-construction"]
   },
   "berita": {
-    "title": ["berita bp knpi malaysia", "berita dpp knpi", "berita umum", "berita pmi malaysia"],
-    "link": ["/berita-bp-knpi-malaysia", "/berita-dpp-knpi", "/berita-umum", "/berita-pmi-malaysia"]
+    "title": [
+      "berita bp knpi malaysia",
+      "berita dpp knpi",
+      "berita umum",
+      "berita pmi malaysia"
+    ],
+    "link": [
+      "/berita-bp-knpi-malaysia",
+      "/berita-dpp-knpi",
+      "/berita-umum",
+      "/berita-pmi-malaysia"
+    ]
   },
   "aomi-malaysia": {
     "title": [
@@ -32,7 +42,7 @@
     "link": [
       "/tentang-aomi-malaysia",
       "/berita-aomi-malaysia",
-      "/under-construction"
+      "/aomi/rekalibrasi"
     ]
   },
   "pmi-malaysia": {

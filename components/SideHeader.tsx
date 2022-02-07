@@ -25,7 +25,7 @@ const SideHeader = (props: Props) => {
       </a>
       <DropDownMenu title="dpp knpi" menus={menu["dpp-knpi"]} />
       <DropDownMenu title="bp knpi malaysia" menus={menu["bp-knpi-malaysia"]} />
-      <DropDownMenu title="berita knpi" menus={menu["berita"]} />
+      <DropDownMenu title="berita" menus={menu["berita"]} />
       <DropDownMenu title="galeri kegiatan knpi" menus={menu["galeri"]} />
       <a
         href="/perwakilan-ri-di-malaysia"

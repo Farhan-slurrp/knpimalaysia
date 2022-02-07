@@ -19,7 +19,11 @@ const SuksesPage = ({ type, name }: Props) => {
             {name.toUpperCase()}, TERIMA KASIH!
           </p>
           <p>{type.toUpperCase()} ANDA TELAH KAMI TERIMA.</p>
-          <p>SELANJUTNYA, TIM PANITIA NANTI AKAN MENGHUBUNGI ANDA.</p>
+          <p>
+            TERKAIT JADWAL KEPULANGAN, AKAN DIINFORMASIKAN BERIKUTNYA SETELAH
+            DITENTUKAN OLEH AOMI MALAYSIA <br />
+            DAN TIM PANITIA AKAN MENGHUBUNGI ANDA.
+          </p>
         </div>
       </div>
       <button
