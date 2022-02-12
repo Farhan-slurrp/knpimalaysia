@@ -43,7 +43,7 @@ const BeritaUmum = (props: Props) => {
           const d2 = new Date(b["publishDate"]!).getTime();
           return d1 > d2 ? -1 : 1;
         })}
-        baseLink="berita-pmi"
+        baseLink="berita-pmi-malaysia"
       />
     </div>
   );
