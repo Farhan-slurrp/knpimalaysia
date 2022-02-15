@@ -23,6 +23,8 @@ const SingleBeritaUmum = (props: Props) => {
       thumbnail: doc.data()?.thumbnailImage,
       publisher: doc.data()?.publisher,
       publishDate: doc.data()?.publishDate,
+      type: doc.data()?.type,
+      content: doc.data()?.content,
     };
     setNews(newNews);
   };
