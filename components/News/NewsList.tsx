@@ -43,7 +43,7 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
                     {news["publisher"]}
                   </p>
                 )}
-                <p className="text-xl hover:text-blue-500 hover:underline text-ellipsis">
+                <p className="md:text-xl hover:text-blue-500 hover:underline text-ellipsis">
                   {news["title"]}
                 </p>
                 <p className="text-xs text-gray-800">
