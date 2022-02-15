@@ -28,7 +28,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
       {/* kbri */}
       <div className="flex flex-col flex-wrap items-center w-full gap-3 px-2 py-6 mb-6 border border-gray-400 md:flex-nowrap md:flex-row md:px-6 md:w-3/4">
         <img
-          onClick={() => router.push("/berita-umum/0")}
+          onClick={() => router.push("/berita-umum/TXfJuFH4uWsME8pzbQbf")}
           src="/dubes.jfif"
           alt="poster"
           width="200"
