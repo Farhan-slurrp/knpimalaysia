@@ -28,7 +28,11 @@ const SuksesPage = ({ type, name }: Props) => {
           )}
           {type != "data" && (
             <p>
-              KAMI AKAN MENINJAU DAN MEMPERTIMBANGKAN {type.toUpperCase()} ANDA.
+              TERIMA KASIH KARENA ANDA TELAH MENGHUBUNGI KAMI DAN KAMI AKAN
+              PELAJARI {type.toUpperCase()} ANDA.
+              <br />
+              <br />
+              TIM BP KNPI MALAYSIA NANTI AKAN SEGERA MENGHUBUNGI ANDA
             </p>
           )}
         </div>
