@@ -32,7 +32,7 @@ const SuksesPage = ({ type, name }: Props) => {
               PELAJARI {type.toUpperCase()} ANDA.
               <br />
               <br />
-              TIM BP KNPI MALAYSIA NANTI AKAN SEGERA MENGHUBUNGI ANDA
+              TIM BP KNPI MALAYSIA NANTI AKAN SEGERA MENGHUBUNGI ANDA.
             </p>
           )}
         </div>
