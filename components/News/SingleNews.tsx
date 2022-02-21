@@ -2,6 +2,7 @@
 import React from "react";
 import { INews } from "../../utils/news";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 interface Props {
   news: INews | undefined;
@@ -14,19 +15,26 @@ const SingleNews = ({ news }: Props) => {
 
   if (news && news["type"] == "internal") {
     return (
-      <div className="md:p-12 p-4 md:px-20 text-gray-800 flex flex-col items-stretch gap-20">
-        <h1 className="text-2xl font-semibold text-center">{news["title"]}</h1>
-        <img src={news["thumbnail"]} alt="" />
-        <div dangerouslySetInnerHTML={{ __html: news["content"]! }} />
-        <div className="flex justify-center">
-          <button
-            onClick={() => router.back()}
-            className="px-4 py-2 text-blue-500 border border-blue-500 rounded-md hover:text-white hover:bg-blue-500"
-          >
-            Kembali
-          </button>
+      <>
+        <Head>
+          <link rel="icon" href={news["thumbnail"]} />
+        </Head>
+        <div className="md:p-12 p-4 md:px-20 text-gray-800 flex flex-col items-stretch gap-20">
+          <h1 className="text-2xl font-semibold text-center">
+            {news["title"]}
+          </h1>
+          <img src={news["thumbnail"]} alt="" />
+          <div dangerouslySetInnerHTML={{ __html: news["content"]! }} />
+          <div className="flex justify-center">
+            <button
+              onClick={() => router.back()}
+              className="px-4 py-2 text-blue-500 border border-blue-500 rounded-md hover:text-white hover:bg-blue-500"
+            >
+              Kembali
+            </button>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 
