@@ -16,9 +16,9 @@ const SingleNews = ({ news }: Props) => {
   if (news && news["type"] == "internal") {
     return (
       <>
-        <Head>
+        <head>
           <meta property="og:image" content={news["thumbnail"]} />
-        </Head>
+        </head>
         <div className="md:p-12 p-4 md:px-20 text-gray-800 flex flex-col items-stretch gap-20">
           <h1 className="text-2xl font-semibold text-center">
             {news["title"]}
