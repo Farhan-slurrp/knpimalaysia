@@ -31,7 +31,7 @@ const SingleBeritaUmum = (props: Props) => {
 
   React.useEffect(() => {
     getNewsData();
-  }, []);
+  }, [id]);
 
   return <SingleNews news={news} />;
 };

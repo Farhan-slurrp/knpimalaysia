@@ -34,7 +34,7 @@ export default function SingleDPPKNPINews(props: Props): ReactElement {
 
   React.useEffect(() => {
     getNewsData();
-  }, []);
+  }, [id]);
 
   return <SingleNews news={news} />;
 }

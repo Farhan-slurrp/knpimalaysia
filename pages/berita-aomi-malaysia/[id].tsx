@@ -34,7 +34,7 @@ export default function SingleAOMINews(props: Props): ReactElement {
 
   React.useEffect(() => {
     getNewsData();
-  }, []);
+  }, [id]);
 
   return <SingleNews news={news} />;
 }
