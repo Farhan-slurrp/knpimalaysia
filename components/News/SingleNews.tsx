@@ -17,7 +17,7 @@ const SingleNews = ({ news }: Props) => {
     return (
       <>
         <Head>
-          <meta property="og:image" itemprop="image" content={news["thumbnail"]}>
+          <meta property="og:image" itemProp="image" content={news["thumbnail"]} />
         </Head>
         <div className="md:p-12 p-4 md:px-20 text-gray-800 flex flex-col items-stretch gap-20">
           <h1 className="text-2xl font-semibold text-center">
