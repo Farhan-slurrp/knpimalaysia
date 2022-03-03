@@ -24,7 +24,7 @@ export default function InformasiKegiatan({}: Props) {
           target={"_blank"}
           rel="noreferrer"
         >
-          <img src="donor-darah.jpeg" className="h-auto w-96" />
+          <img src="/donor-darah.jpeg" className="h-auto w-96" />
         </a>
         <h1 className="font-bold text-2xl">
           Aksi Sosial Donor Darah KBRI Kuala Lumpur & Organisai Masyarakat
