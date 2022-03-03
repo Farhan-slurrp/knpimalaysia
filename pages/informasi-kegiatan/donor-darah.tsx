@@ -18,7 +18,7 @@ export default function InformasiKegiatan({}: Props) {
         />
         {/* <link rel="icon" href="/donor-darah.jpeg" /> */}
       </Head>
-      <div className="py-7 px-16 flex flex-col gap-9 items-center">
+      <div className="py-7 px-6 md:px-16 flex flex-col gap-9 items-center">
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeWFXZfiG5ST6UUAyqHZYcdz016bF19IpCsgFAOSilR0nWYIQ/viewform"
           target={"_blank"}
