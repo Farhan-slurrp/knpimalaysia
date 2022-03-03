@@ -22,6 +22,7 @@ export default function InformasiKegiatan({}: Props) {
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeWFXZfiG5ST6UUAyqHZYcdz016bF19IpCsgFAOSilR0nWYIQ/viewform"
           target={"_blank"}
+          rel="noreferrer"
         >
           <img src="donor-darah.jpeg" className="h-auto w-96" />
         </a>
@@ -54,6 +55,7 @@ export default function InformasiKegiatan({}: Props) {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeWFXZfiG5ST6UUAyqHZYcdz016bF19IpCsgFAOSilR0nWYIQ/viewform"
             target={"_blank"}
+            rel="noreferrer"
             className="text-blue-600 hover:text-blue-400 upper font-semibold"
           >
             Formulir Pendaftaran <InsertLinkIcon />
