@@ -17,7 +17,7 @@
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
-    "link": ["/under-construction", "/galeri-video", "/under-construction"]
+    "link": ["/under-construction", "/galeri-video", "/informasi-kegiatan"]
   },
   "berita": {
     "title": [
