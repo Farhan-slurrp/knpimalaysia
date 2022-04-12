@@ -28,7 +28,7 @@ const NewsList = ({ title, allNews, baseLink }: Props) => {
             <div
               key={news["id"]}
               className="flex items-center gap-4 p-4 border border-gray-300 rounded-md cursor-pointer"
-              onClick={() => router.push(`/${baseLink}/${news["id"]}`)}
+              onClick={() => router.push(`/${baseLink}/${news["id"]}/${news["title"].split(" ").join("-").toLowerCase()}`)}
             >
               <img
                 src={news["thumbnail"] ? news["thumbnail"] : "/knpi.png"}

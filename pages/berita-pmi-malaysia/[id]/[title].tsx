@@ -1,8 +1,8 @@
 import React from "react";
-import { INews } from "../../utils/news";
+import { INews } from "../../../utils/news";
 import { useRouter } from "next/router";
-import SingleNews from "../../components/News/SingleNews";
-import { db } from "../../firebase/init";
+import SingleNews from "../../../components/News/SingleNews";
+import { db } from "../../../firebase/init";
 
 interface Props {}
 
