@@ -108,6 +108,8 @@ const Home: NextPage = () => {
               <Link
                 href={`${getNewsCategory(getSortedNews(combinedNews)[0])}/${
                   getSortedNews(combinedNews)[0].id
+                }/${
+                  getSortedNews(combinedNews)[0].title.split(" ").join("-").toLowerCase()
                 }`}
               >
                 <div
@@ -137,7 +139,7 @@ const Home: NextPage = () => {
                   .map((news, idx) => {
                     return (
                       <Link
-                        href={`${getNewsCategory(news)}/${news.id}`}
+                        href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                         key={idx}
                       >
                         <div
@@ -168,7 +170,7 @@ const Home: NextPage = () => {
                 .map((news: any, idx: any) => {
                   return (
                     <Link
-                      href={`${getNewsCategory(news)}/${news.id}`}
+                      href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                       key={idx}
                     >
                       <div
@@ -199,7 +201,7 @@ const Home: NextPage = () => {
                 .map((news: any, idx: any) => {
                   return (
                     <Link
-                      href={`${getNewsCategory(news)}/${news.id}`}
+                      href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                       key={idx}
                     >
                       <div
@@ -230,7 +232,7 @@ const Home: NextPage = () => {
                 .map((news: any, idx: any) => {
                   return (
                     <Link
-                      href={`${getNewsCategory(news)}/${news.id}`}
+                      href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                       key={idx}
                     >
                       <div
@@ -261,7 +263,7 @@ const Home: NextPage = () => {
                 .map((news: any, idx: any) => {
                   return (
                     <Link
-                      href={`${getNewsCategory(news)}/${news.id}`}
+                      href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                       key={idx}
                     >
                       <div
@@ -290,7 +292,7 @@ const Home: NextPage = () => {
                 .map((news: any, idx: any) => {
                   return (
                     <Link
-                      href={`${getNewsCategory(news)}/${news.id}`}
+                      href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                       key={idx}
                     >
                       <div
@@ -319,7 +321,7 @@ const Home: NextPage = () => {
                 .map((news: any, idx: any) => {
                   return (
                     <Link
-                      href={`${getNewsCategory(news)}/${news.id}`}
+                      href={`${getNewsCategory(news)}/${news.id}/${news.title.split(" ").join("-").toLowerCase()}`}
                       key={idx}
                     >
                       <div
