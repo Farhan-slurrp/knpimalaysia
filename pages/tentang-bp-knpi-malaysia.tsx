@@ -44,7 +44,7 @@ const PengurusKNPI = (props: Props) => {
         ke arah tanggung jawab dan pengabdian terhadap pelaksanaan pembangunan
         bangsa dan negara dalam menjaga tetap utuhnya NKRI melalui peningkatan
         nasionalisme Pemuda Indonesia di Malaysia yang disosialisasikan kepada
-        masyarakat internasional. <br />
+        masyarakat Internasional. <br />
         <br />
         c) Mengembangkan dan meningkatkan potensi dan kualitas pemuda Indonesia
         dalam kegiatan advokasi, kajian, pengabdian dan sosialisasi program
