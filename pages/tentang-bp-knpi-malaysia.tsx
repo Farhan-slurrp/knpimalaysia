@@ -95,6 +95,37 @@ const PengurusKNPI = (props: Props) => {
         <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
           <tr className="font-semibold bg-blue-500 grid grid-cols-1 text-white">
             <td className="text-center py-2 w-full h-full border-gray-700">
+              PERIODE IV: 2022 - 2024
+            </td>
+          </tr>
+          <tr className="font-semibold grid grid-cols-3 items-center justify-center">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
+              DONI ROPAWANDI
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
+              TENGKU ADNAN
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
+              -
+            </td>
+          </tr>
+          <tr className="grid grid-cols-3">
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
+              SEKRETARIS
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
+              KETUA
+            </td>
+            <td className="text-center py-2 w-full h-full border border-b-0 border-gray-700 text-xs md:text-base">
+              BENDAHARA
+            </td>
+          </tr>
+        </table>
+        
+        
+        <table className="w-full mx-6 my-12 md:m-12 border border-gray-700">
+          <tr className="font-semibold bg-blue-500 grid grid-cols-1 text-white">
+            <td className="text-center py-2 w-full h-full border-gray-700">
               PERIODE IV: 2019 - 2022
             </td>
           </tr>
