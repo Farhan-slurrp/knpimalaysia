@@ -12,7 +12,7 @@ const PengurusBPKNPI = (props: Props) => {
         PEMUDA INDONESIA
         <br className="md:hidden block" />
         DI MALAYSIA <br />
-        PERIODE 2019 – 2022
+        PERIODE 2022 – 2024
       </h1>
       <table className="w-full mx-auto my-2 md:m-12">
         <tr className="w-full font-semibold">
@@ -30,29 +30,38 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Keorganisasian</td>
-          <td>: Yudhi Marta Nugraha</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Advokasi, Hukum & HAM</td>
-          <td>: Erwinsyah</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Ekonomi & Kewirausahawan</td>
-          <td>: Muhammad Tohong Hasibuan</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">
             Wakil Ketua Bidang Olah Raga, Budaya & Pariwisata
           </td>
-          <td>: Agus Dwi Purwanto</td>
+          <td>: /td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Komunikasi & Informatika</td>
-          <td>: Muhammad Mahfudz Zelani</td>
+           <td>
+            :{" "}
+            <a
+              href="https://www.instagram.com/ikhwa/"
+              target="_blank"
+              className="hover:text-blue-700"
+            >
+              Ikhwanul Muslim Effendie
+            </a>
+          </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Pelajar & Mahasiswa</td>
-          <td>: Muhammad Rajiv Syarif</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12">
@@ -61,11 +70,11 @@ const PengurusBPKNPI = (props: Props) => {
           <td>
             :{" "}
             <a
-              href="https://www.instagram.com/positifmuliadi/"
+              href="https://www.instagram.com/doni_ropawandi/"
               target="_blank"
               className="hover:text-blue-700"
             >
-              Muliadi
+              Doni Ropawandi
             </a>
           </td>
         </tr>
@@ -73,11 +82,11 @@ const PengurusBPKNPI = (props: Props) => {
           <td className="w-1/2">
             Wakil Sekretaris Bidang Internal & Kesekretariatan
           </td>
-          <td>: Daud Pangaribuan</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Sekretaris Bidang Eksternal</td>
-          <td>: Ikhwan Abdul Majid Nasution</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12">
@@ -90,36 +99,36 @@ const PengurusBPKNPI = (props: Props) => {
               target="_blank"
               className="hover:text-blue-700"
             >
-              Erlinda Fitriawati
+              
             </a>
           </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Bendahara Bidang Penggalangan Dana</td>
-          <td>: Ika Wulandari</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Bendahara Bidang Pengelolaan Asset</td>
-          <td>: Robby Aditya Nugraha</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12">
         <tr className="w-full font-semibold">
           <td className="w-1/2">Penasehat</td>
-          <td>: Sagir Alva</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhammad Arifin Ismail</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Khairul Hamzah</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto md:mx-12">
         <tr className="w-full">
-          <td className="font-semibold">Divisi-divisi:</td>
+          <td className="font-semibold"> :</td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12 mt-4">
@@ -128,39 +137,39 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Koordinator</td>
-          <td>: Mahfud Budiono</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Anggota</td>
-          <td>: Abdoel Aziz Syahroni</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhammad Subhan</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Mansurni Abadi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Firdaus Elhadi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Suhayyatman</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Baharudin</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Wulandari</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Resa Tifani Asni</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12 mt-4">
@@ -169,35 +178,35 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Koordinator</td>
-          <td>: Subki Taufiq Bawazir</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Anggota</td>
-          <td>: Syamsul Arifin</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Ahmad Zaky Makarim</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Fajar Drian Sindu</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Ahmad Faiz Sabilal Haqqi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Lalu Hendri Nuriskandar</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muslihatun Maulidian</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Herlina Pratika</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12 mt-4">
@@ -206,43 +215,43 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Koordinator</td>
-          <td>: Abdul Hakim</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Anggota</td>
-          <td>: Riski Munandar Hutapea</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Faaza Muhammad Syah</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Ahmad Riansyah</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhammad Emir Yassiturusi Lawata</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muammar Diah</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Yunia Vivi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Vera Aprianti</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Tibra Zahira</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Shafa Alvia</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12 mt-4">
@@ -253,35 +262,35 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Koordinator</td>
-          <td>: Sumarno</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Anggota</td>
-          <td>: Musta&apos;in</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Mohammad Misli</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Bachrizal Bakhtiar</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muammar Khadafi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Pindy Aditya</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Soraya Zulhikmah Putri</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Deshalsa Rahma Fitria</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto my-2 md:m-12 mt-4">
@@ -290,43 +299,43 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Koordinator</td>
-          <td>: Agastya Widhi Harjunadhi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Anggota</td>
-          <td>: Yuriadi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhammad Doris</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Hazairin Alfian</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhibin</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Lalu Fathurrahman</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Tengku Ahmad Febryan Hanif</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Raudhatul Haura</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Sascha Putri Gumilar</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Evita Putri</td>
+          <td>: </td>
         </tr>
       </table>
       <table className="w-full mx-auto md:mx-12 mt-4">
@@ -335,35 +344,35 @@ const PengurusBPKNPI = (props: Props) => {
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Koordinator</td>
-          <td>: Wita Azeni</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Anggota</td>
-          <td>: Rizky Izmi Handoko</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhammad Khalifah Arrahman</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Tiara Yulia Sari</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Muhammad Haidar Mohalisi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Irfansyah</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Fahrul Fahmi</td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2"></td>
-          <td>: Ratu Shafirra Bharata Putri</td>
+          <td>: </td>
         </tr>
       </table>
     </div>
