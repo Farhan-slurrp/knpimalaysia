@@ -51,7 +51,7 @@ const PengurusBPKNPI = (props: Props) => {
            <td>
             :{" "}
             <a
-              href="https://www.instagram.com/ikhwa/"
+              href="https://www.instagram.com/ikhwa"
               target="_blank"
               className="hover:text-blue-700"
             >
