@@ -44,7 +44,7 @@ const PengurusBPKNPI = (props: Props) => {
           <td className="w-1/2">
             Wakil Ketua Bidang Olah Raga, Budaya & Pariwisata
           </td>
-          <td>: /td>
+          <td>: </td>
         </tr>
         <tr className="w-full">
           <td className="w-1/2">Wakil Ketua Bidang Komunikasi & Informatika</td>
