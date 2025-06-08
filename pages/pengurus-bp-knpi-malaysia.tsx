@@ -9,14 +9,16 @@ const PengurusBPKNPI = (props: Props) => {
       <h1 className="md:text-2xl text-xs font-semibold text-center pb-4">
         KOMPOSISI DAN PERSONALIA <br />
         BADAN PERWAKILAN <br className="md:hidden block" /> KOMITE NASIONAL
-        PEMUDA INDONESIA
+        PEMUDA INDONESIA 
         <br className="md:hidden block" />
         DI MALAYSIA <br />
         PERIODE 2022 – 2025
       </h1>
 
-       <img src="/tengku-adnan.jpeg" alt="img" className="w-full p-8" />
-      
+       <img src="/tengku-adnan.jpeg" alt="img" className="h-auto w-96" />
+      <p className="pt-4 text-lg font-semibold text-center">
+        Tengku Adnan - KETUA BADAN PERWAKILAN KOMITE NASIONAL PEMUDA INDONESIA DI MALAYSIA
+      </p>  
     </div>
   );
 };
