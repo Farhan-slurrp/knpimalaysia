@@ -26,25 +26,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
         DI MALAYSIA
       </h1>
       {/* kbri */}
-      <div className="flex flex-col flex-wrap items-center w-full gap-3 px-2 py-6 mb-6 border border-gray-400 md:flex-nowrap md:flex-row md:px-6 md:w-3/4">
-        <img
-          onClick={() => router.push("/berita-umum/TXfJuFH4uWsME8pzbQbf")}
-          src="/dubes.jfif"
-          alt="poster"
-          width="200"
-          height="205"
-          className="cursor-pointer"
-        />
-        <p className="text-justify">
-          Dubes Hermono, Diplomat Pembela Pekerja Migran Dia pernah dijuluki
-          sebagai diplomat spesialis urusan pekerja migran. Maklum, selain
-          pernah selama tiga tahun menjadi Sekretaris Utama BNP2TKI, dia
-          terlibat penuh dalam penyusunan RUU tentang Pelindungan Pekerja Migran
-          Indonesia. RUU itu disahkan menjadi Undang Undang No. 18 Tahun 2017
-          <br />
-          <span className="text-blue-500">(Sumber: detiknews)</span>
-        </p>
-      </div>
+      
       <div className="flex flex-col flex-wrap">
         <h2 className="text-xl font-semibold">
           1. KEDUTAAN BESAR REPUBLIK INDONESIA (KBRI) KUALA LUMPUR, MALAYSIA
@@ -120,7 +102,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                     height="20"
                     alt="wa"
                   />
-                  +60 17 736 2331
+                  <a href="wa.me/60177362331">+60 17 736 2331</a>
                 </span>
               </td>
             </tr>
@@ -135,7 +117,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                     height="20"
                     alt="wa"
                   />
-                  +60 17 668 8032
+                  <a href="wa.me/60176688032">+60 17 668 8032</a> 
                 </span>
               </td>
             </tr>
@@ -150,12 +132,12 @@ const PerwakilanRIMalaysia = (props: Props) => {
                     height="20"
                     alt="wa"
                   />{" "}
-                  +60 17 624 0500
+                   <a href="wa.me/60176240500"> +60 17 624 0500</a> 
                 </span>
               </td>
             </tr>
             <tr>
-              <td>Hukum</td>
+              <td>Hukum dan Kewarganegaraan</td>
               <td>
                 <span className="flex items-center gap-1">
                   <p>:</p>
@@ -165,7 +147,37 @@ const PerwakilanRIMalaysia = (props: Props) => {
                     height="20"
                     alt="wa"
                   />{" "}
-                  +60 17 266 0792
+                  <a href="wa.me/60172660792"> +60 17 266 0792</a>  
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Kepelautan</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                  <a href="wa.me/ +60193232119">  +60 19 323 2119</a>  
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Perdagangan</td>
+              <td>
+                <span className="flex items-center gap-1">
+                  <p>:</p>
+                  <img
+                    src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/download-and-use-logo-whatsapp-png-clipart-3.png"
+                    width="20"
+                    height="20"
+                    alt="wa"
+                  />{" "}
+                   <a href="wa.me/60176714274">  +60 17 671 4274</a>  
                 </span>
               </td>
             </tr>
@@ -180,7 +192,7 @@ const PerwakilanRIMalaysia = (props: Props) => {
                     height="20"
                     alt="wa"
                   />{" "}
-                  +60 17 500 7047
+                  <a href="wa.me/60175007047">  +60 17 500 7047</a>   
                 </span>
               </td>
             </tr>
