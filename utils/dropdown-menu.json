@@ -17,7 +17,7 @@
   },
   "galeri": {
     "title": ["galeri Photo", "galeri Video", "informasi kegiatan"],
-    "link": ["/under-construction", "/galeri-video", "/informasi-kegiatan/donor-darah"]
+    "link": ["/galeri-foto", "/galeri-video", "/informasi-kegiatan/donor-darah"]
   },
   "berita": {
     "title": [
