@@ -1,12 +1,16 @@
 import React from 'react';
 
-const About: React.FC = () => {
+const MyIframe: React.FC = () => {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>This page is written in TypeScript!</p>
-    </div>
+    <iframe
+      src="https://drive.google.com/embeddedfolderview?id=1L3jwLc7UHJ8KBPjO8_yp8kzPDxzL5VjW#grid"
+      width="600"
+      height="600"
+      title="Gdrive embed"
+      allow="accelerometer; encrypted-media; gyroscope"
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
   );
 };
 
-export default About;
+export default MyIframe;
