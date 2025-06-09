@@ -65,14 +65,15 @@ const GoogleDriveGallery: React.FC = () => {
             {isExpanded && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-2 bg-white">
                 {folder.images.map((id) => (
-                  <div key={id} className="overflow-hidden rounded shadow">
-                    <img
-                      src={getImageUrl(id)}
-                      alt="Gallery image"
-                      className="object-cover w-full h-48"
-                    />
-                  </div>
-                ))}
+                    <div key={id} className="overflow-hidden rounded shadow">
+                        <iframe
+                        src={`https://drive.google.com/file/d/${id}/preview`}
+                        width="100%"
+                        height="240"
+                        allow="autoplay"
+                        ></iframe>
+                    </div>
+                    ))}
               </div>
             )}
           </div>
