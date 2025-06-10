@@ -26,61 +26,95 @@ const folders: Folder[] = [
         `10fUlSB1jkDw8ASj7Boegw7_7B-8EYoWu`,
         `10WesrFL11i2RLaUNHf7GvHV92WabVM_O`,
         `10s6-WBPegK5o2BPoQxxGFiFXQ-jkuYvX`,
+        `10FXA2R7po7t-h72XgXjupDT0i4LWA2O0`,
+        `10G0BfiALlBg3l31uAFfkUMEKZaIbbbQU`,
+        `10K_bRGKyXM4xSeUIJYb56lhJI-r-2wIq`,
     ],
   },
 ];
 
-const getImageUrl = (id: string) =>
-  `https://drive.usercontent.google.com/download?id=${id}&export=view&authuser=0`;
 
+const getIframeUrl = (id: string) =>
+  `https://drive.google.com/file/d/${id}/preview`;
 
-const GoogleDriveGallery: React.FC = () => {
-  // Track which folders are expanded
-  const [expandedFolders, setExpandedFolders] = useState<Record<string, boolean>>({});
+const GoogleDriveExplorer: React.FC = () => {
+  const [expandedFolder, setExpandedFolder] = useState<string | null>(null);
+  const [lightboxId, setLightboxId] = useState<string | null>(null);
 
   const toggleFolder = (folderName: string) => {
-    setExpandedFolders((prev) => ({
-      ...prev,
-      [folderName]: !prev[folderName],
-    }));
+    setExpandedFolder((prev) => (prev === folderName ? null : folderName));
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 max-w-3xl mx-auto relative">
       <h1 className="text-2xl font-bold mb-4">GALERI FOTO BP KNPI MALAYSIA</h1>
 
-      {folders.map((folder) => {
-        const isExpanded = expandedFolders[folder.name];
+      <div className="border rounded shadow-sm">
+        {folders.map((folder) => {
+          const isExpanded = expandedFolder === folder.name;
+          return (
+            <div key={folder.name} className="border-b last:border-b-0">
+              <div
+                className="flex items-center justify-between px-4 py-2 bg-gray-100 cursor-pointer hover:bg-gray-200"
+                onClick={() => toggleFolder(folder.name)}
+              >
+                <span className="font-medium">{folder.name}</span>
+                <span className="text-sm">{isExpanded ? '▲' : '▼'}</span>
+              </div>
 
-        return (
-          <div key={folder.name} className="mb-4 border rounded shadow">
-            <div
-              className="flex justify-between items-center p-2 cursor-pointer bg-gray-100"
-              onClick={() => toggleFolder(folder.name)}
-            >
-              <h2 className="text-lg font-semibold">{folder.name}</h2>
-              <span>{isExpanded ? '▲' : '▼'}</span>
-            </div>
-
-            {isExpanded && (
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-2 bg-white">
-                {folder.images.map((id) => (
-                    <div key={id} className="overflow-hidden rounded shadow">
-                        <iframe
-                        src={`https://drive.google.com/file/d/${id}/preview`}
+              <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                  isExpanded ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+                }`}
+              >
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-white">
+                  {folder.images.map((id) => (
+                    <div
+                      key={id}
+                      className="overflow-hidden rounded shadow aspect-video cursor-pointer hover:scale-105 transition"
+                      onClick={() => setLightboxId(id)}
+                    >
+                      <iframe
+                        src={getIframeUrl(id)}
                         width="100%"
                         height="240"
                         allow="autoplay"
-                        ></iframe>
+                        className="w-full rounded pointer-events-none"
+                      ></iframe>
                     </div>
-                    ))}
+                  ))}
+                </div>
               </div>
-            )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Lightbox Modal */}
+      {lightboxId && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          onClick={() => setLightboxId(null)}
+        >
+          <div className="relative w-full max-w-3xl p-4">
+            <iframe
+              src={getIframeUrl(lightboxId)}
+              width="100%"
+              height="500"
+              allow="autoplay"
+              className="w-full rounded shadow-lg"
+            ></iframe>
+            <button
+              onClick={() => setLightboxId(null)}
+              className="absolute top-4 right-4 text-white text-2xl font-bold"
+            >
+              ✕
+            </button>
           </div>
-        );
-      })}
+        </div>
+      )}
     </div>
   );
 };
 
-export default GoogleDriveGallery;
+export default GoogleDriveExplorer;
